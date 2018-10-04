@@ -5,7 +5,7 @@
 // import config from '../../../config';
 //
 // export const request = (url, method, data) => {
-//   const baseURL = config.apiUrl || '/';
+//   const baseURL = config.apiHost || '/';
 //   const headers = { 'Content-Type': 'application/json' };
 //   if (jwt.token) headers.Authorization = `Bearer ${jwt.token}`;
 //

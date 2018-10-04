@@ -4,7 +4,7 @@ module.exports = {
   brandColor: '#D52A2A',
   defaultLang: 'en',
   noscript: 'You need to enable JavaScript to use Pokedex.net.',
-  apiUrl: process.env.API_URL || '//api.pokedex.net/',
+  apiHost: process.env.API_HOST || '//api.pokedex.net/',
   theme: {
     light: {
       statusBar: '#E0E0E0',
