@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">src/components/views/HomePage/index.js | pokedex-net-client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Pokedex.net client application."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="pokedex-net-client"><meta property="twitter:description" content="Pokedex.net client application."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/pokedex-net/pokedex-net-client"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions">actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeSettings">storeSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettings">updateSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModal">hideModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModal">showModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeUi">storeUi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetric">updateMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUi">updateUi</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components">components</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-controls">components/controls</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/controls/Button.js~Button.html">Button</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout">components/layout</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container.js~Container.html">Container</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Modal.js~Modal.html">Modal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-GlobalStyles">GlobalStyles</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-svg">components/layout/svg</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/svg/Logo.js~Logo.html">Logo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views">components/views</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/index.js~PageWrapper.html">PageWrapper</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorPage">ErrorPage</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homepage">components/views/HomePage</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomePage">HomePage</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getStyles">getStyles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lib-api">lib/api</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-request">request</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-settings">settings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ui">ui</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-settingsInitialState">settingsInitialState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-uiInitialState">uiInitialState</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#sagas">sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettingsSaga">updateSettingsSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchSettings">watchSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModalSaga">hideModalSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModalSaga">showModalSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUiSaga">updateUiSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchHideModal">watchHideModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchShowModal">watchShowModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateMetric">watchUpdateMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateUi">watchUpdateUi</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/components/views/HomePage/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _ from &apos;lodash&apos;;
+import React, { Fragment } from &apos;react&apos;;
+import { connect } from &apos;react-redux&apos;;
+import { faCog } from &apos;@fortawesome/free-solid-svg-icons&apos;;
+
+import Button from &apos;../../controls/Button&apos;;
+import Logo from &apos;../../layout/svg/Logo&apos;;
+import getStyles from &apos;./styles&apos;;
+
+import { updateSettings } from &apos;../../../actions/settings&apos;;
+
+import languages from &apos;../../../fixtures/languages&apos;;
+
+/**
+ * A home page component showcasing WIP components.
+ * @param {Object} props - React Component props.
+ * @param {string} props.lang - Language identifier mapped from Redux store.
+ * @return {React.Fragment}
+ */
+export function HomePage(props) {
+  const { className, styles } = getStyles(props);
+
+  const handleLangChange = () =&gt; {
+    const langs = _.keys(languages);
+    let newLangIndex = (_.indexOf(langs, props.lang) + 1);
+
+    if (newLangIndex === langs.length) newLangIndex = 0;
+
+    props.updateSettings({ lang: langs[newLangIndex] });
+  };
+
+  const handleThemeChange = () =&gt; {
+    props.updateSettings({ theme: ((props.theme === &apos;dark&apos;) ? &apos;light&apos; : &apos;dark&apos;) });
+  };
+
+  return (
+    &lt;Fragment&gt;
+      &lt;h1 className={ className }&gt;
+        { languages[props.lang].hello }
+        &lt;Button className={ className } onClick={ handleLangChange }&gt;{ languages[props.lang].languageName }&lt;/Button&gt;
+        &lt;Button className={ className } onClick={ handleThemeChange }&gt;{ _.startCase(props.theme) }&lt;/Button&gt;
+      &lt;/h1&gt;
+
+      &lt;Button className={ className }&gt;Primary&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;success&quot;&gt;Success&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;info&quot; icon={ faCog }&gt;Info&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;warning&quot;&gt;Warning&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;danger&quot;&gt;Danger&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot; link=&quot;external&quot; icon={ Logo }&gt;Link&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+      &lt;Button className={ className } kind=&quot;flat&quot;&gt;Flat&lt;/Button&gt;
+
+      { styles }
+    &lt;/Fragment&gt;
+  );
+}
+
+export default connect(state =&gt; ({
+  lang: state.settings.lang,
+  theme: state.settings.theme,
+}), {
+  updateSettings,
+})(HomePage);
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

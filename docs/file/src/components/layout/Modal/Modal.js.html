@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">src/components/layout/Modal/Modal.js | pokedex-net-client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Pokedex.net client application."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="pokedex-net-client"><meta property="twitter:description" content="Pokedex.net client application."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/pokedex-net/pokedex-net-client"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions">actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeSettings">storeSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettings">updateSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModal">hideModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModal">showModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeUi">storeUi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetric">updateMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUi">updateUi</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-controls">components/controls</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/controls/Button.js~Button.html">Button</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout">components/layout</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getStyles">getStyles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-styles">components/layout/Styles</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Styles">Styles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-svg">components/layout/svg</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/svg/Logo.js~Logo.html">Logo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homeview">components/views/HomeView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeView">HomeView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getStyles">getStyles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-view">components/views/View</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/View/index.js~View.html">View</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lib-api">lib/api</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-request">request</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lib-helpers">lib/helpers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mockStore">mockStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-settings">settings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ui">ui</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-settingsInitialState">settingsInitialState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-uiInitialState">uiInitialState</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#sagas">sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettingsSaga">updateSettingsSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchSettings">watchSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModalSaga">hideModalSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModalSaga">showModalSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUiSaga">updateUiSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchHideModal">watchHideModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchShowModal">watchShowModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateMetric">watchUpdateMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateUi">watchUpdateUi</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/components/layout/Modal/Modal.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">// import React, { Component } from &apos;react&apos;;
+// import { connect } from &apos;react-redux&apos;;
+// import { faTimes } from &apos;@fortawesome/free-solid-svg-icons&apos;;
+//
+// import Button from &apos;../controls/Button&apos;;
+// // import LoginModal from &apos;../modals/LoginModal&apos;;
+// import languages from &apos;../../fixtures/languages&apos;;
+// import config from &apos;../../../config&apos;;
+// import { hideModal } from &apos;../../actions/ui&apos;;
+//
+// /**
+//  * A modal layout component that sets document language based on Redux state.
+//  * @return {React.Component} returns a React element
+//  */
+// export class Modal extends Component {
+//   constructor() {
+//     super();
+//
+//     this.handleClickOutside = this.handleClickOutside.bind(this);
+//   }
+//
+//   handleClickOutside(e) {
+//     if (this.modalRef &amp;&amp; !this.modalRef.contains(e.target)) {
+//       if (this.props.visible) this.props.hideModal();
+//     }
+//   }
+//
+//   render() {
+//     let classNameShield = &apos;shield&apos;;
+//     // let title = &apos;&apos;;
+//     // let content = null;
+//
+//     if (this.props.visible) classNameShield += &apos; visible&apos;;
+//
+//     // if (this.props.content === &apos;login&apos;) {
+//     //   title = languages[this.props.lang].login;
+//     //   content = &lt;LoginModal /&gt;;
+//     // }
+//
+//     return (
+//       &lt;div className={ classNameShield }&gt;
+//         &lt;div className=&quot;modal&quot; ref={ (node) =&gt; { this.modalRef = node; } }&gt;
+//           &lt;h2&gt;
+//             {/* { title } */}
+//             &lt;Button kind=&quot;flat&quot; icon={ faTimes } onClick={ this.props.hideModal }&gt;&lt;/Button&gt;
+//           &lt;/h2&gt;
+//
+//           {/* { content } */}
+//         &lt;/div&gt;
+//
+//         &lt;style jsx&gt;{`
+//           .shield {
+//             position: absolute;
+//             z-index: -100;
+//             display: flex;
+//             align-items: center;
+//             align-content: center;
+//             justify-content: center;
+//             width: 100%;
+//             height: 100%;
+//             opacity: 0;
+//             background-color: rgba(0, 0, 0, 0.8);
+//             text-align: center;
+//             transition: opacity 0.2s ease 0s, z-index 0s ease 0.2s;
+//
+//             &amp;.visible {
+//               z-index: 100;
+//               opacity: 1;
+//               transition: opacity 0.2s ease 0s;
+//             }
+//
+//             .modal {
+//               display: flex;
+//               flex-direction: column;
+//               align-items: flex-start;
+//               align-content: flex-start;
+//               overflow: hidden;
+//               border-radius: 4px;
+//               padding: 0 20px 20px;
+//               background-color: ${(this.props.theme === &apos;dark&apos;) ? &apos;#424242&apos; : &apos;#FFFFFF&apos;};
+//               box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+//
+//               h2 {
+//                 display: flex;
+//                 align-items: center;
+//                 align-content: center;
+//                 box-sizing: border-box;
+//                 justify-content: space-between;
+//                 width: calc(100% + 40px);
+//                 height: 42px;
+//                 margin: 0 -20px 20px;
+//                 padding: 0 20px;
+//                 background-color: ${config.brandColor};
+//                 font-size: 20px;
+//                 color: #FFFFFF;
+//                 filter: drop-shadow(0 3px 6px rgba(0,0,0,0.16)) drop-shadow(0 3px 6px rgba(0,0,0,0.23));
+//
+//                 :global(button) {
+//                   margin-${(languages[this.props.lang].rtl) ? &apos;left&apos; : &apos;right&apos;}: -15px;
+//                 }
+//               }
+//             }
+//           }
+//         `}&lt;/style&gt;
+//       &lt;/div&gt;
+//     );
+//   }
+//
+//   componentDidMount() {
+//     document.addEventListener(&apos;mousedown&apos;, this.handleClickOutside, false);
+//   }
+//
+//   componentWillMount() {
+//     document.removeEventListener(&apos;mousedown&apos;, this.handleClickOutside, false);
+//   }
+// }
+//
+// export default connect(state =&gt; ({
+//   content: state.ui.modalContent,
+//   visible: state.ui.modalVisible,
+//   lang: state.settings.lang,
+//   theme: state.settings.theme,
+// }), {
+//   hideModal,
+// })(Modal);
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

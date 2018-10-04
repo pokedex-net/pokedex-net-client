@@ -1,0 +1,3088 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/components/controls/Button/index.js",
+    "content": "import _ from 'lodash';\nimport Color from 'color';\nimport PropTypes from 'prop-types';\nimport React, { Component, Fragment } from 'react';\nimport { FontAwesomeIcon } from '@fortawesome/react-fontawesome';\nimport { Link } from 'react-router-dom';\nimport { connect } from 'react-redux';\n\nimport Icon from '../Icon';\nimport getStyles from './styles';\n\nimport config from '../../../../config';\n\n/**\n * A button control component that displays a button or a link.\n * @extends {React.Component}\n */\nexport class Button extends Component {\n  /** Creates a local state and binds this to custom class methods. */\n  constructor() {\n    super();\n\n    /**\n     * The internal component state.\n     * @type {Object}\n     * @property {boolean} hover=false Whether or not the button is being hovered over.\n     */\n    this.state = {\n      hover: false,\n    };\n\n    this.onMouseOut = this.onMouseOut.bind(this);\n    this.onMouseOver = this.onMouseOver.bind(this);\n  }\n\n  /** Triggers the onMouseOut function passed from props and sets the internal hover state to false. */\n  onMouseOut(e) {\n    if (this.props.onMouseOut) this.props.onMouseOut(e);\n    this.setState({ hover: false });\n  }\n\n  /** Triggers the onMouseOver function passed from props and sets the internal hover state to true. */\n  onMouseOver(e) {\n    if (this.props.onMouseOver) this.props.onMouseOver(e);\n    this.setState({ hover: true });\n  }\n\n\n  /**\n   * Renders a React Fragment containing the button or link and its styles.\n   * @returns {React.Fragment}\n   */\n  render() {\n    const { className, styles } = getStyles(this.props);\n    const hover = this.props.hoverLock || this.state.hover;\n\n    let fill = (this.props.theme === 'light' && this.props.kind === 'flat') ? config.theme.light.textPrimary : config.theme.dark.textPrimary;\n    let customClass = `${className} ${this.props.kind}`;\n    let content = this.props.children;\n    let icon = null;\n\n    if (typeof this.props.children === 'string') content = <span>{ this.props.children }</span>;\n    if (this.props.className) customClass += ` ${this.props.className}`;\n    if (this.props.iconColor) fill = this.props.iconColor;\n\n    const buttonProps = {\n      className: customClass,\n      disabled: this.props.disabled,\n      id: this.props.id,\n      name: this.props.name,\n      onClick: this.props.onClick,\n      onMouseOut: this.onMouseOut,\n      onMouseOver: this.onMouseOver,\n      ref: this.props.ref,\n      style: this.props.style,\n      title: this.props.title,\n      type: this.props.type,\n      value: this.props.value,\n    };\n\n    let iconProps = {\n      className: customClass,\n      icon: this.props.icon,\n    };\n\n    if (this.props.iconMorph && this.props.iconMorph.length) iconProps = { ...iconProps, morph: this.props.iconMorph };\n\n    if (this.props.icon && this.props.icon.length) icon = <Icon { ...iconProps } fill={ fill } hover={ hover } />;\n    else if (this.props.icon) icon = <FontAwesomeIcon { ...iconProps } />;\n\n    const children = <Fragment>{ icon } { content }</Fragment>;\n    let button = <button { ...buttonProps }>{ children }</button>;\n\n    if (this.props.link) {\n      const linkProps = _.omit(buttonProps, ['disabled', 'type', 'value']);\n\n      if (this.props.link === 'external') button = <a href={ this.props.to } target=\"_blank\" rel=\"noopener noreferrer\" { ...linkProps }>{ children }</a>;\n      else button = <Link to={ this.props.to } { ...linkProps }>{ children }</Link>;\n    }\n\n    return <Fragment>{ button }{ styles }</Fragment>;\n  }\n}\n\nexport default connect(state => ({\n  lang: state.settings.lang,\n  theme: state.settings.theme,\n}), null)(Button);\n\nButton.propTypes = {\n  children: PropTypes.any,\n  className: PropTypes.string,\n  customColor: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]),\n  disabled: PropTypes.bool,\n  hoverLock: PropTypes.bool,\n  icon: PropTypes.oneOfType([PropTypes.array, PropTypes.object]),\n  iconColor: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]),\n  iconMorph: PropTypes.array,\n  id: PropTypes.string,\n  kind: PropTypes.oneOf(['primary', 'success', 'info', 'warning', 'danger', 'flat', 'custom']),\n  link: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),\n  name: PropTypes.string,\n  onClick: PropTypes.func,\n  onMouseOut: PropTypes.func,\n  onMouseOver: PropTypes.func,\n  ref: PropTypes.func,\n  sharp: PropTypes.bool,\n  size: PropTypes.number,\n  style: PropTypes.object,\n  title: PropTypes.string,\n  to: PropTypes.string,\n  type: PropTypes.string,\n  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),\n};\n\nButton.defaultProps = {\n  hoverLock: false,\n  kind: 'primary',\n  size: 32,\n  type: 'button',\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/controls/Button/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Button",
+    "memberof": "src/components/controls/Button/index.js",
+    "static": true,
+    "longname": "src/components/controls/Button/index.js~Button",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/controls/Button/index.js",
+    "importStyle": "{Button}",
+    "description": "A button control component that displays a button or a link.",
+    "lineNumber": 18,
+    "interface": false,
+    "extends": [
+      "React.Component"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/controls/Button/index.js~Button",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Button/index.js~Button#constructor",
+    "access": "public",
+    "description": "Creates a local state and binds this to custom class methods.",
+    "lineNumber": 20
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/components/controls/Button/index.js~Button",
+    "static": false,
+    "longname": "src/components/controls/Button/index.js~Button#state",
+    "access": "public",
+    "description": "The internal component state.",
+    "lineNumber": 28,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "hover",
+        "description": "Whether or not the button is being hovered over."
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "method",
+    "name": "onMouseOut",
+    "memberof": "src/components/controls/Button/index.js~Button",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Button/index.js~Button#onMouseOut",
+    "access": "public",
+    "description": "Triggers the onMouseOut function passed from props and sets the internal hover state to false.",
+    "lineNumber": 37,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 55,
+    "kind": "method",
+    "name": "onMouseOver",
+    "memberof": "src/components/controls/Button/index.js~Button",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Button/index.js~Button#onMouseOver",
+    "access": "public",
+    "description": "Triggers the onMouseOver function passed from props and sets the internal hover state to true.",
+    "lineNumber": 43,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 56,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/controls/Button/index.js~Button",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Button/index.js~Button#render",
+    "access": "public",
+    "description": "Renders a React Fragment containing the button or link and its styles.",
+    "lineNumber": 53,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{React.Fragment}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Fragment"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/components/controls/Icon/index.js",
+    "content": "import Color from 'color';\nimport PropTypes from 'prop-types';\nimport React, { Component } from 'react';\nimport anime from 'animejs';\n\nimport getStyles from './styles';\n\n/**\n * A button control component that displays a button or a link.\n * @extends {React.Component}\n */\nexport default class Icon extends Component {\n  /** Binds this to custom class methods and creates a parent element ref. */\n  constructor(props) {\n    super(props);\n\n    /**\n     * The parent element ref.\n     * @type {React.Ref}\n     */\n    this.refSvg = React.createRef();\n\n    this.animate = this.animate.bind(this);\n  }\n\n  /** Resets the previous path animation and animates the new path. */\n  animate(ref, path) {\n    anime.remove(ref);\n    anime({ targets: ref, d: path, easing: 'easeInOutQuad', duration: 200 });\n  }\n\n  /**\n   * Renders a React Component containing the icon svg and its paths.\n   * @returns {React.Component}\n   */\n  render() {\n    const { className, styles } = getStyles(this.props);\n    let customClass = className;\n\n    if (this.props.className) customClass += ` ${this.props.className}`;\n\n    return (\n      <svg ref={ this.refSvg } className={ customClass } viewBox=\"0 0 2560 2560\">\n        {\n          this.props.icon.map((path, i) => (\n            <path key={ i } d={ path } />\n          ))\n        }\n\n        { styles }\n      </svg>\n    );\n  }\n\n  /**\n   * Determines when and what to animate to and from based on the hover and morph props.\n   * @emits {Icon#animate}\n   */\n  componentDidUpdate(prevProps) {\n    if (this.props.morph) {\n      if (!prevProps.hover && this.props.hover) {\n        for (let i = 0; i < this.refSvg.current.children.length; i += 1) {\n          this.animate(this.refSvg.current.children[i], this.props.morph[i]);\n        }\n      } else if (prevProps.hover && !this.props.hover) {\n        for (let i = 0; i < this.refSvg.current.children.length; i += 1) {\n          this.animate(this.refSvg.current.children[i], this.props.icon[i]);\n        }\n      }\n    }\n  }\n}\n\nIcon.propTypes = {\n  className: PropTypes.string,\n  fill: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]),\n  hover: PropTypes.bool,\n  icon: PropTypes.array.isRequired,\n  morph: PropTypes.array,\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/controls/Icon/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "class",
+    "name": "Icon",
+    "memberof": "src/components/controls/Icon/index.js",
+    "static": true,
+    "longname": "src/components/controls/Icon/index.js~Icon",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/controls/Icon/index.js",
+    "importStyle": "Icon",
+    "description": "A button control component that displays a button or a link.",
+    "lineNumber": 12,
+    "interface": false,
+    "extends": [
+      "React.Component"
+    ]
+  },
+  {
+    "__docId__": 59,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/controls/Icon/index.js~Icon",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Icon/index.js~Icon#constructor",
+    "access": "public",
+    "description": "Binds this to custom class methods and creates a parent element ref.",
+    "lineNumber": 14
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "refSvg",
+    "memberof": "src/components/controls/Icon/index.js~Icon",
+    "static": false,
+    "longname": "src/components/controls/Icon/index.js~Icon#refSvg",
+    "access": "public",
+    "description": "The parent element ref.",
+    "lineNumber": 21,
+    "type": {
+      "nullable": null,
+      "types": [
+        "React.Ref"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "method",
+    "name": "animate",
+    "memberof": "src/components/controls/Icon/index.js~Icon",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Icon/index.js~Icon#animate",
+    "access": "public",
+    "description": "Resets the previous path animation and animates the new path.",
+    "lineNumber": 27,
+    "params": [
+      {
+        "name": "ref",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "path",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 63,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/controls/Icon/index.js~Icon",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Icon/index.js~Icon#render",
+    "access": "public",
+    "description": "Renders a React Component containing the icon svg and its paths.",
+    "lineNumber": 36,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{React.Component}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 64,
+    "kind": "method",
+    "name": "componentDidUpdate",
+    "memberof": "src/components/controls/Icon/index.js~Icon",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/controls/Icon/index.js~Icon#componentDidUpdate",
+    "access": "public",
+    "description": "Determines when and what to animate to and from based on the hover and morph props.",
+    "lineNumber": 59,
+    "emits": [
+      {
+        "types": [
+          "Icon#animate"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [
+      {
+        "name": "prevProps",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 65,
+    "kind": "file",
+    "name": "src/components/controls/UserMenu.js",
+    "content": "// import React, { Component } from 'react';\n// import gravatar from 'gravatar';\n// import jwt from 'jsonwebtoken';\n// import { Link, withRouter } from 'react-router-dom';\n// import { connect } from 'react-redux';\n// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';\n// import { faCog, faSignInAlt, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';\n//\n// import Button from './Button';\n// import languages from '../../fixtures/languages';\n// import { showModal, updateUi } from '../../stores/ui/actions';\n// import { updateSettings } from '../../stores/settings/actions';\n//\n// /**\n//  * A user button control component that allows login, logout, and user options.\n//  * @extends {React.Component}\n//  */\n// export class UserMenu extends Component {\n//   /**\n//   * The constructor sets the default state and assigns the this context to custom methods.\n//   * @param {Object} props - Component props\n//   */\n//   constructor() {\n//     super();\n//\n//     this.handleLogin = this.handleLogin.bind(this);\n//     this.handleLogout = this.handleLogout.bind(this);\n//     this.handleClickOutside = this.handleClickOutside.bind(this);\n//   }\n//\n//   handleLogin() {\n//     this.props.showModal('login');\n//   }\n//\n//   handleLogout() {\n//     this.props.history.replace(`/${this.props.lang}`);\n//     this.props.updateUi({ userMenuOpen: false });\n//     this.props.updateSettings({ token: '' });\n//   }\n//\n//   handleClickOutside(e) {\n//     if (this.buttonRef && this.menuRef && !this.buttonRef.contains(e.target) && !this.menuRef.contains(e.target)) {\n//       this.props.updateUi({ userMenuOpen: false });\n//     }\n//   }\n//\n//   /**\n//    * This method renders the component.\n//    * @return {React.Component} returns a React element\n//    */\n//   render() {\n//     const user = jwt.decode(this.props.token) || {};\n//     const menuItems = [\n//       <Link key=\"settings\" to=\"/settings\">\n//         <li>\n//           <FontAwesomeIcon icon={ faCog } />\n//           { languages[this.props.lang].settings }\n//         </li>\n//       </Link>,\n//       <li key=\"logout\" onClick={ this.handleLogout }>\n//         <FontAwesomeIcon icon={ faSignOutAlt } />\n//         { languages[this.props.lang].logout }\n//       </li>,\n//     ];\n//     let buttonClass = (this.props.open) ? 'open' : '';\n//     let handleButtonClick = this.handleLogin;\n//\n//     let buttonContent = [\n//       <FontAwesomeIcon key=\"icon\" icon={ faSignInAlt } />,\n//       <span key=\"text\">{ languages[this.props.lang].login }</span>,\n//     ];\n//\n//     if (languages[this.props.lang].rtl) buttonClass += ' rtl';\n//\n//     if (user.name && user.email) {\n//       handleButtonClick = () => {\n//         this.props.updateUi({ userMenuOpen: !this.props.open });\n//       };\n//       buttonContent = [\n//         <img key=\"gravatar\" src={ gravatar.url(user.email, { size: 48, default: 'mp' }) } />,\n//         <span key=\"name\">{ user.name }</span>,\n//       ];\n//     }\n//\n//     return (\n//       <div className={ buttonClass }>\n//         <Button ref={ this.buttonRef } sharp size={ (this.props.headerHeight / 2) } kind=\"flat\" onClick={ handleButtonClick }>\n//           { buttonContent }\n//         </Button>\n//\n//         <ul ref={ (node) => { this.menuRef = node; } }>\n//           { menuItems }\n//         </ul>\n//\n//         <style jsx>{`\n//           div {\n//             position: relative;\n//             height: 100%;\n//\n//             ul {\n//               position: absolute;\n//               top: 42px;\n//               right: 0;\n//               z-index: 5;\n//               display: flex;\n//               flex-direction: column;\n//               overflow-y: hidden;\n//               min-width: 100%;\n//               height: 0px;\n//               border-radius: 4px;\n//               background-color: #424242;\n//               box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);\n//               transition: height 0.2s ease;\n//\n//               :global(li) {\n//                 position: relative;\n//                 display: flex;\n//                 align-items: center;\n//                 align-content: center;\n//                 box-sizing: border-box;\n//                 min-height: 32px;\n//                 padding: 4px 8px;\n//                 cursor: pointer;\n//                 transition: background-color 0.2s ease;\n//\n//                 :global(svg) {\n//                   margin: 0 8px 0 0;\n//                 }\n//\n//                 &:not(:first-child) {\n//                   margin-top: 1px;\n//\n//                   &::before {\n//                     position: absolute;\n//                     left: 8px;\n//                     right: 8px;\n//                     top: -1px;\n//                     border-top: 1px solid rgba(255, 255, 255, 0.2);\n//                     content: '';\n//                   }\n//                 }\n//\n//                 &:hover {\n//                   background-color: rgba(0, 0, 0, 0.1);\n//                 }\n//               }\n//             }\n//\n//             &.rtl {\n//               button {\n//                 flex-direction: row-reverse;\n//                 text-align: right;\n//\n//                 :global(svg) {\n//                   margin: 0 0 0 8px;\n//                 }\n//\n//                 :global(img) {\n//                   margin: 0 -4px 0 8px;\n//                 }\n//               }\n//\n//               ul {\n//                 :global(li) {\n//                   flex-direction: row-reverse;\n//                   text-align: right;\n//\n//                   :global(svg) {\n//                     margin: 0 0 0 8px;\n//                   }\n//                 }\n//               }\n//             }\n//\n//             &.open {\n//               button {\n//                 background-color: rgba(0, 0, 0, 0.2);\n//               }\n//\n//               ul {\n//                 height: ${((menuItems.length * 32) + (menuItems.length - 1))}px;\n//               }\n//             }\n//           }\n//         `}</style>\n//       </div>\n//     );\n//   }\n//\n//   componentDidMount() {\n//     document.addEventListener('mousedown', this.handleClickOutside, false);\n//   }\n//\n//   componentWillMount() {\n//     document.removeEventListener('mousedown', this.handleClickOutside, false);\n//   }\n// }\n//\n// export default withRouter(connect(state => ({\n//   headerHeight: state.ui.metrics.headerHeight,\n//   lang: state.settings.lang,\n//   open: state.ui.userMenuOpen,\n// }), {\n//   showModal,\n//   updateUi,\n//   updateSettings,\n// })(UserMenu));\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/controls/UserMenu.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/components/layout/Container/index.js",
+    "content": "import React, { Component, Fragment } from 'react';\nimport { withRouter } from 'react-router-dom';\nimport { connect } from 'react-redux';\nimport { Helmet } from 'react-helmet';\n\nimport Header from '../Header';\nimport Navigation from '../Navigation';\nimport Routes from '../Routes';\n// import Modal from '../Modal';\nimport Styles from '../Styles';\nimport getStyles from './styles';\n\nimport { updateMetric } from '../../../stores/ui/actions';\n\nimport config from '../../../../config';\nimport languages from '../../../fixtures/languages';\n\n/**\n * A container layout component that sets document language based on Redux state and maintains the Redux width metric.\n * @extends {React.Component}\n */\nexport class Container extends Component {\n  /** Binds this to custom class methods. */\n  constructor() {\n    super();\n\n    this.updateWidth = this.updateWidth.bind(this);\n  }\n\n  /**\n   * Updates the window width metric from the window innerWidth.\n   * @emits {updateMetric}\n   */\n  updateWidth() {\n    this.props.updateMetric({ windowWidth: window.innerWidth });\n  }\n\n  /**\n   * Renders a React Fragment containing all other layout components.\n   * @returns {React.Fragment}\n   */\n  render() {\n    const { className, styles } = getStyles(this.props);\n\n    return (\n      <Fragment>\n        <Helmet titleTemplate={ `%s | ${config.name}` } defaultTitle={ config.name }>\n          <html lang={ this.props.lang } dir={ (languages[this.props.lang].rtl) ? 'rtl' : 'ltr' } />\n          <meta name=\"apple-mobile-web-app-status-bar-style\" content={ (this.props.theme === 'dark') ? 'black' : 'white' } />\n        </Helmet>\n\n        <Header />\n        <Navigation />\n\n        <div className={ (this.props.sidebarOpen) ? `${className} sidebar-open` : className }>\n          <main className={ className }><Routes /></main>\n          <footer className={ className }>{ languages[this.props.lang].langCode } { this.props.lang }</footer>\n        </div>\n\n        {/* <Modal /> */}\n        <Styles />\n\n        { styles }\n      </Fragment>\n    );\n  }\n\n  /**\n   * Adds resize event listener.\n   * @emits {Container#updateWidth}\n   */\n  componentDidMount() {\n    window.addEventListener('resize', this.updateWidth);\n    this.updateWidth();\n  }\n\n  /**\n   * Removes resize event listener.\n   * @emits {Container#updateWidth}\n   */\n  componentWillUnmount() {\n    window.removeEventListener('resize', this.updateWidth);\n  }\n}\n\nexport default withRouter(connect(state => ({\n  headerHeight: state.ui.metrics.headerHeight,\n  lang: state.settings.lang,\n  theme: state.settings.theme,\n  sidebarOpen: state.ui.sidebarOpen,\n  windowWidth: state.ui.metrics.windowWidth,\n}), {\n  updateMetric,\n})(Container));\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Container/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "class",
+    "name": "Container",
+    "memberof": "src/components/layout/Container/index.js",
+    "static": true,
+    "longname": "src/components/layout/Container/index.js~Container",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Container/index.js",
+    "importStyle": "{Container}",
+    "description": "A container layout component that sets document language based on Redux state and maintains the Redux width metric.",
+    "lineNumber": 22,
+    "interface": false,
+    "extends": [
+      "React.Component"
+    ]
+  },
+  {
+    "__docId__": 68,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/layout/Container/index.js~Container",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Container/index.js~Container#constructor",
+    "access": "public",
+    "description": "Binds this to custom class methods.",
+    "lineNumber": 24
+  },
+  {
+    "__docId__": 70,
+    "kind": "method",
+    "name": "updateWidth",
+    "memberof": "src/components/layout/Container/index.js~Container",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Container/index.js~Container#updateWidth",
+    "access": "public",
+    "description": "Updates the window width metric from the window innerWidth.",
+    "lineNumber": 34,
+    "emits": [
+      {
+        "types": [
+          "updateMetric"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/layout/Container/index.js~Container",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Container/index.js~Container#render",
+    "access": "public",
+    "description": "Renders a React Fragment containing all other layout components.",
+    "lineNumber": 42,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{React.Fragment}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Fragment"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/components/layout/Container/index.js~Container",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Container/index.js~Container#componentDidMount",
+    "access": "public",
+    "description": "Adds resize event listener.",
+    "lineNumber": 72,
+    "emits": [
+      {
+        "types": [
+          "Container#updateWidth"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "componentWillUnmount",
+    "memberof": "src/components/layout/Container/index.js~Container",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Container/index.js~Container#componentWillUnmount",
+    "access": "public",
+    "description": "Removes resize event listener.",
+    "lineNumber": 81,
+    "emits": [
+      {
+        "types": [
+          "Container#updateWidth"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/components/layout/Header/HeaderShape/index.js",
+    "content": "import React from 'react';\nimport { connect } from 'react-redux';\n\nimport getStyles from './styles';\n\nimport languages from '../../../../fixtures/languages';\n\n/**\n * A header shape component that displays the header curve svg.\n * @param {Object} props - React Component props.\n * @param {string} props.headerHeight - The header height metric mapped from Redux store.\n * @param {string} props.lang - Language identifier mapped from Redux store.\n * @param {string} props.windowWidth - The window width metric mapped from Redux store.\n * @return {React.Component}\n */\nexport function HeaderShape({ headerHeight, lang, windowWidth }) {\n  const { className, styles } = getStyles({ headerHeight });\n  let startCurve = ((windowWidth / 3) - headerHeight);\n\n  if (startCurve < headerHeight) startCurve = headerHeight;\n  if (startCurve > (headerHeight * 4)) startCurve = (headerHeight * 4);\n\n  const path = (!languages[lang].rtl) ? `M 0,0\n    V ${headerHeight}\n    H ${startCurve}\n    C ${(startCurve + headerHeight)},${headerHeight} ${(startCurve + headerHeight)},${(headerHeight / 2)}  ${(startCurve + (headerHeight * 2))},${(headerHeight / 2)}\n    H ${windowWidth}\n    V 0\n    H 0` : `M ${windowWidth},0\n    V ${headerHeight}\n    H ${(windowWidth - startCurve)}\n    C ${(windowWidth - startCurve - headerHeight)},${headerHeight} ${(windowWidth - startCurve - headerHeight)},${(headerHeight / 2)}  ${(windowWidth - startCurve - (headerHeight * 2))},${(headerHeight / 2)}\n    H 0\n    V 0\n    H ${windowWidth}`;\n\n  return <svg className={ className }><path className={ className } d={ path } />{ styles }</svg>;\n}\n\nexport default connect(state => ({\n  headerHeight: state.ui.metrics.headerHeight,\n  lang: state.settings.lang,\n  windowWidth: state.ui.metrics.windowWidth,\n}), null)(HeaderShape);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Header/HeaderShape/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "HeaderShape",
+    "memberof": "src/components/layout/Header/HeaderShape/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/layout/Header/HeaderShape/index.js~HeaderShape",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Header/HeaderShape/index.js",
+    "importStyle": "{HeaderShape}",
+    "description": "A header shape component that displays the header curve svg.",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.headerHeight",
+        "description": "The header height metric mapped from Redux store."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.lang",
+        "description": "Language identifier mapped from Redux store."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.windowWidth",
+        "description": "The window width metric mapped from Redux store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/components/layout/Header/index.js",
+    "content": "import React from 'react';\nimport { connect } from 'react-redux';\n\nimport Button from '../../controls/Button';\nimport HeaderShape from './HeaderShape';\n// import Search from '../../controls/Search';\nimport getStyles from './styles';\n\nimport { updateUi } from '../../../stores/ui/actions';\n\nimport config from '../../../../config';\nimport logo from '../../../fixtures/icons/logo';\nimport menu from '../../../fixtures/icons/menu';\n\n/**\n * A header layout component that displays the logo/sidebar toggle.\n * @param {Object} props - React Component props.\n * @param {string} props.headerHeight - The header height metric mapped from Redux store.\n * @param {string} props.sidebarOpen - ???\n * @param {string} props.updateUi - ???\n * @return {React.Component}\n */\nexport function Header(props) {\n  const { className, styles } = getStyles(props);\n\n  return (\n    <header className={ className }>\n      <HeaderShape />\n\n      <div className={ className }>\n        <Button\n          kind=\"flat\"\n          sharp\n          icon={ logo }\n          iconMorph={ menu }\n          hoverLock={ props.sidebarOpen }\n          safeAreaInset=\"left\"\n          size={ props.headerHeight }\n          iconColor={ config.theme.dark.textPrimary }\n          onClick={ () => { props.updateUi({ sidebarOpen: !props.sidebarOpen }); } }\n          style={ { padding: `${Math.round(props.headerHeight * (1 / 6))}px`, fontSize: `${Math.round(props.headerHeight * (2 / 3))}px` } }\n        />\n      </div>\n\n      <div className={ className }>\n        {/* <Search /> */}\n      </div>\n\n      { styles }\n    </header>\n  );\n}\n\nexport default connect(state => ({\n  headerHeight: state.ui.metrics.headerHeight,\n  sidebarOpen: state.ui.sidebarOpen,\n}), {\n  updateUi,\n})(Header);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Header/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "Header",
+    "memberof": "src/components/layout/Header/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/layout/Header/index.js~Header",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Header/index.js",
+    "importStyle": "{Header}",
+    "description": "A header layout component that displays the logo/sidebar toggle.",
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.headerHeight",
+        "description": "The header height metric mapped from Redux store."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.sidebarOpen",
+        "description": "???"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.updateUi",
+        "description": "???"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/components/layout/Modal/index.js",
+    "content": "import React, { Component } from 'react';\nimport { connect } from 'react-redux';\nimport { faTimes } from '@fortawesome/free-solid-svg-icons';\n\nimport Button from '../../controls/Button';\n// import LoginModal from '../modals/LoginModal';\nimport getStyles from './styles';\n\nimport { hideModal } from '../../../stores/ui/actions';\n\n/**\n * A modal layout component that sets document language based on Redux state.\n * @return {React.Component} returns a React element\n */\nexport class Modal extends Component {\n  constructor() {\n    super();\n\n    this.handleClickOutside = this.handleClickOutside.bind(this);\n  }\n\n  handleClickOutside(e) {\n    if (this.modalRef && !this.modalRef.contains(e.target)) {\n      if (this.props.modalVisible) this.props.hideModal();\n    }\n  }\n\n  render() {\n    const { className, styles } = getStyles(this.props);\n    let classNameShield = `${className} shield`;\n    // let title = '';\n    // let content = null;\n\n    if (this.props.modalVisible) classNameShield += ' visible';\n\n    // if (this.props.modalContent === 'login') {\n    //   title = languages[this.props.lang].login;\n    //   content = <LoginModal />;\n    // }\n\n    return (\n      <div className={ classNameShield }>\n        <div className={ `${className} modal` } ref={ (node) => { this.modalRef = node; } }>\n          <h2 className={ className }>\n            {/* { title } */}\n            <Button className={ className } kind=\"flat\" icon={ faTimes } onClick={ this.props.hideModal }></Button>\n          </h2>\n\n          {/* { content } */}\n        </div>\n\n        { styles }\n      </div>\n    );\n  }\n\n  componentDidMount() {\n    document.addEventListener('mousedown', this.handleClickOutside, false);\n  }\n\n  componentWillMount() {\n    document.removeEventListener('mousedown', this.handleClickOutside, false);\n  }\n}\n\nexport default connect(state => ({\n  modalContent: state.ui.modalContent,\n  modalVisible: state.ui.modalVisible,\n  lang: state.settings.lang,\n  theme: state.settings.theme,\n}), {\n  hideModal,\n})(Modal);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Modal/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "class",
+    "name": "Modal",
+    "memberof": "src/components/layout/Modal/index.js",
+    "static": true,
+    "longname": "src/components/layout/Modal/index.js~Modal",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Modal/index.js",
+    "importStyle": "{Modal}",
+    "description": "A modal layout component that sets document language based on Redux state.",
+    "lineNumber": 15,
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": "returns a React element"
+    },
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ]
+  },
+  {
+    "__docId__": 80,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/layout/Modal/index.js~Modal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Modal/index.js~Modal#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "handleClickOutside",
+    "memberof": "src/components/layout/Modal/index.js~Modal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Modal/index.js~Modal#handleClickOutside",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/layout/Modal/index.js~Modal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Modal/index.js~Modal#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 28,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "member",
+    "name": "modalRef",
+    "memberof": "src/components/layout/Modal/index.js~Modal",
+    "static": false,
+    "longname": "src/components/layout/Modal/index.js~Modal#modalRef",
+    "access": "public",
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/components/layout/Modal/index.js~Modal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Modal/index.js~Modal#componentDidMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 57,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "method",
+    "name": "componentWillMount",
+    "memberof": "src/components/layout/Modal/index.js~Modal",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Modal/index.js~Modal#componentWillMount",
+    "access": "public",
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "src/components/layout/Navigation/NavigationItem/index.js",
+    "content": "import Color from 'color';\nimport PropTypes from 'prop-types';\nimport React, { Component } from 'react';\nimport { NavLink } from 'react-router-dom';\nimport { connect } from 'react-redux';\n\nimport Button from '../../../controls/Button';\nimport Icon from '../../../controls/Icon';\nimport getStyles from './styles';\n\nexport class NavigationItem extends Component {\n  render() {\n    const { className, styles } = getStyles(this.props);\n\n    return (\n      <div className={ `${className} item` }>\n        <Icon className={ className } icon={ this.props.icon } fill={ this.props.color } />\n\n        <div className={ className }>\n          <span className={ className }>{ this.props.name }</span>\n\n          <span className={ className }>\n            <NavLink className={ className } to={ this.props.to } />\n            <div className={ `${className} background` } />\n\n            <nav className={ className }>\n              {\n                this.props.subnav.map((nav, i) => (\n                  <Button\n                    key={ i }\n                    className={ `${className} subnav` }\n                    link\n                    to={ nav.to }\n                    kind=\"custom\"\n                    customColor={ nav.color }\n                    size={ (this.props.headerHeight / 4) }\n                    icon={ nav.icon }\n                  >\n                    { nav.name }\n                  </Button>\n                ))\n              }\n            </nav>\n          </span>\n        </div>\n\n        { styles }\n      </div>\n    );\n  }\n}\n\nexport default connect(state => ({\n  headerHeight: state.ui.metrics.headerHeight,\n  lang: state.settings.lang,\n}), null)(NavigationItem);\n\nNavigationItem.propTypes = {\n  color: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]).isRequired,\n  icon: PropTypes.oneOfType([PropTypes.array, PropTypes.object]).isRequired,\n  name: PropTypes.string.isRequired,\n  subnav: PropTypes.array,\n  to: PropTypes.string.isRequired,\n};\n\nNavigationItem.defaultProps = {\n  subnav: [],\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Navigation/NavigationItem/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "class",
+    "name": "NavigationItem",
+    "memberof": "src/components/layout/Navigation/NavigationItem/index.js",
+    "static": true,
+    "longname": "src/components/layout/Navigation/NavigationItem/index.js~NavigationItem",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Navigation/NavigationItem/index.js",
+    "importStyle": "{NavigationItem}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~Component"
+    ]
+  },
+  {
+    "__docId__": 89,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/layout/Navigation/NavigationItem/index.js~NavigationItem",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/layout/Navigation/NavigationItem/index.js~NavigationItem#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/components/layout/Navigation/index.js",
+    "content": "import Color from 'color';\nimport React from 'react';\nimport { connect } from 'react-redux';\n\nimport NavigationItem from './NavigationItem';\nimport getStyles from './styles';\n\nimport { updateMetric } from '../../../stores/ui/actions';\n\nimport config from '../../../../config';\nimport logo from '../../../fixtures/icons/logo';\nimport menu from '../../../fixtures/icons/menu';\n\n/**\n * A navigation layout component that links to the main areas of the application.\n * @param {Object} props - React Component props.\n * @param {string} props.headerHeight - Header height mapped from Redux store.\n * @param {string} props.lang - ???\n * @param {string} props.sidebarOpen - ???\n * @param {string} props.sidebarWidth - ???\n * @param {string} props.windowWidth - ???\n * @return {React.Component}\n */\nexport function Navigation(props) {\n  const { className, styles } = getStyles(props);\n  const baseColor = new Color(config.brandColor);\n  const containerClass = `${className} sidebar`;\n\n  const pokemonLinks = [\n    { name: 'Gen 7', to: '/gen7', icon: menu, color: 'rgb(213, 128, 42)' },\n    { name: 'Gen 6', to: '/gen6', icon: menu, color: 'rgb(64, 115, 191)' },\n    { name: 'Gen 5', to: '/gen5', icon: menu, color: 'rgb(0, 0, 0)' },\n    { name: 'Gen 4', to: '/gen4', icon: menu, color: 'rgb(64, 174, 191)' },\n    { name: 'Gen 3', to: '/gen3', icon: menu, color: 'rgb(191, 64, 64)' },\n    { name: 'Gen 2', to: '/gen2', icon: menu, color: 'rgb(191, 174, 64)' },\n    { name: 'Gen 1', to: '/gen1', icon: menu, color: 'rgb(191, 64, 64)' },\n  ];\n\n  const links = [\n    { name: 'Pokémon', to: '/', icon: logo, color: baseColor, subnav: pokemonLinks },\n    { name: 'Attacks', to: '/attacks', icon: menu, color: baseColor.hue(30) },\n    { name: 'Items', to: '/items', icon: menu, color: baseColor.hue(60) },\n    { name: 'Abilities', to: '/abilities', icon: menu, color: baseColor.hue(120) },\n    { name: 'Berries', to: '/berries', icon: menu, color: baseColor.hue(180) },\n    { name: 'Tools', to: '/tools', icon: menu, color: baseColor.hue(210) },\n  ];\n\n  return (\n    <div className={ (props.sidebarOpen) ? `${containerClass} open` : containerClass }>\n      <nav className={ className }>\n        { links.map((link, i) => <NavigationItem key={ i } { ...link } />) }\n      </nav>\n\n      <div className={ className } />\n      { styles }\n    </div>\n  );\n}\n\nexport default connect(state => ({\n  headerHeight: state.ui.metrics.headerHeight,\n  lang: state.settings.lang,\n  sidebarOpen: state.ui.sidebarOpen,\n  sidebarWidth: state.ui.metrics.sidebarWidth,\n  windowWidth: state.ui.metrics.windowWidth,\n}), {\n  updateMetric,\n})(Navigation);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Navigation/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "Navigation",
+    "memberof": "src/components/layout/Navigation/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/layout/Navigation/index.js~Navigation",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Navigation/index.js",
+    "importStyle": "{Navigation}",
+    "description": "A navigation layout component that links to the main areas of the application.",
+    "lineNumber": 24,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.headerHeight",
+        "description": "Header height mapped from Redux store."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.lang",
+        "description": "???"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.sidebarOpen",
+        "description": "???"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.sidebarWidth",
+        "description": "???"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.windowWidth",
+        "description": "???"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/components/layout/Routes/index.js",
+    "content": "import _ from 'lodash';\nimport React from 'react';\nimport { Route, Redirect, Switch, withRouter } from 'react-router-dom';\n\nimport ErrorView from '../../views/ErrorView';\nimport HomeView from '../../views/HomeView';\nimport View from '../../views/View';\n\nimport languages from '../../../fixtures/languages';\n\n/**\n * A component to handle all routes in the application.\n * @param {Object} props - React Component props.\n * @param {string} props.location - Location object from React Router.\n * @return {React.Component}\n */\nexport function Routes({ location }) {\n  const prevLang = location.pathname.split('/')[1] || '';\n  let langPath = '';\n\n  _.forEach(languages, (v, k) => { langPath += `|${k}`; });\n\n  return (\n    <Switch>\n      {/* <Redirect exact from={ `/:lang(${langPath.slice(1)})/attacks` } to={ { pathname: '/attacks', state: { prevLang } } } /> */}\n      <Redirect exact from={ `/:lang(${langPath.slice(1)})` } to={ { pathname: '/', state: { prevLang } } } />\n\n      {/* <Route exact path=\"/attacks\" render={ props => <View page={ AttacksView } { ...props } /> } /> */}\n      <Route exact path=\"/\" render={ props => <View page={ HomeView } { ...props } /> } />\n\n      <Route render={ props => <View page={ ErrorView } { ...props } error=\"notFound\" /> } />\n    </Switch>\n  );\n}\n\nexport default withRouter(Routes);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Routes/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "Routes",
+    "memberof": "src/components/layout/Routes/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/layout/Routes/index.js~Routes",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Routes/index.js",
+    "importStyle": "{Routes}",
+    "description": "A component to handle all routes in the application.",
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.location",
+        "description": "Location object from React Router."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/components/layout/Styles/index.js",
+    "content": "import React, { Fragment } from 'react';\nimport { connect } from 'react-redux';\n\nimport config from '../../../../config';\n\n/**\n * A styles layout component that sets global styles based on Redux state.\n * @param {Object} props - React Component props.\n * @param {string} props.theme - Theme identifier mapped from Redux store.\n * @return {React.Fragment}\n */\nexport function Styles({ theme }) {\n  return (\n    <Fragment>\n      <style jsx global>{ `\n        :root {\n          --safe-area-inset-top: env(safe-area-inset-top);\n          --safe-area-inset-left: env(safe-area-inset-left);\n          --safe-area-inset-right: env(safe-area-inset-right);\n          --safe-area-inset-bottom: env(safe-area-inset-bottom);\n        }\n\n        @font-face {\n          font-family: 'Roboto';\n          font-weight: 200;\n          src: url('public/fonts/Roboto-Light.ttf') format('truetype');\n        }\n\n        @font-face {\n          font-family: 'Roboto';\n          font-weight: 400;\n          src: url('public/fonts/Roboto-Regular.ttf') format('truetype');\n        }\n\n        @font-face {\n          font-family: 'Roboto';\n          font-weight: 600;\n          src: url('public/fonts/Roboto-Medium.ttf') format('truetype');\n        }\n\n        * {\n          margin: 0px;\n          outline: 0px;\n          border: 0px;\n          padding: 0px;\n        }\n\n        html,\n        body,\n        #root {\n          overflow-x: hidden;\n          height: 100%;\n        }\n\n        body,\n        #root {\n          position: relative;\n          display: flex;\n          flex-direction: column;\n          width: 100%;\n        }\n\n        body {\n          background-color: ${config.theme[theme].background};\n          font-family: 'Roboto', sans-serif;\n          color: ${config.theme[theme].textPrimary};\n        }\n\n        a {\n          text-decoration: none;\n          color: inherit;\n        }\n\n        h1 {\n          font-size: 32px;\n          line-height: 32px;\n        }\n\n        input {\n          border-radius: 4px;\n          padding: 4px 8px;\n          background-color: rgba(0, 0, 0, 0.3);\n          font: inherit;\n          color: inherit;\n          box-shadow: inset 0 1px 3px rgba(0,0,0,0.12), inset 0 1px 2px rgba(0,0,0,0.24);\n\n          &:focus {\n            box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), inset 0 3px 6px rgba(0,0,0,0.23);\n          }\n        }\n      ` }</style>\n    </Fragment>\n  );\n}\n\nexport default connect(state => ({\n  theme: state.settings.theme,\n}), null)(Styles);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/layout/Styles/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "Styles",
+    "memberof": "src/components/layout/Styles/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/layout/Styles/index.js~Styles",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/layout/Styles/index.js",
+    "importStyle": "{Styles}",
+    "description": "A styles layout component that sets global styles based on Redux state.",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.theme",
+        "description": "Theme identifier mapped from Redux store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Fragment"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/components/modals/LoginModal.js",
+    "content": "// import React, { Component } from 'react';\n// import { connect } from 'react-redux';\n//\n// import Button from '../controls/Button';\n// import languages from '../../fixtures/languages';\n// import { hideModal } from '../../stores/ui/actions';\n//\n// /**\n//  * An error page component.\n//  * @param {Object} props - Component props\n//  * @return {Array<React.Component>} returns an array of React elements\n//  */\n// export class LoginModal extends Component {\n//   constructor() {\n//     super();\n//\n//     this.state = {\n//       username: '',\n//       password: '',\n//     };\n//\n//     this.handleCancel = this.handleCancel.bind(this);\n//     this.handleLogin = this.handleLogin.bind(this);\n//   }\n//\n//   handleCancel(e) {\n//     e.preventDefault();\n//     this.props.hideModal();\n//   }\n//\n//   handleLogin(e) {\n//     e.preventDefault();\n//     // this.props.loginUser({ username: this.state.username, password: this.state.password });\n//   }\n//\n//   render() {\n//     return [\n//       <form key=\"form\" onSubmit={ this.handleLogin }>\n//         <div>\n//           <input\n//             value={ this.state.username }\n//             placeholder={ languages[this.props.lang].username }\n//             onChange={ (e) => { this.setState({ username: e.target.value }); } }\n//           />\n//           <input\n//             type=\"password\"\n//             value={ this.state.password }\n//             placeholder={ languages[this.props.lang].password }\n//             onChange={ (e) => { this.setState({ password: e.target.value }); } }\n//           />\n//         </div>\n//\n//         <div className=\"buttons\">\n//           <Button kind=\"flat\" onClick={ this.handleCancel }>{ languages[this.props.lang].cancel }</Button>\n//           <Button type=\"submit\">{ languages[this.props.lang].login }</Button>\n//         </div>\n//\n//         <style jsx>{`\n//           form {\n//             display: flex;\n//             flex-direction: column;\n//\n//             div {\n//               display: flex;\n//               margin-top: 16px;\n//\n//               input {\n//                 box-sizing: border-box;\n//                 height: 32px;\n//                 margin: 0 8px;\n//\n//                 &:first-child {\n//                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;\n//                 }\n//\n//                 &:last-child {\n//                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;\n//                 }\n//               }\n//\n//               :global(button) {\n//                 height: 32px;\n//                 margin: 0 8px;\n//\n//                 &:first-child {\n//                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;\n//                 }\n//\n//                 &:last-child {\n//                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;\n//                 }\n//               }\n//\n//               &.buttons {\n//                 justify-content: flex-end;\n//                 text-align: right;\n//               }\n//\n//               &:first-child {\n//                 margin-top: 0;\n//               }\n//             }\n//           }\n//         `}</style>\n//       </form>,\n//     ];\n//   }\n// }\n//\n// export default connect(state => ({\n//   lang: state.userData.settings.lang,\n// }), {\n//   hideModal,\n// })(LoginModal);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/modals/LoginModal.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/components/views/ErrorView/index.js",
+    "content": "import React from 'react';\nimport PropTypes from 'prop-types';\nimport { connect } from 'react-redux';\nimport { Helmet } from 'react-helmet';\n\nimport languages from '../../../fixtures/languages';\n\n/**\n * An error page component that displays the relevant error.\n * @param {Object} props - React Component props.\n * @param {string} props.error - The error to display.\n * @param {string} props.lang - Language identifier mapped from Redux store.\n */\nexport function ErrorView({ error, lang }) {\n  return [\n    <Helmet key=\"helmet\"><title>{ languages[lang][error] }</title></Helmet>,\n    <h1 key=\"h1\">{ languages[lang][error] }</h1>,\n  ];\n}\n\nexport default connect(state => ({\n  lang: state.settings.lang,\n}), null)(ErrorView);\n\nErrorView.propTypes = {\n  error: PropTypes.string,\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/views/ErrorView/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "function",
+    "name": "ErrorView",
+    "memberof": "src/components/views/ErrorView/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/views/ErrorView/index.js~ErrorView",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/views/ErrorView/index.js",
+    "importStyle": "{ErrorView}",
+    "description": "An error page component that displays the relevant error.",
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.error",
+        "description": "The error to display."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.lang",
+        "description": "Language identifier mapped from Redux store."
+      }
+    ],
+    "return": {
+      "types": [
+        "undefined[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "file",
+    "name": "src/components/views/HomeView/index.js",
+    "content": "import _ from 'lodash';\nimport React, { Fragment } from 'react';\nimport { connect } from 'react-redux';\nimport { faCog } from '@fortawesome/free-solid-svg-icons';\n\nimport Button from '../../controls/Button';\nimport getStyles from './styles';\n\nimport { updateSettings } from '../../../stores/settings/actions';\n\nimport languages from '../../../fixtures/languages';\nimport logo from '../../../fixtures/icons/logo';\n\n/**\n * A home page component showcasing WIP components.\n * @param {Object} props - React Component props.\n * @param {string} props.lang - Language identifier mapped from Redux store.\n * @return {React.Fragment}\n */\nexport function HomeView(props) {\n  const { className, styles } = getStyles(props);\n\n  const handleLangChange = () => {\n    const langs = _.keys(languages);\n    let newLangIndex = (_.indexOf(langs, props.lang) + 1);\n\n    if (newLangIndex === langs.length) newLangIndex = 0;\n\n    props.updateSettings({ lang: langs[newLangIndex] });\n  };\n\n  const handleThemeChange = () => {\n    props.updateSettings({ theme: ((props.theme === 'dark') ? 'light' : 'dark') });\n  };\n\n  return (\n    <Fragment>\n      <h1>{ languages[props.lang].hello }</h1>\n      <h2 className={ className }>Change Language</h2>\n\n      <div className={ className }>\n        <Button className={ className } onClick={ handleLangChange }>{ languages[props.lang].languageName }</Button>\n      </div>\n\n      <h2 className={ className }>Change Theme</h2>\n\n      <div className={ className }>\n        <Button className={ className } onClick={ handleThemeChange }>{ _.startCase(props.theme) }</Button>\n      </div>\n\n      <h2 className={ className }>Button Variants</h2>\n\n      <div className={ className }>\n        <Button className={ className }>Primary</Button>\n        <Button className={ className } kind=\"success\">Success</Button>\n        <Button className={ className } kind=\"info\">Info</Button>\n        <Button className={ className } kind=\"warning\">Warning</Button>\n        <Button className={ className } kind=\"danger\">Danger</Button>\n        <Button className={ className } kind=\"flat\">Flat</Button>\n        <Button className={ className } kind=\"flat\" icon={ faCog } link=\"external\" to=\"https://github.com/pokedex-net/pokedex-net-client\">External Link</Button>\n        <Button className={ className } kind=\"flat\" icon={ logo } link to=\"/i-am-error\">Internal Link</Button>\n      </div>\n\n      <div style={ { height: '1000px' } } />\n\n      { styles }\n    </Fragment>\n  );\n}\n\nexport default connect(state => ({\n  lang: state.settings.lang,\n  theme: state.settings.theme,\n}), {\n  updateSettings,\n})(HomeView);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/views/HomeView/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 100,
+    "kind": "function",
+    "name": "HomeView",
+    "memberof": "src/components/views/HomeView/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/views/HomeView/index.js~HomeView",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/views/HomeView/index.js",
+    "importStyle": "{HomeView}",
+    "description": "A home page component showcasing WIP components.",
+    "lineNumber": 20,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props",
+        "description": "React Component props."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "props.lang",
+        "description": "Language identifier mapped from Redux store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Fragment"
+      ],
+      "spread": false,
+      "description": ""
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "file",
+    "name": "src/components/views/View/index.js",
+    "content": "import React, { Component } from 'react';\nimport { connect } from 'react-redux';\nimport _ from 'lodash';\n\nimport { updateSettings } from '../../../stores/settings/actions';\n\n/**\n * A page wrapper component that can update the user's language from a route param.\n * @extends {React.Component}\n */\nexport class View extends Component {\n  /**\n   * Renders the page passed through the props.\n   * @returns {React.Component}\n   */\n  render() {\n    return <this.props.page { ..._.omit(this.props, ['page', 'lang', 'updateSettings']) } />;\n  }\n\n  /**\n   * Updates the user's language from a route param is it's different than the stored language and then corrects the URL.\n   * @emits {updateSettings}\n   */\n  componentDidMount() {\n    if (this.props.location.state && this.props.location.state.prevLang && this.props.location.state.prevLang !== this.props.lang) {\n      this.props.updateSettings({ lang: this.props.location.state.prevLang });\n      this.props.history.replace({ pathname: this.props.location.pathname, state: {} });\n    }\n  }\n}\n\nexport default connect(state => ({\n  lang: state.settings.lang,\n}), {\n  updateSettings,\n})(View);\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/components/views/View/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 102,
+    "kind": "class",
+    "name": "View",
+    "memberof": "src/components/views/View/index.js",
+    "static": true,
+    "longname": "src/components/views/View/index.js~View",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/components/views/View/index.js",
+    "importStyle": "{View}",
+    "description": "A page wrapper component that can update the user's language from a route param.",
+    "lineNumber": 11,
+    "interface": false,
+    "extends": [
+      "React.Component"
+    ]
+  },
+  {
+    "__docId__": 103,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/views/View/index.js~View",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/views/View/index.js~View#render",
+    "access": "public",
+    "description": "Renders the page passed through the props.",
+    "lineNumber": 16,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{React.Component}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "React.Component"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 104,
+    "kind": "method",
+    "name": "componentDidMount",
+    "memberof": "src/components/views/View/index.js~View",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/views/View/index.js~View#componentDidMount",
+    "access": "public",
+    "description": "Updates the user's language from a route param is it's different than the stored language and then corrects the URL.",
+    "lineNumber": 24,
+    "emits": [
+      {
+        "types": [
+          "updateSettings"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 105,
+    "kind": "file",
+    "name": "src/fixtures/icons/logo.js",
+    "content": "/** The offset from the edge of the canvas to start the outer circle. */\nconst pointOffset = 6.335;\n\n/** The offset from the edge of the canvas to start outer circle curve handle. */\nconst outerHandleOffset = 70.835;\n\n/** The offset from the edge of the canvas to start inner circle curve handle. */\nconst innerHandleOffset = 583.566;\n\n/**\n * A function to get the point value of a circle curve handle.\n * @param {number} n - The circle radius.\n * @return {number} The point value of the curve handle.\n */\nconst getCircleBezier = n => n * 0.552284749831;\n\n/**\n * A function to get the point value of the outer circle curve handle.\n * @param {number} n - The circle radius.\n * @return {number} The point value of the curve handle.\n */\nconst getOuterCurveBezier = n => n * 0.60546875;\n\n/**\n * A function to get the point value of the inner circle curve handle.\n * @param {number} n - The circle radius.\n * @return {number} The point value of the curve handle.\n */\nconst getInnerCurveBezier = n => n * 0.63931719;\n\nexport default [\n  `M 1280,0\n    C ${(1280 + getCircleBezier(1280))},0 ${(2560 - outerHandleOffset)},${(1280 - getOuterCurveBezier(1280))} ${(2560 - pointOffset)},1152\n    C ${(2560 - pointOffset)},1152 ${((2560 - pointOffset) - 512)},1152 ${((2560 - pointOffset) - 512)},1152\n    C ${(2560 - innerHandleOffset)},${(1280 - getInnerCurveBezier(768))} ${(1280 + getCircleBezier(768))},512 1280,512\n    C ${(1280 - getCircleBezier(768))},512 ${innerHandleOffset},${(1280 - getInnerCurveBezier(768))} ${(pointOffset + 512)},1152\n    C ${(pointOffset + 512)},1152 ${pointOffset},1152 ${pointOffset},1152\n    C ${outerHandleOffset},${(1280 - getOuterCurveBezier(1280))} ${(1280 - getCircleBezier(1280))},0 1280,0`,\n  `M 1280,768\n    C 1280,768 1280,768 1280,768\n    C ${(1280 + getCircleBezier(512))},768 1792,${(1280 - getCircleBezier(512))} 1792,1280\n    C 1792,${(1280 + getCircleBezier(512))} ${(1280 + getCircleBezier(512))},1792 1280,1792\n    C 1280,1792 1280,1792 1280,1792\n    C 1280,1792 1280,1792 1280,1792\n    C ${(1280 - getCircleBezier(512))},1792 768,${(1280 + getCircleBezier(512))} 768,1280\n    C 768,${(1280 - getCircleBezier(512))} ${(1280 - getCircleBezier(512))},768 1280,768\n    C 1280,768 1280,768 1280,768`,\n  `M 1280,2048\n    C ${(1280 + getCircleBezier(768))},2048 ${(2560 - innerHandleOffset)},${(1280 + getInnerCurveBezier(768))} ${((2560 - pointOffset) - 512)},1408\n    C ${((2560 - pointOffset) - 512)},1408 ${(2560 - pointOffset)},1408 ${(2560 - pointOffset)},1408\n    C ${(2560 - outerHandleOffset)},${(1280 + getOuterCurveBezier(1280))} ${(1280 + getCircleBezier(1280))},2560 1280,2560\n    C ${(1280 - getCircleBezier(1280))},2560 ${outerHandleOffset},${(1280 + getOuterCurveBezier(1280))} ${pointOffset},1408\n    C ${pointOffset},1408 ${(pointOffset + 512)},1408 ${(pointOffset + 512)},1408\n    C ${innerHandleOffset},${(1280 + getInnerCurveBezier(768))} ${(1280 - getCircleBezier(768))},2048 1280,2048`,\n];\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/fixtures/icons/logo.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 106,
+    "kind": "variable",
+    "name": "pointOffset",
+    "memberof": "src/fixtures/icons/logo.js",
+    "static": true,
+    "longname": "src/fixtures/icons/logo.js~pointOffset",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/fixtures/icons/logo.js",
+    "importStyle": null,
+    "description": "The offset from the edge of the canvas to start the outer circle.",
+    "lineNumber": 2,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 107,
+    "kind": "variable",
+    "name": "outerHandleOffset",
+    "memberof": "src/fixtures/icons/logo.js",
+    "static": true,
+    "longname": "src/fixtures/icons/logo.js~outerHandleOffset",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/fixtures/icons/logo.js",
+    "importStyle": null,
+    "description": "The offset from the edge of the canvas to start outer circle curve handle.",
+    "lineNumber": 5,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 108,
+    "kind": "variable",
+    "name": "innerHandleOffset",
+    "memberof": "src/fixtures/icons/logo.js",
+    "static": true,
+    "longname": "src/fixtures/icons/logo.js~innerHandleOffset",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/fixtures/icons/logo.js",
+    "importStyle": null,
+    "description": "The offset from the edge of the canvas to start inner circle curve handle.",
+    "lineNumber": 8,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "getCircleBezier",
+    "memberof": "src/fixtures/icons/logo.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fixtures/icons/logo.js~getCircleBezier",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/fixtures/icons/logo.js",
+    "importStyle": null,
+    "description": "A function to get the point value of a circle curve handle.",
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "The circle radius."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "The point value of the curve handle."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "getOuterCurveBezier",
+    "memberof": "src/fixtures/icons/logo.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fixtures/icons/logo.js~getOuterCurveBezier",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/fixtures/icons/logo.js",
+    "importStyle": null,
+    "description": "A function to get the point value of the outer circle curve handle.",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "The circle radius."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "The point value of the curve handle."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 111,
+    "kind": "function",
+    "name": "getInnerCurveBezier",
+    "memberof": "src/fixtures/icons/logo.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fixtures/icons/logo.js~getInnerCurveBezier",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/fixtures/icons/logo.js",
+    "importStyle": null,
+    "description": "A function to get the point value of the inner circle curve handle.",
+    "lineNumber": 29,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "The circle radius."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "The point value of the curve handle."
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 112,
+    "kind": "file",
+    "name": "src/fixtures/icons/menu.js",
+    "content": "export default [\n  `M 1280,256\n    C 1280,256 2304,256 2304,256\n    C 2304,256 2304,768 2304,768\n    C 2304,768 1280,768 1280,768\n    C 1280,768 256,768 256,768\n    C 256,768 256,256 256,256\n    C 256,256 1280,256 1280,256`,\n  `M 1280,1024\n    C 1280,1024 2304,1024 2304,1024\n    C 2304,1024 2304,1280 2304,1280\n    C 2304,1280 2304,1536 2304,1536\n    C 2304,1536 1280,1536 1280,1536\n    C 1280,1536 256,1536 256,1536\n    C 256,1536 256,1280 256,1280\n    C 256,1280 256,1024 256,1024\n    C 1280,1024 1280,1024 1280,1024`,\n  `M 1280,1792\n    C 1280,1792 2304,1792 2304,1792\n    C 2304,1792 2304,2304 2304,2304\n    C 2304,2304 1280,2304 1280,2304\n    C 1280,2304 256,2304 256,2304\n    C 256,2304 256,1792 256,1792\n    C 256,1792 1280,1792 1280,1792`,\n];\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/fixtures/icons/menu.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 113,
+    "kind": "file",
+    "name": "src/fixtures/languages/index.js",
+    "content": "import en from './en.json';\nimport es from './es.json';\nimport ja from './ja.json';\nimport ar from './ar.json';\n\nexport default {\n  en,\n  es,\n  ja,\n  ar,\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/fixtures/languages/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 114,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react';\nimport { BrowserRouter } from 'react-router-dom';\nimport { PersistGate } from 'redux-persist/integration/react';\nimport { Provider } from 'react-redux';\nimport { render } from 'react-dom';\n\nimport Container from './components/layout/Container';\n\nimport store, { persistor } from './stores';\n\nrender(\n  <Provider store={ store }>\n    <PersistGate persistor={ persistor }>\n      <BrowserRouter basename=\"/\">\n        <Container/>\n      </BrowserRouter>\n    </PersistGate>\n  </Provider>,\n  document.getElementById('root'),\n);\n\nif (module.hot) module.hot.accept();\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "name": "src/lib/api/helpers.js",
+    "content": "// import axios from 'axios';\n// import _ from 'lodash';\n//\n// import jwt from '../jwt';\n// import config from '../../../config';\n//\n// export const request = (url, method, data) => {\n//   const baseURL = config.apiUrl || '/';\n//   const headers = { 'Content-Type': 'application/json' };\n//   if (jwt.token) headers.Authorization = `Bearer ${jwt.token}`;\n//\n//   return axios({ url, headers, method, data, baseURL })\n//     .then(res => res.data.data)\n//     .catch((e) => {\n//       if (e.response.data.status === 'error') throw _.castArray(e.response.data.data);\n//       throw _.castArray(e.response.statusText);\n//     });\n// };\n//\n// export default { request };\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/lib/api/helpers.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 116,
+    "kind": "file",
+    "name": "src/lib/api/index.js",
+    "content": "// import user from './user';\n//\n// export default {\n//   user,\n// };\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/lib/api/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 117,
+    "kind": "file",
+    "name": "src/lib/api/user.js",
+    "content": "// import { request } from './helpers';\n//\n// export default {\n//   login(data) {\n//     return request('login', 'post', data);\n//   },\n//\n//   update(data) {\n//     return request('user', 'put', data);\n//   },\n// };\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/lib/api/user.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 118,
+    "kind": "file",
+    "name": "src/lib/helpers/index.js",
+    "content": "/**\n * A helper to test Redux connected components by passing a mocked Redux store.\n * @param {Object} mockState - A mock Redux state.\n * @return {Object} A mocked Redux store.\n */\nexport const mockStore = mockState => ({\n  dispatch: () => {},\n  getState: () => mockState,\n  subscribe: () => {},\n});\n\nexport default { mockStore };\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/lib/helpers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "mockStore",
+    "memberof": "src/lib/helpers/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/lib/helpers/index.js~mockStore",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/lib/helpers/index.js",
+    "importStyle": "{mockStore}",
+    "description": "A helper to test Redux connected components by passing a mocked Redux store.",
+    "lineNumber": 6,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "mockState",
+        "description": "A mock Redux state."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "A mocked Redux store."
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "file",
+    "name": "src/lib/jwt.js",
+    "content": "// import jwt from 'jsonwebtoken';\n//\n// const { token } = (() => {\n//   try {\n//     if (window.localStorage) {\n//       return JSON.parse(JSON.parse(window.localStorage.getItem('persist:userData') || '{}').userData || '{}') || {};\n//     }\n//   } catch (e) {\n//     console.error(e); // eslint-disable-line no-console\n//   }\n//\n//   return {};\n// })();\n//\n// export default {\n//   token,\n//   data: jwt.decode(token) || {},\n// };\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/lib/jwt.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "name": "src/stores/index.js",
+    "content": "import createSagaMiddleware from 'redux-saga';\nimport storage from 'redux-persist/lib/storage';\nimport { all } from 'redux-saga/effects';\nimport { combineReducers, createStore, applyMiddleware } from 'redux';\nimport { persistStore, persistReducer } from 'redux-persist';\n\nimport settings from './settings';\nimport ui from './ui';\n\n/**\n * The Redux Saga middleware.\n * @type {Object}\n */\nconst sagaMiddleware = createSagaMiddleware();\n\n/**\n * The Redux store.\n * @type {Object}\n */\nconst store = createStore(\n  persistReducer({\n    key: 'settings',\n    version: 1,\n    whitelist: ['settings'],\n    storage,\n  }, combineReducers({\n    settings: settings.reducer,\n    ui: ui.reducer,\n  })),\n  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),\n  applyMiddleware(sagaMiddleware),\n);\n\nsagaMiddleware.run(function* rootSaga() {\n  yield all([\n    ...settings.sagas,\n    ...ui.sagas,\n  ]);\n});\n\n/**\n * The persistor object from redux-persist.\n * @type {Object}\n */\nexport const persistor = persistStore(store);\n\nexport default store;\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 122,
+    "kind": "variable",
+    "name": "sagaMiddleware",
+    "memberof": "src/stores/index.js",
+    "static": true,
+    "longname": "src/stores/index.js~sagaMiddleware",
+    "access": "public",
+    "export": false,
+    "importPath": "pokedex-net-client/src/stores/index.js",
+    "importStyle": null,
+    "description": "The Redux Saga middleware.",
+    "lineNumber": 14,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 123,
+    "kind": "variable",
+    "name": "persistor",
+    "memberof": "src/stores/index.js",
+    "static": true,
+    "longname": "src/stores/index.js~persistor",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/index.js",
+    "importStyle": "{persistor}",
+    "description": "The persistor object from redux-persist.",
+    "lineNumber": 45,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "variable",
+    "name": "store",
+    "memberof": "src/stores/index.js",
+    "static": true,
+    "longname": "src/stores/index.js~store",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/index.js",
+    "importStyle": "store",
+    "description": "The Redux store.",
+    "lineNumber": 20,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "name": "src/stores/settings/actions/index.js",
+    "content": "/**\n * This function sends an action to store the new data to {@link settingsReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeSettings = data => ({ type: 'STORE_SETTINGS', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateSettings}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateSettings = data => ({ type: 'UPDATE_SETTINGS', data });\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/settings/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 126,
+    "kind": "function",
+    "name": "storeSettings",
+    "memberof": "src/stores/settings/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/settings/actions/index.js~storeSettings",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/settings/actions/index.js",
+    "importStyle": "{storeSettings}",
+    "description": "This function sends an action to store the new data to {@link settingsReducer}.",
+    "lineNumber": 6,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to store in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "function",
+    "name": "updateSettings",
+    "memberof": "src/stores/settings/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/settings/actions/index.js~updateSettings",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/settings/actions/index.js",
+    "importStyle": "{updateSettings}",
+    "description": "This function sends an action to be intercepted by {@link watchUpdateSettings}.",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to update in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 128,
+    "kind": "file",
+    "name": "src/stores/settings/index.js",
+    "content": "import * as actions from './actions';\nimport config from '../../../config';\nimport reducer from './reducer';\nimport sagas from './sagas';\n\n/**\n * The initial state of the Settings Redux store.\n * @type {Object}\n * @property {string} lang=en The page language.\n * @property {string} theme=dark The color theme used.\n */\nexport const settingsDefaultState = {\n  lang: config.defaultLang,\n  theme: 'dark',\n};\n\nexport default {\n  actions,\n  reducer,\n  sagas,\n  settingsDefaultState,\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/settings/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 129,
+    "kind": "variable",
+    "name": "settingsDefaultState",
+    "memberof": "src/stores/settings/index.js",
+    "static": true,
+    "longname": "src/stores/settings/index.js~settingsDefaultState",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/settings/index.js",
+    "importStyle": "{settingsDefaultState}",
+    "description": "The initial state of the Settings Redux store.",
+    "lineNumber": 12,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "en",
+        "defaultRaw": "en",
+        "name": "lang",
+        "description": "The page language."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "dark",
+        "defaultRaw": "dark",
+        "name": "theme",
+        "description": "The color theme used."
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 130,
+    "kind": "file",
+    "name": "src/stores/settings/reducer/index.js",
+    "content": "import _ from 'lodash';\nimport { settingsDefaultState } from '../';\n\n/**\n * The Settings reducer.\n * @param {Object} [state=settingsDefaultState] - Redux state\n * @param {Object} action - Redux action\n * @return {Object} Updated Redux state\n */\nexport default function settingsReducer(state = settingsDefaultState, action) {\n  switch (_.get(action, 'type')) {\n    case 'STORE_SETTINGS':\n      return {\n        ...state,\n        ...action.data,\n      };\n    default:\n      return state;\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/settings/reducer/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 131,
+    "kind": "function",
+    "name": "settingsReducer",
+    "memberof": "src/stores/settings/reducer/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/settings/reducer/index.js~settingsReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/settings/reducer/index.js",
+    "importStyle": "settingsReducer",
+    "description": "The Settings reducer.",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "settingsDefaultState",
+        "defaultRaw": "settingsDefaultState",
+        "name": "state",
+        "description": "Redux state"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "Redux action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Updated Redux state"
+    }
+  },
+  {
+    "__docId__": 132,
+    "kind": "file",
+    "name": "src/stores/settings/sagas/index.js",
+    "content": "import _ from 'lodash';\nimport { put, takeEvery, fork } from 'redux-saga/effects';\n\nimport { storeSettings } from '../actions';\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateSettings}.\n * @param {Object} action Redux action\n * @emits {storeSettings}\n */\nexport function* updateSettingsSaga(action) {\n  yield put(storeSettings(_.get(action, 'data')));\n}\n\n/**\n * This generator function watchs for every {@link updateSettings} call.\n * @emits {updateSettingsSaga}\n */\nexport function* watchUpdateSettings() {\n  yield takeEvery('UPDATE_SETTINGS', updateSettingsSaga);\n}\n\nexport default [\n  fork(watchUpdateSettings),\n];\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/settings/sagas/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 133,
+    "kind": "function",
+    "name": "updateSettingsSaga",
+    "memberof": "src/stores/settings/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/settings/sagas/index.js~updateSettingsSaga",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/settings/sagas/index.js",
+    "importStyle": "{updateSettingsSaga}",
+    "description": "This generator function stores the action data yielded from {@link watchUpdateSettings}.",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "Redux action"
+      }
+    ],
+    "emits": [
+      {
+        "types": [
+          "storeSettings"
+        ],
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 134,
+    "kind": "function",
+    "name": "watchUpdateSettings",
+    "memberof": "src/stores/settings/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/settings/sagas/index.js~watchUpdateSettings",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/settings/sagas/index.js",
+    "importStyle": "{watchUpdateSettings}",
+    "description": "This generator function watchs for every {@link updateSettings} call.",
+    "lineNumber": 19,
+    "emits": [
+      {
+        "types": [
+          "updateSettingsSaga"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "src/stores/ui/actions/index.js",
+    "content": "/**\n * This function sends an action to be intercepted by {@link watchHideModal}.\n * @return {Object} Redux action\n */\nexport const hideModal = () => ({ type: 'HIDE_MODAL' });\n\n/**\n * This function sends an action to be intercepted by {@link watchShowModal}.\n * @param {string} data - A string with the value to update in the store.\n * @return {Object} Redux action\n */\nexport const showModal = data => ({ type: 'SHOW_MODAL', data });\n\n/**\n * This function sends an action to store the new data to {@link uiReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeMetric = data => ({ type: 'STORE_METRIC', data });\n\n/**\n * This function sends an action to store the new data to {@link uiReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeUi = data => ({ type: 'STORE_UI', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateMetric}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateMetric = data => ({ type: 'UPDATE_METRIC', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateUi}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateUi = data => ({ type: 'UPDATE_UI', data });\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "function",
+    "name": "hideModal",
+    "memberof": "src/stores/ui/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/actions/index.js~hideModal",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
+    "importStyle": "{hideModal}",
+    "description": "This function sends an action to be intercepted by {@link watchHideModal}.",
+    "lineNumber": 5,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    },
+    "params": []
+  },
+  {
+    "__docId__": 137,
+    "kind": "function",
+    "name": "showModal",
+    "memberof": "src/stores/ui/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/actions/index.js~showModal",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
+    "importStyle": "{showModal}",
+    "description": "This function sends an action to be intercepted by {@link watchShowModal}.",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "A string with the value to update in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 138,
+    "kind": "function",
+    "name": "storeMetric",
+    "memberof": "src/stores/ui/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/actions/index.js~storeMetric",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
+    "importStyle": "{storeMetric}",
+    "description": "This function sends an action to store the new data to {@link uiReducer}.",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to store in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "function",
+    "name": "storeUi",
+    "memberof": "src/stores/ui/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/actions/index.js~storeUi",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
+    "importStyle": "{storeUi}",
+    "description": "This function sends an action to store the new data to {@link uiReducer}.",
+    "lineNumber": 26,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to store in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 140,
+    "kind": "function",
+    "name": "updateMetric",
+    "memberof": "src/stores/ui/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/actions/index.js~updateMetric",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
+    "importStyle": "{updateMetric}",
+    "description": "This function sends an action to be intercepted by {@link watchUpdateMetric}.",
+    "lineNumber": 33,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to update in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "function",
+    "name": "updateUi",
+    "memberof": "src/stores/ui/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/actions/index.js~updateUi",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
+    "importStyle": "{updateUi}",
+    "description": "This function sends an action to be intercepted by {@link watchUpdateUi}.",
+    "lineNumber": 40,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to update in the store."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Redux action"
+    }
+  },
+  {
+    "__docId__": 142,
+    "kind": "file",
+    "name": "src/stores/ui/index.js",
+    "content": "import * as actions from './actions';\nimport reducer from './reducer';\nimport sagas from './sagas';\n\n/**\n * The initial state of the UI Redux store.\n * @type {Object}\n * @property {null|React.Component} modalContent=null The React Component loaded into the modal.\n * @property {boolean} modalVisible=false Whether or not the modal is visible.\n * @property {boolean} sidebarOpen=false Whether or not the sidebar is open.\n * @property {Object} metrics Object of layout metric variables.\n * @property {number} metrics.headerHeight=72 Height of header.\n * @property {number} metrics.windowWidth=0 Width of widnow.\n */\nexport const uiDefaultState = {\n  modalContent: null,\n  modalVisible: false,\n  sidebarOpen: false,\n  metrics: {\n    headerHeight: 72,\n    windowWidth: 0,\n  },\n};\n\n\nexport default {\n  actions,\n  reducer,\n  sagas,\n  uiDefaultState,\n};\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 143,
+    "kind": "variable",
+    "name": "uiDefaultState",
+    "memberof": "src/stores/ui/index.js",
+    "static": true,
+    "longname": "src/stores/ui/index.js~uiDefaultState",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/index.js",
+    "importStyle": "{uiDefaultState}",
+    "description": "The initial state of the UI Redux store.",
+    "lineNumber": 15,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "null",
+          "React.Component"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "modalContent",
+        "description": "The React Component loaded into the modal."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "modalVisible",
+        "description": "Whether or not the modal is visible."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "sidebarOpen",
+        "description": "Whether or not the sidebar is open."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "metrics",
+        "description": "Object of layout metric variables."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "72",
+        "defaultRaw": 72,
+        "name": "metrics.headerHeight",
+        "description": "Height of header."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "0",
+        "defaultRaw": 0,
+        "name": "metrics.windowWidth",
+        "description": "Width of widnow."
+      }
+    ],
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 144,
+    "kind": "file",
+    "name": "src/stores/ui/reducer/index.js",
+    "content": "import _ from 'lodash';\nimport { uiDefaultState } from '../';\n\n/**\n * The UI reducer.\n * @param {Object} [state=uiDefaultState] - Redux state\n * @param {Object} action - Redux action\n * @return {Object} Updated Redux state\n */\nexport default function uiReducer(state = uiDefaultState, action) {\n  switch (_.get(action, 'type')) {\n    case 'STORE_METRIC':\n      return {\n        ...state,\n        metrics: {\n          ...state.metrics,\n          ...action.data,\n        },\n      };\n    case 'STORE_UI':\n      return {\n        ...state,\n        ...action.data,\n      };\n    default:\n      return state;\n  }\n}\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/reducer/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 145,
+    "kind": "function",
+    "name": "uiReducer",
+    "memberof": "src/stores/ui/reducer/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/reducer/index.js~uiReducer",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/reducer/index.js",
+    "importStyle": "uiReducer",
+    "description": "The UI reducer.",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "uiDefaultState",
+        "defaultRaw": "uiDefaultState",
+        "name": "state",
+        "description": "Redux state"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "Redux action"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": "Updated Redux state"
+    }
+  },
+  {
+    "__docId__": 146,
+    "kind": "file",
+    "name": "src/stores/ui/sagas/index.js",
+    "content": "import _ from 'lodash';\nimport { delay } from 'redux-saga';\nimport { call, fork, put, takeEvery, takeLatest } from 'redux-saga/effects';\n\nimport { storeMetric, storeUi } from '../actions';\n\n/**\n * This generator function hides the modal.\n * @emits {storeUi}\n */\nexport function* hideModalSaga() {\n  yield put(storeUi({ modalVisible: false }));\n  yield call(delay, 200);\n  yield put(storeUi({ modalContent: null }));\n}\n\n/**\n * This generator function shows the modal with action data yielded from {@link watchShowModal}.\n * @param {Object} action Redux action\n * @emits {storeUi}\n */\nexport function* showModalSaga(action) {\n  yield put(storeUi({ modalContent: _.get(action, 'data') }));\n  yield put(storeUi({ modalVisible: true }));\n}\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateMetric}.\n * @param {Object} action Redux action\n * @emits {storeMetric}\n */\nexport function* updateMetricSaga(action) {\n  yield put(storeMetric(_.get(action, 'data')));\n}\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateUi}.\n * @param {Object} action Redux action\n * @emits {storeUi}\n */\nexport function* updateUiSaga(action) {\n  yield put(storeUi(_.get(action, 'data')));\n}\n\n/**\n * This generator function watchs for the latest {@link hideModal} call.\n * @emits {hideModalSaga}\n */\nexport function* watchHideModal() {\n  yield takeLatest('HIDE_MODAL', hideModalSaga);\n}\n\n/**\n * This generator function watchs for the latest {@link showModal} call.\n * @emits {showModalSaga}\n */\nexport function* watchShowModal() {\n  yield takeLatest('SHOW_MODAL', showModalSaga);\n}\n\n/**\n * This generator function watchs for the latest {@link updateMetric} call.\n * @emits {updateMetricSaga}\n */\nexport function* watchUpdateMetric() {\n  yield takeLatest('UPDATE_METRIC', updateMetricSaga);\n}\n\n/**\n * This generator function watchs for every {@link updateUi} call.\n * @emits {updateUiSaga}\n */\nexport function* watchUpdateUi() {\n  yield takeEvery('UPDATE_UI', updateUiSaga);\n}\n\nexport default [\n  fork(watchHideModal),\n  fork(watchShowModal),\n  fork(watchUpdateMetric),\n  fork(watchUpdateUi),\n];\n",
+    "static": true,
+    "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/sagas/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 147,
+    "kind": "function",
+    "name": "hideModalSaga",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~hideModalSaga",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{hideModalSaga}",
+    "description": "This generator function hides the modal.",
+    "lineNumber": 11,
+    "emits": [
+      {
+        "types": [
+          "storeUi"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 148,
+    "kind": "function",
+    "name": "showModalSaga",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~showModalSaga",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{showModalSaga}",
+    "description": "This generator function shows the modal with action data yielded from {@link watchShowModal}.",
+    "lineNumber": 22,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "Redux action"
+      }
+    ],
+    "emits": [
+      {
+        "types": [
+          "storeUi"
+        ],
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 149,
+    "kind": "function",
+    "name": "updateMetricSaga",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~updateMetricSaga",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{updateMetricSaga}",
+    "description": "This generator function stores the action data yielded from {@link watchUpdateMetric}.",
+    "lineNumber": 32,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "Redux action"
+      }
+    ],
+    "emits": [
+      {
+        "types": [
+          "storeMetric"
+        ],
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 150,
+    "kind": "function",
+    "name": "updateUiSaga",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~updateUiSaga",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{updateUiSaga}",
+    "description": "This generator function stores the action data yielded from {@link watchUpdateUi}.",
+    "lineNumber": 41,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "action",
+        "description": "Redux action"
+      }
+    ],
+    "emits": [
+      {
+        "types": [
+          "storeUi"
+        ],
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 151,
+    "kind": "function",
+    "name": "watchHideModal",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~watchHideModal",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{watchHideModal}",
+    "description": "This generator function watchs for the latest {@link hideModal} call.",
+    "lineNumber": 49,
+    "emits": [
+      {
+        "types": [
+          "hideModalSaga"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 152,
+    "kind": "function",
+    "name": "watchShowModal",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~watchShowModal",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{watchShowModal}",
+    "description": "This generator function watchs for the latest {@link showModal} call.",
+    "lineNumber": 57,
+    "emits": [
+      {
+        "types": [
+          "showModalSaga"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 153,
+    "kind": "function",
+    "name": "watchUpdateMetric",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~watchUpdateMetric",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{watchUpdateMetric}",
+    "description": "This generator function watchs for the latest {@link updateMetric} call.",
+    "lineNumber": 65,
+    "emits": [
+      {
+        "types": [
+          "updateMetricSaga"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 154,
+    "kind": "function",
+    "name": "watchUpdateUi",
+    "memberof": "src/stores/ui/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/stores/ui/sagas/index.js~watchUpdateUi",
+    "access": "public",
+    "export": true,
+    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
+    "importStyle": "{watchUpdateUi}",
+    "description": "This generator function watchs for every {@link updateUi} call.",
+    "lineNumber": 73,
+    "emits": [
+      {
+        "types": [
+          "updateUiSaga"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "kind": "index",
+    "content": "# Pokedex.net Client\n\n[![Version](https://badge.fury.io/gh/pokedex-net%2Fpokedex-net-client.svg)](https://github.com/pokedex-net/pokedex-net-client)\n[![Coverage](https://coveralls.io/repos/github/pokedex-net/pokedex-net-client/badge.svg?branch=master)](https://coveralls.io/github/pokedex-net/pokedex-net-client?branch=master)\n[![Documentation](https://pokedex-net.github.io/pokedex-net-client/badge.svg)](https://pokedex-net.github.io/pokedex-net-client/index.html)\n[![Build Status](https://circleci.com/gh/pokedex-net/pokedex-net-client.svg?style=svg)](https://circleci.com/gh/pokedex-net/pokedex-net-client)\n[![MIT License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)\n\n\n### Todo\n\n* Immediate\n  1. Miscellaneous\n    * Finish writing tests and docs\n  2. Layout\n    * Light/Dark Theme Switch (Toggle Element, Bottom of Sidebar)\n    * Language Select (Simple Dropdown, Bottom of Sidebar)\n    * Search Bar (Input & Complex Dropdown, Right Header)\n    * Sub Nav\n      * Fix so that those that don't fit are hidden behind a plus button and then shown in an expanded view\n      * Remove entirely in favor of another subnav concept\n      * Remove entirely\n    * Responsive Header & Sidebar\n    * Meta Tag Clean Up\n    * Mobile Testing\n  3. Functionality\n    * Proper i18n Language support\n      * Needs to support Redux, Redux Persist, and RTL\n* Later\n  * Planning\n    * Pokémon indexes/pages\n    * Attacks indexes/pages\n    * Items indexes/pages\n    * Abilities indexes/pages\n    * Berries indexes/pages\n    * Flesh out tools/info/other areas\n\n\n## Installation\nNote: You should be using Node v10 or higher. Check your Node version with `node -v`.\n\n1. `git clone git@github.com:pokedex-net/pokedex-net-client.git`\n2. `cd pokedex-net-client`\n3. `npm install`\n\n\n## Usage\n\n### Development\n`npm start`\n\nDevelopment of this application assumes working knowledge of [ES6](http://es6-features.org), [CSS3](https://www.w3schools.com/css/default.asp), [React](https://reactjs.org/), [React Router](https://reacttraining.com/react-router/), [Redux](https://redux.js.org/), [Redux Saga](https://github.com/redux-saga/redux-saga), [styled-jsx](https://github.com/zeit/styled-jsx), [Mocha](https://mochajs.org/), & [Sinon](https://sinonjs.org/).\n\nENV Var | Default | Description\n------- | ------- | -----------\n`PORT` | `8080` | The port where the application is served.\n`API_HOST` | `//api.pokedex.net/` | The API host address.\n\n\n### Testing\n`npm run test`\n\nTo run tests continually: `npm run test:watch`\n\nRunning tests will automatically run `npm run lint`, which will check the codebase for linting errors using [ESLint](https://eslint.org/) based loosely off of [Airbnb's Style Guide](https://github.com/airbnb/javascript).\n\n\n### Documentation\n`npm run docs:watch`\n\nDocumentation should generally be run in watch mode so that it updates the documentation as you modify code. If you would prefer to run the documentation manually, you can run `npm run docs`.\n\nDocumentation makes use of [ESDoc](https://esdoc.org/).\n\n\n### Production Build\n`npm run build`\n\n\n## License\nThis software is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nPublic License](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).\n",
+    "longname": "/Users/ethompson/pokedex-net-client/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"pokedex-net-client\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Pokedex.net client application.\",\n  \"keywords\": [\n    \"esdoc\",\n    \"eslint\",\n    \"mocha\",\n    \"pokedex\",\n    \"pokemon\",\n    \"react\",\n    \"react-router\",\n    \"react-helmet\",\n    \"redux\",\n    \"redux-persist\",\n    \"redux-saga\",\n    \"styled-jsx\",\n    \"webpack\"\n  ],\n  \"homepage\": \"https://github.com/pokedex-net/pokedex-net-client\",\n  \"bugs\": \"https://github.com/pokedex-net/pokedex-net-client/issues\",\n  \"license\": \"Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License\",\n  \"author\": {\n    \"name\": \"Elias Thompson\",\n    \"email\": \"email@eliasthompson.com\",\n    \"url\": \"https://github.com/eliasthompson\"\n  },\n  \"main\": \"./src/index.js\",\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/pokedex-net/pokedex-net-client.git\"\n  },\n  \"scripts\": {\n    \"start\": \"npm run dev\",\n    \"dev\": \"NODE_ENV=development ./node_modules/.bin/webpack-dev-server --hot --config ./config/webpack.js\",\n    \"lint\": \"eslint \\\"./*.js\\\" \\\"./**/*.js\\\"\",\n    \"test\": \"npm run lint --silent && nyc --nycrc-path ./config/nyc.json ./node_modules/mocha/bin/_mocha --opts ./config/mocha.opts\",\n    \"test:watch\": \"nodemon --ext .js -w ./src/ -w ./test/ --exec \\\"npm run test --silent || true\\\"\",\n    \"docs\": \"esdoc -c ./config/esdoc.json\",\n    \"docs:watch\": \"nodemon --ext .js -w ./src/ --exec \\\"npm run docs --silent || true\\\"\",\n    \"cover\": \"npm run test --silent && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js\",\n    \"build\": \"NODE_ENV=production webpack --config ./config/webpack.js\",\n    \"serve\": \"http-server build\"\n  },\n  \"devDependencies\": {\n    \"@babel/cli\": \"^7.1.2\",\n    \"@babel/core\": \"^7.1.2\",\n    \"@babel/plugin-transform-runtime\": \"^7.1.0\",\n    \"@babel/preset-env\": \"^7.1.0\",\n    \"@babel/preset-react\": \"^7.0.0\",\n    \"@babel/register\": \"^7.0.0\",\n    \"@babel/runtime\": \"^7.1.2\",\n    \"babel-eslint\": \"^10.0.1\",\n    \"babel-loader\": \"^8.0.4\",\n    \"babel-plugin-import-directory\": \"^1.0.3\",\n    \"babel-plugin-istanbul\": \"^5.0.1\",\n    \"chai\": \"^4.2.0\",\n    \"chai-as-promised\": \"^7.1.1\",\n    \"clean-webpack-plugin\": \"^0.1.18\",\n    \"copy-webpack-plugin\": \"^4.5.2\",\n    \"coveralls\": \"^3.0.2\",\n    \"dotenv\": \"^6.0.0\",\n    \"enzyme\": \"^3.6.0\",\n    \"enzyme-adapter-react-16\": \"^1.5.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.17.0\",\n    \"eslint-config-airbnb\": \"^16.1.0\",\n    \"eslint-loader\": \"^2.0.0\",\n    \"eslint-plugin-import\": \"^2.8.0\",\n    \"eslint-plugin-jsx-a11y\": \"^6.0.3\",\n    \"eslint-plugin-react\": \"^7.6.1\",\n    \"favicons-webpack-plugin\": \"^0.0.9\",\n    \"file-loader\": \"^1.1.11\",\n    \"html-webpack-plugin\": \"^3.0.6\",\n    \"http-server\": \"^0.11.1\",\n    \"jsdom\": \"11.11.0\",\n    \"jsdom-global\": \"^3.0.2\",\n    \"mocha\": \"^5.2.0\",\n    \"nock\": \"^9.6.1\",\n    \"node-sass\": \"^4.9.3\",\n    \"nodemon\": \"^1.14.12\",\n    \"nyc\": \"^13.0.1\",\n    \"sinon\": \"^6.3.4\",\n    \"sinon-chai\": \"^3.2.0\",\n    \"styled-jsx-plugin-sass\": \"^0.2.4\",\n    \"webpack\": \"^4.1.1\",\n    \"webpack-cli\": \"^3.1.2\",\n    \"webpack-dev-server\": \"^3.1.9\",\n    \"webpack-pwa-manifest\": \"^3.7.1\"\n  },\n  \"dependencies\": {\n    \"@babel/polyfill\": \"^7.0.0\",\n    \"@fortawesome/fontawesome-svg-core\": \"^1.2.4\",\n    \"@fortawesome/free-solid-svg-icons\": \"^5.3.1\",\n    \"@fortawesome/react-fontawesome\": \"^0.1.3\",\n    \"animejs\": \"^2.2.0\",\n    \"axios\": \"^0.18.0\",\n    \"color\": \"^3.0.0\",\n    \"gravatar\": \"^1.6.0\",\n    \"jsonwebtoken\": \"^8.3.0\",\n    \"lodash\": \"^4.17.10\",\n    \"prop-types\": \"^15.6.0\",\n    \"raf\": \"^3.4.0\",\n    \"react\": \"^16.5.0\",\n    \"react-dom\": \"^16.3.2\",\n    \"react-helmet\": \"^5.2.0\",\n    \"react-redux\": \"^5.0.6\",\n    \"react-router-dom\": \"^4.3.1\",\n    \"redux\": \"^4.0.0\",\n    \"redux-persist\": \"^5.10.0\",\n    \"redux-saga\": \"^0.16.0\",\n    \"styled-jsx\": \"^3.0.2\"\n  }\n}\n",
+    "longname": "/Users/ethompson/pokedex-net-client/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

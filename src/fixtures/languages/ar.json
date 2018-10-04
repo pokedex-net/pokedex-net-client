@@ -1,0 +1,13 @@
+{
+  "rtl": true,
+  "languageName": "عربى",
+  "hello": "مرحبا",
+  "langCode": "رمز اللغة:",
+  "login": "دخول",
+  "logout": "الخروج",
+  "settings": "إعدادات",
+  "notFound": "غير معثور عليه",
+  "username": "اسم المستخدم",
+  "password": "كلمه السر",
+  "cancel": "إلغاء"
+}

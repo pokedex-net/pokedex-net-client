@@ -1,0 +1,12 @@
+{
+  "languageName": "Español",
+  "hello": "Hola",
+  "langCode": "Código de Lenguaje:",
+  "login": "Iniciar",
+  "logout": "Cerrar",
+  "settings": "Ajustes",
+  "notFound": "Extraviado",
+  "username": "Usuario",
+  "password": "Contraseña",
+  "cancel": "Cancelar"
+}

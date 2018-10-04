@@ -1,0 +1,4 @@
+--recursive
+--require ./config/mocha.js
+./config/tests.js
+./src/**/test.js

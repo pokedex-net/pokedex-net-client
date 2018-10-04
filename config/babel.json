@@ -1,0 +1,19 @@
+{
+  "env": {
+    "test": {
+      "plugins": [ "istanbul", [ "styled-jsx/babel-test", {
+        "plugins": [ "styled-jsx-plugin-sass" ]
+      } ] ]
+    }
+  },
+  "plugins": [ "@babel/plugin-transform-runtime", [ "styled-jsx/babel", {
+    "plugins": [ "styled-jsx-plugin-sass" ]
+  } ] ],
+  "presets": [ "@babel/preset-react", [ "@babel/preset-env", {
+    "forceAllTransforms": true,
+    "targets": {
+      "browsers": [ "last 2 versions" ]
+    },
+    "useBuiltIns": "entry"
+  } ] ]
+}

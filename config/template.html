@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="<%= htmlWebpackPlugin.options.lang %>">
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <noscript>
+      <div class="top"></div>
+      <span><%= htmlWebpackPlugin.options.noscript %></span>
+      <div class="bottom"></div>
+
+      <style>
+        @font-face {
+          font-family: 'Roboto';
+          font-weight: 400;
+          src: url('public/fonts/Roboto-Regular.ttf') format('truetype');
+        }
+        * {
+          margin: 0px;
+          outline: 0px;
+          border: 0px;
+          padding: 0px;
+        }
+
+        html,
+        body {
+          height: 100%;
+          overflow: hidden;
+        }
+
+        body {
+          position: relative;
+          width: 100%;
+          font-family: 'Roboto', sans-serif;
+          background-color: #303030;
+          color: #FFFFFF;
+        }
+
+        noscript {
+          display: block;
+          height: 100%;
+        }
+
+        noscript > div {
+          position: relative;
+          height: 49%;
+        }
+
+        noscript > .top {
+          top: 0;
+          background-color: <%= htmlWebpackPlugin.options.brandColor %>;
+        }
+
+        noscript > .bottom {
+          bottom: 0;
+          background-color: #FFFFFF;
+        }
+
+        noscript > span {
+          display: block;
+          box-sizing: border-box;
+          width: 100%;
+          padding: 4px;
+          text-align: center;
+        }
+      </style>
+    </noscript>
+  </body>
+</html>

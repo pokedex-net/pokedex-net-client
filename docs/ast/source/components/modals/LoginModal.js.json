@@ -1,0 +1,5538 @@
+{
+  "type": "File",
+  "start": 0,
+  "end": 3332,
+  "loc": {
+    "start": {
+      "line": 1,
+      "column": 0
+    },
+    "end": {
+      "line": 115,
+      "column": 0
+    }
+  },
+  "program": {
+    "type": "Program",
+    "start": 0,
+    "end": 3332,
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 115,
+        "column": 0
+      }
+    },
+    "sourceType": "module",
+    "body": [],
+    "directives": [],
+    "leadingComments": null,
+    "innerComments": [
+      {
+        "type": "CommentLine",
+        "value": " import React, { Component } from 'react';",
+        "start": 0,
+        "end": 44,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 44
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " import { connect } from 'react-redux';",
+        "start": 45,
+        "end": 86,
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 0
+          },
+          "end": {
+            "line": 2,
+            "column": 41
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 87,
+        "end": 89,
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " import Button from '../controls/Button';",
+        "start": 90,
+        "end": 133,
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 4,
+            "column": 43
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " import languages from '../../fixtures/languages';",
+        "start": 134,
+        "end": 186,
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 52
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " import { hideModal } from '../../stores/ui/actions';",
+        "start": 187,
+        "end": 242,
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 0
+          },
+          "end": {
+            "line": 6,
+            "column": 55
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 243,
+        "end": 245,
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " /**",
+        "start": 246,
+        "end": 252,
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 8,
+            "column": 6
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "  * An error page component.",
+        "start": 253,
+        "end": 283,
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 0
+          },
+          "end": {
+            "line": 9,
+            "column": 30
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "  * @param {Object} props - Component props",
+        "start": 284,
+        "end": 329,
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": 45
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "  * @return {Array<React.Component>} returns an array of React elements",
+        "start": 330,
+        "end": 403,
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 73
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "  */",
+        "start": 404,
+        "end": 410,
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": 6
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " export class LoginModal extends Component {",
+        "start": 411,
+        "end": 457,
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   constructor() {",
+        "start": 458,
+        "end": 478,
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     super();",
+        "start": 479,
+        "end": 494,
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 15,
+            "column": 15
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 495,
+        "end": 497,
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 0
+          },
+          "end": {
+            "line": 16,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     this.state = {",
+        "start": 498,
+        "end": 519,
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 0
+          },
+          "end": {
+            "line": 17,
+            "column": 21
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "       username: '',",
+        "start": 520,
+        "end": 542,
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 0
+          },
+          "end": {
+            "line": 18,
+            "column": 22
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "       password: '',",
+        "start": 543,
+        "end": 565,
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 0
+          },
+          "end": {
+            "line": 19,
+            "column": 22
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     };",
+        "start": 566,
+        "end": 575,
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 0
+          },
+          "end": {
+            "line": 20,
+            "column": 9
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 576,
+        "end": 578,
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 0
+          },
+          "end": {
+            "line": 21,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     this.handleCancel = this.handleCancel.bind(this);",
+        "start": 579,
+        "end": 635,
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 0
+          },
+          "end": {
+            "line": 22,
+            "column": 56
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     this.handleLogin = this.handleLogin.bind(this);",
+        "start": 636,
+        "end": 690,
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 0
+          },
+          "end": {
+            "line": 23,
+            "column": 54
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   }",
+        "start": 691,
+        "end": 697,
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 0
+          },
+          "end": {
+            "line": 24,
+            "column": 6
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 698,
+        "end": 700,
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 0
+          },
+          "end": {
+            "line": 25,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   handleCancel(e) {",
+        "start": 701,
+        "end": 723,
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 0
+          },
+          "end": {
+            "line": 26,
+            "column": 22
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     e.preventDefault();",
+        "start": 724,
+        "end": 750,
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 0
+          },
+          "end": {
+            "line": 27,
+            "column": 26
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     this.props.hideModal();",
+        "start": 751,
+        "end": 781,
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 0
+          },
+          "end": {
+            "line": 28,
+            "column": 30
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   }",
+        "start": 782,
+        "end": 788,
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 0
+          },
+          "end": {
+            "line": 29,
+            "column": 6
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 789,
+        "end": 791,
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 0
+          },
+          "end": {
+            "line": 30,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   handleLogin(e) {",
+        "start": 792,
+        "end": 813,
+        "loc": {
+          "start": {
+            "line": 31,
+            "column": 0
+          },
+          "end": {
+            "line": 31,
+            "column": 21
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     e.preventDefault();",
+        "start": 814,
+        "end": 840,
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 0
+          },
+          "end": {
+            "line": 32,
+            "column": 26
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     // this.props.loginUser({ username: this.state.username, password: this.state.password });",
+        "start": 841,
+        "end": 938,
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 33,
+            "column": 97
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   }",
+        "start": 939,
+        "end": 945,
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 0
+          },
+          "end": {
+            "line": 34,
+            "column": 6
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 946,
+        "end": 948,
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   render() {",
+        "start": 949,
+        "end": 964,
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 0
+          },
+          "end": {
+            "line": 36,
+            "column": 15
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     return [",
+        "start": 965,
+        "end": 980,
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 37,
+            "column": 15
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "       <form key=\"form\" onSubmit={ this.handleLogin }>",
+        "start": 981,
+        "end": 1037,
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 0
+          },
+          "end": {
+            "line": 38,
+            "column": 56
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "         <div>",
+        "start": 1038,
+        "end": 1054,
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 0
+          },
+          "end": {
+            "line": 39,
+            "column": 16
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           <input",
+        "start": 1055,
+        "end": 1074,
+        "loc": {
+          "start": {
+            "line": 40,
+            "column": 0
+          },
+          "end": {
+            "line": 40,
+            "column": 19
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             value={ this.state.username }",
+        "start": 1075,
+        "end": 1119,
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 0
+          },
+          "end": {
+            "line": 41,
+            "column": 44
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             placeholder={ languages[this.props.lang].username }",
+        "start": 1120,
+        "end": 1186,
+        "loc": {
+          "start": {
+            "line": 42,
+            "column": 0
+          },
+          "end": {
+            "line": 42,
+            "column": 66
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             onChange={ (e) => { this.setState({ username: e.target.value }); } }",
+        "start": 1187,
+        "end": 1270,
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 0
+          },
+          "end": {
+            "line": 43,
+            "column": 83
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           />",
+        "start": 1271,
+        "end": 1286,
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 0
+          },
+          "end": {
+            "line": 44,
+            "column": 15
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           <input",
+        "start": 1287,
+        "end": 1306,
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 0
+          },
+          "end": {
+            "line": 45,
+            "column": 19
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             type=\"password\"",
+        "start": 1307,
+        "end": 1337,
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 0
+          },
+          "end": {
+            "line": 46,
+            "column": 30
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             value={ this.state.password }",
+        "start": 1338,
+        "end": 1382,
+        "loc": {
+          "start": {
+            "line": 47,
+            "column": 0
+          },
+          "end": {
+            "line": 47,
+            "column": 44
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             placeholder={ languages[this.props.lang].password }",
+        "start": 1383,
+        "end": 1449,
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 0
+          },
+          "end": {
+            "line": 48,
+            "column": 66
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             onChange={ (e) => { this.setState({ password: e.target.value }); } }",
+        "start": 1450,
+        "end": 1533,
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 0
+          },
+          "end": {
+            "line": 49,
+            "column": 83
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           />",
+        "start": 1534,
+        "end": 1549,
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 0
+          },
+          "end": {
+            "line": 50,
+            "column": 15
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "         </div>",
+        "start": 1550,
+        "end": 1567,
+        "loc": {
+          "start": {
+            "line": 51,
+            "column": 0
+          },
+          "end": {
+            "line": 51,
+            "column": 17
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 1568,
+        "end": 1570,
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 0
+          },
+          "end": {
+            "line": 52,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "         <div className=\"buttons\">",
+        "start": 1571,
+        "end": 1607,
+        "loc": {
+          "start": {
+            "line": 53,
+            "column": 0
+          },
+          "end": {
+            "line": 53,
+            "column": 36
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           <Button kind=\"flat\" onClick={ this.handleCancel }>{ languages[this.props.lang].cancel }</Button>",
+        "start": 1608,
+        "end": 1717,
+        "loc": {
+          "start": {
+            "line": 54,
+            "column": 0
+          },
+          "end": {
+            "line": 54,
+            "column": 109
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           <Button type=\"submit\">{ languages[this.props.lang].login }</Button>",
+        "start": 1718,
+        "end": 1798,
+        "loc": {
+          "start": {
+            "line": 55,
+            "column": 0
+          },
+          "end": {
+            "line": 55,
+            "column": 80
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "         </div>",
+        "start": 1799,
+        "end": 1816,
+        "loc": {
+          "start": {
+            "line": 56,
+            "column": 0
+          },
+          "end": {
+            "line": 56,
+            "column": 17
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 1817,
+        "end": 1819,
+        "loc": {
+          "start": {
+            "line": 57,
+            "column": 0
+          },
+          "end": {
+            "line": 57,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "         <style jsx>{`",
+        "start": 1820,
+        "end": 1844,
+        "loc": {
+          "start": {
+            "line": 58,
+            "column": 0
+          },
+          "end": {
+            "line": 58,
+            "column": 24
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           form {",
+        "start": 1845,
+        "end": 1864,
+        "loc": {
+          "start": {
+            "line": 59,
+            "column": 0
+          },
+          "end": {
+            "line": 59,
+            "column": 19
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             display: flex;",
+        "start": 1865,
+        "end": 1894,
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 0
+          },
+          "end": {
+            "line": 60,
+            "column": 29
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             flex-direction: column;",
+        "start": 1895,
+        "end": 1933,
+        "loc": {
+          "start": {
+            "line": 61,
+            "column": 0
+          },
+          "end": {
+            "line": 61,
+            "column": 38
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 1934,
+        "end": 1936,
+        "loc": {
+          "start": {
+            "line": 62,
+            "column": 0
+          },
+          "end": {
+            "line": 62,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             div {",
+        "start": 1937,
+        "end": 1957,
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 0
+          },
+          "end": {
+            "line": 63,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               display: flex;",
+        "start": 1958,
+        "end": 1989,
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 0
+          },
+          "end": {
+            "line": 64,
+            "column": 31
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               margin-top: 16px;",
+        "start": 1990,
+        "end": 2024,
+        "loc": {
+          "start": {
+            "line": 65,
+            "column": 0
+          },
+          "end": {
+            "line": 65,
+            "column": 34
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2025,
+        "end": 2027,
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 0
+          },
+          "end": {
+            "line": 66,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               input {",
+        "start": 2028,
+        "end": 2052,
+        "loc": {
+          "start": {
+            "line": 67,
+            "column": 0
+          },
+          "end": {
+            "line": 67,
+            "column": 24
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 box-sizing: border-box;",
+        "start": 2053,
+        "end": 2095,
+        "loc": {
+          "start": {
+            "line": 68,
+            "column": 0
+          },
+          "end": {
+            "line": 68,
+            "column": 42
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 height: 32px;",
+        "start": 2096,
+        "end": 2128,
+        "loc": {
+          "start": {
+            "line": 69,
+            "column": 0
+          },
+          "end": {
+            "line": 69,
+            "column": 32
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 margin: 0 8px;",
+        "start": 2129,
+        "end": 2162,
+        "loc": {
+          "start": {
+            "line": 70,
+            "column": 0
+          },
+          "end": {
+            "line": 70,
+            "column": 33
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2163,
+        "end": 2165,
+        "loc": {
+          "start": {
+            "line": 71,
+            "column": 0
+          },
+          "end": {
+            "line": 71,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 &:first-child {",
+        "start": 2166,
+        "end": 2200,
+        "loc": {
+          "start": {
+            "line": 72,
+            "column": 0
+          },
+          "end": {
+            "line": 72,
+            "column": 34
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;",
+        "start": 2201,
+        "end": 2287,
+        "loc": {
+          "start": {
+            "line": 73,
+            "column": 0
+          },
+          "end": {
+            "line": 73,
+            "column": 86
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 }",
+        "start": 2288,
+        "end": 2308,
+        "loc": {
+          "start": {
+            "line": 74,
+            "column": 0
+          },
+          "end": {
+            "line": 74,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2309,
+        "end": 2311,
+        "loc": {
+          "start": {
+            "line": 75,
+            "column": 0
+          },
+          "end": {
+            "line": 75,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 &:last-child {",
+        "start": 2312,
+        "end": 2345,
+        "loc": {
+          "start": {
+            "line": 76,
+            "column": 0
+          },
+          "end": {
+            "line": 76,
+            "column": 33
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;",
+        "start": 2346,
+        "end": 2432,
+        "loc": {
+          "start": {
+            "line": 77,
+            "column": 0
+          },
+          "end": {
+            "line": 77,
+            "column": 86
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 }",
+        "start": 2433,
+        "end": 2453,
+        "loc": {
+          "start": {
+            "line": 78,
+            "column": 0
+          },
+          "end": {
+            "line": 78,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               }",
+        "start": 2454,
+        "end": 2472,
+        "loc": {
+          "start": {
+            "line": 79,
+            "column": 0
+          },
+          "end": {
+            "line": 79,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2473,
+        "end": 2475,
+        "loc": {
+          "start": {
+            "line": 80,
+            "column": 0
+          },
+          "end": {
+            "line": 80,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               :global(button) {",
+        "start": 2476,
+        "end": 2510,
+        "loc": {
+          "start": {
+            "line": 81,
+            "column": 0
+          },
+          "end": {
+            "line": 81,
+            "column": 34
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 height: 32px;",
+        "start": 2511,
+        "end": 2543,
+        "loc": {
+          "start": {
+            "line": 82,
+            "column": 0
+          },
+          "end": {
+            "line": 82,
+            "column": 32
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 margin: 0 8px;",
+        "start": 2544,
+        "end": 2577,
+        "loc": {
+          "start": {
+            "line": 83,
+            "column": 0
+          },
+          "end": {
+            "line": 83,
+            "column": 33
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2578,
+        "end": 2580,
+        "loc": {
+          "start": {
+            "line": 84,
+            "column": 0
+          },
+          "end": {
+            "line": 84,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 &:first-child {",
+        "start": 2581,
+        "end": 2615,
+        "loc": {
+          "start": {
+            "line": 85,
+            "column": 0
+          },
+          "end": {
+            "line": 85,
+            "column": 34
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;",
+        "start": 2616,
+        "end": 2702,
+        "loc": {
+          "start": {
+            "line": 86,
+            "column": 0
+          },
+          "end": {
+            "line": 86,
+            "column": 86
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 }",
+        "start": 2703,
+        "end": 2723,
+        "loc": {
+          "start": {
+            "line": 87,
+            "column": 0
+          },
+          "end": {
+            "line": 87,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2724,
+        "end": 2726,
+        "loc": {
+          "start": {
+            "line": 88,
+            "column": 0
+          },
+          "end": {
+            "line": 88,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 &:last-child {",
+        "start": 2727,
+        "end": 2760,
+        "loc": {
+          "start": {
+            "line": 89,
+            "column": 0
+          },
+          "end": {
+            "line": 89,
+            "column": 33
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;",
+        "start": 2761,
+        "end": 2847,
+        "loc": {
+          "start": {
+            "line": 90,
+            "column": 0
+          },
+          "end": {
+            "line": 90,
+            "column": 86
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 }",
+        "start": 2848,
+        "end": 2868,
+        "loc": {
+          "start": {
+            "line": 91,
+            "column": 0
+          },
+          "end": {
+            "line": 91,
+            "column": 20
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               }",
+        "start": 2869,
+        "end": 2887,
+        "loc": {
+          "start": {
+            "line": 92,
+            "column": 0
+          },
+          "end": {
+            "line": 92,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 2888,
+        "end": 2890,
+        "loc": {
+          "start": {
+            "line": 93,
+            "column": 0
+          },
+          "end": {
+            "line": 93,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               &.buttons {",
+        "start": 2891,
+        "end": 2919,
+        "loc": {
+          "start": {
+            "line": 94,
+            "column": 0
+          },
+          "end": {
+            "line": 94,
+            "column": 28
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 justify-content: flex-end;",
+        "start": 2920,
+        "end": 2965,
+        "loc": {
+          "start": {
+            "line": 95,
+            "column": 0
+          },
+          "end": {
+            "line": 95,
+            "column": 45
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 text-align: right;",
+        "start": 2966,
+        "end": 3003,
+        "loc": {
+          "start": {
+            "line": 96,
+            "column": 0
+          },
+          "end": {
+            "line": 96,
+            "column": 37
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               }",
+        "start": 3004,
+        "end": 3022,
+        "loc": {
+          "start": {
+            "line": 97,
+            "column": 0
+          },
+          "end": {
+            "line": 97,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 3023,
+        "end": 3025,
+        "loc": {
+          "start": {
+            "line": 98,
+            "column": 0
+          },
+          "end": {
+            "line": 98,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               &:first-child {",
+        "start": 3026,
+        "end": 3058,
+        "loc": {
+          "start": {
+            "line": 99,
+            "column": 0
+          },
+          "end": {
+            "line": 99,
+            "column": 32
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "                 margin-top: 0;",
+        "start": 3059,
+        "end": 3092,
+        "loc": {
+          "start": {
+            "line": 100,
+            "column": 0
+          },
+          "end": {
+            "line": 100,
+            "column": 33
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "               }",
+        "start": 3093,
+        "end": 3111,
+        "loc": {
+          "start": {
+            "line": 101,
+            "column": 0
+          },
+          "end": {
+            "line": 101,
+            "column": 18
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "             }",
+        "start": 3112,
+        "end": 3128,
+        "loc": {
+          "start": {
+            "line": 102,
+            "column": 0
+          },
+          "end": {
+            "line": 102,
+            "column": 16
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "           }",
+        "start": 3129,
+        "end": 3143,
+        "loc": {
+          "start": {
+            "line": 103,
+            "column": 0
+          },
+          "end": {
+            "line": 103,
+            "column": 14
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "         `}</style>",
+        "start": 3144,
+        "end": 3165,
+        "loc": {
+          "start": {
+            "line": 104,
+            "column": 0
+          },
+          "end": {
+            "line": 104,
+            "column": 21
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "       </form>,",
+        "start": 3166,
+        "end": 3183,
+        "loc": {
+          "start": {
+            "line": 105,
+            "column": 0
+          },
+          "end": {
+            "line": 105,
+            "column": 17
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "     ];",
+        "start": 3184,
+        "end": 3193,
+        "loc": {
+          "start": {
+            "line": 106,
+            "column": 0
+          },
+          "end": {
+            "line": 106,
+            "column": 9
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   }",
+        "start": 3194,
+        "end": 3200,
+        "loc": {
+          "start": {
+            "line": 107,
+            "column": 0
+          },
+          "end": {
+            "line": 107,
+            "column": 6
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " }",
+        "start": 3201,
+        "end": 3205,
+        "loc": {
+          "start": {
+            "line": 108,
+            "column": 0
+          },
+          "end": {
+            "line": 108,
+            "column": 4
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "",
+        "start": 3206,
+        "end": 3208,
+        "loc": {
+          "start": {
+            "line": 109,
+            "column": 0
+          },
+          "end": {
+            "line": 109,
+            "column": 2
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " export default connect(state => ({",
+        "start": 3209,
+        "end": 3246,
+        "loc": {
+          "start": {
+            "line": 110,
+            "column": 0
+          },
+          "end": {
+            "line": 110,
+            "column": 37
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   lang: state.userData.settings.lang,",
+        "start": 3247,
+        "end": 3287,
+        "loc": {
+          "start": {
+            "line": 111,
+            "column": 0
+          },
+          "end": {
+            "line": 111,
+            "column": 40
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " }), {",
+        "start": 3288,
+        "end": 3296,
+        "loc": {
+          "start": {
+            "line": 112,
+            "column": 0
+          },
+          "end": {
+            "line": 112,
+            "column": 8
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": "   hideModal,",
+        "start": 3297,
+        "end": 3312,
+        "loc": {
+          "start": {
+            "line": 113,
+            "column": 0
+          },
+          "end": {
+            "line": 113,
+            "column": 15
+          }
+        }
+      },
+      {
+        "type": "CommentLine",
+        "value": " })(LoginModal);",
+        "start": 3313,
+        "end": 3331,
+        "loc": {
+          "start": {
+            "line": 114,
+            "column": 0
+          },
+          "end": {
+            "line": 114,
+            "column": 18
+          }
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "type": "CommentLine",
+      "value": " import React, { Component } from 'react';",
+      "start": 0,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import { connect } from 'react-redux';",
+      "start": 45,
+      "end": 86,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 87,
+      "end": 89,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import Button from '../controls/Button';",
+      "start": 90,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import languages from '../../fixtures/languages';",
+      "start": 134,
+      "end": 186,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import { hideModal } from '../../stores/ui/actions';",
+      "start": 187,
+      "end": 242,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 243,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " /**",
+      "start": 246,
+      "end": 252,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  * An error page component.",
+      "start": 253,
+      "end": 283,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  * @param {Object} props - Component props",
+      "start": 284,
+      "end": 329,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  * @return {Array<React.Component>} returns an array of React elements",
+      "start": 330,
+      "end": 403,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 73
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  */",
+      "start": 404,
+      "end": 410,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " export class LoginModal extends Component {",
+      "start": 411,
+      "end": 457,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   constructor() {",
+      "start": 458,
+      "end": 478,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     super();",
+      "start": 479,
+      "end": 494,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 495,
+      "end": 497,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.state = {",
+      "start": 498,
+      "end": 519,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       username: '',",
+      "start": 520,
+      "end": 542,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       password: '',",
+      "start": 543,
+      "end": 565,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     };",
+      "start": 566,
+      "end": 575,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 576,
+      "end": 578,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.handleCancel = this.handleCancel.bind(this);",
+      "start": 579,
+      "end": 635,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.handleLogin = this.handleLogin.bind(this);",
+      "start": 636,
+      "end": 690,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 691,
+      "end": 697,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 698,
+      "end": 700,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   handleCancel(e) {",
+      "start": 701,
+      "end": 723,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     e.preventDefault();",
+      "start": 724,
+      "end": 750,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.props.hideModal();",
+      "start": 751,
+      "end": 781,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 782,
+      "end": 788,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 789,
+      "end": 791,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   handleLogin(e) {",
+      "start": 792,
+      "end": 813,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     e.preventDefault();",
+      "start": 814,
+      "end": 840,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     // this.props.loginUser({ username: this.state.username, password: this.state.password });",
+      "start": 841,
+      "end": 938,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 97
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 939,
+      "end": 945,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 946,
+      "end": 948,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   render() {",
+      "start": 949,
+      "end": 964,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     return [",
+      "start": 965,
+      "end": 980,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       <form key=\"form\" onSubmit={ this.handleLogin }>",
+      "start": 981,
+      "end": 1037,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <div>",
+      "start": 1038,
+      "end": 1054,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <input",
+      "start": 1055,
+      "end": 1074,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             value={ this.state.username }",
+      "start": 1075,
+      "end": 1119,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 41,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             placeholder={ languages[this.props.lang].username }",
+      "start": 1120,
+      "end": 1186,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             onChange={ (e) => { this.setState({ username: e.target.value }); } }",
+      "start": 1187,
+      "end": 1270,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           />",
+      "start": 1271,
+      "end": 1286,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <input",
+      "start": 1287,
+      "end": 1306,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             type=\"password\"",
+      "start": 1307,
+      "end": 1337,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             value={ this.state.password }",
+      "start": 1338,
+      "end": 1382,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             placeholder={ languages[this.props.lang].password }",
+      "start": 1383,
+      "end": 1449,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             onChange={ (e) => { this.setState({ password: e.target.value }); } }",
+      "start": 1450,
+      "end": 1533,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 49,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           />",
+      "start": 1534,
+      "end": 1549,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 0
+        },
+        "end": {
+          "line": 50,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         </div>",
+      "start": 1550,
+      "end": 1567,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 1568,
+      "end": 1570,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 0
+        },
+        "end": {
+          "line": 52,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <div className=\"buttons\">",
+      "start": 1571,
+      "end": 1607,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0
+        },
+        "end": {
+          "line": 53,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <Button kind=\"flat\" onClick={ this.handleCancel }>{ languages[this.props.lang].cancel }</Button>",
+      "start": 1608,
+      "end": 1717,
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 0
+        },
+        "end": {
+          "line": 54,
+          "column": 109
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <Button type=\"submit\">{ languages[this.props.lang].login }</Button>",
+      "start": 1718,
+      "end": 1798,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 0
+        },
+        "end": {
+          "line": 55,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         </div>",
+      "start": 1799,
+      "end": 1816,
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 0
+        },
+        "end": {
+          "line": 56,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 1817,
+      "end": 1819,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 0
+        },
+        "end": {
+          "line": 57,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <style jsx>{`",
+      "start": 1820,
+      "end": 1844,
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 0
+        },
+        "end": {
+          "line": 58,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           form {",
+      "start": 1845,
+      "end": 1864,
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 0
+        },
+        "end": {
+          "line": 59,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             display: flex;",
+      "start": 1865,
+      "end": 1894,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 0
+        },
+        "end": {
+          "line": 60,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             flex-direction: column;",
+      "start": 1895,
+      "end": 1933,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 61,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 1934,
+      "end": 1936,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             div {",
+      "start": 1937,
+      "end": 1957,
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               display: flex;",
+      "start": 1958,
+      "end": 1989,
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 0
+        },
+        "end": {
+          "line": 64,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               margin-top: 16px;",
+      "start": 1990,
+      "end": 2024,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 0
+        },
+        "end": {
+          "line": 65,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2025,
+      "end": 2027,
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 0
+        },
+        "end": {
+          "line": 66,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               input {",
+      "start": 2028,
+      "end": 2052,
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 0
+        },
+        "end": {
+          "line": 67,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 box-sizing: border-box;",
+      "start": 2053,
+      "end": 2095,
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 0
+        },
+        "end": {
+          "line": 68,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 height: 32px;",
+      "start": 2096,
+      "end": 2128,
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 0
+        },
+        "end": {
+          "line": 69,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 margin: 0 8px;",
+      "start": 2129,
+      "end": 2162,
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 0
+        },
+        "end": {
+          "line": 70,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2163,
+      "end": 2165,
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 0
+        },
+        "end": {
+          "line": 71,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:first-child {",
+      "start": 2166,
+      "end": 2200,
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 0
+        },
+        "end": {
+          "line": 72,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;",
+      "start": 2201,
+      "end": 2287,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 73,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2288,
+      "end": 2308,
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 0
+        },
+        "end": {
+          "line": 74,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2309,
+      "end": 2311,
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 0
+        },
+        "end": {
+          "line": 75,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:last-child {",
+      "start": 2312,
+      "end": 2345,
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 0
+        },
+        "end": {
+          "line": 76,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;",
+      "start": 2346,
+      "end": 2432,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 0
+        },
+        "end": {
+          "line": 77,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2433,
+      "end": 2453,
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 0
+        },
+        "end": {
+          "line": 78,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 2454,
+      "end": 2472,
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 0
+        },
+        "end": {
+          "line": 79,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2473,
+      "end": 2475,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 0
+        },
+        "end": {
+          "line": 80,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               :global(button) {",
+      "start": 2476,
+      "end": 2510,
+      "loc": {
+        "start": {
+          "line": 81,
+          "column": 0
+        },
+        "end": {
+          "line": 81,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 height: 32px;",
+      "start": 2511,
+      "end": 2543,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 0
+        },
+        "end": {
+          "line": 82,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 margin: 0 8px;",
+      "start": 2544,
+      "end": 2577,
+      "loc": {
+        "start": {
+          "line": 83,
+          "column": 0
+        },
+        "end": {
+          "line": 83,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2578,
+      "end": 2580,
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:first-child {",
+      "start": 2581,
+      "end": 2615,
+      "loc": {
+        "start": {
+          "line": 85,
+          "column": 0
+        },
+        "end": {
+          "line": 85,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;",
+      "start": 2616,
+      "end": 2702,
+      "loc": {
+        "start": {
+          "line": 86,
+          "column": 0
+        },
+        "end": {
+          "line": 86,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2703,
+      "end": 2723,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 0
+        },
+        "end": {
+          "line": 87,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2724,
+      "end": 2726,
+      "loc": {
+        "start": {
+          "line": 88,
+          "column": 0
+        },
+        "end": {
+          "line": 88,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:last-child {",
+      "start": 2727,
+      "end": 2760,
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 0
+        },
+        "end": {
+          "line": 89,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;",
+      "start": 2761,
+      "end": 2847,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 0
+        },
+        "end": {
+          "line": 90,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2848,
+      "end": 2868,
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 0
+        },
+        "end": {
+          "line": 91,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 2869,
+      "end": 2887,
+      "loc": {
+        "start": {
+          "line": 92,
+          "column": 0
+        },
+        "end": {
+          "line": 92,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2888,
+      "end": 2890,
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 0
+        },
+        "end": {
+          "line": 93,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               &.buttons {",
+      "start": 2891,
+      "end": 2919,
+      "loc": {
+        "start": {
+          "line": 94,
+          "column": 0
+        },
+        "end": {
+          "line": 94,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 justify-content: flex-end;",
+      "start": 2920,
+      "end": 2965,
+      "loc": {
+        "start": {
+          "line": 95,
+          "column": 0
+        },
+        "end": {
+          "line": 95,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 text-align: right;",
+      "start": 2966,
+      "end": 3003,
+      "loc": {
+        "start": {
+          "line": 96,
+          "column": 0
+        },
+        "end": {
+          "line": 96,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 3004,
+      "end": 3022,
+      "loc": {
+        "start": {
+          "line": 97,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 3023,
+      "end": 3025,
+      "loc": {
+        "start": {
+          "line": 98,
+          "column": 0
+        },
+        "end": {
+          "line": 98,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               &:first-child {",
+      "start": 3026,
+      "end": 3058,
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 0
+        },
+        "end": {
+          "line": 99,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 margin-top: 0;",
+      "start": 3059,
+      "end": 3092,
+      "loc": {
+        "start": {
+          "line": 100,
+          "column": 0
+        },
+        "end": {
+          "line": 100,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 3093,
+      "end": 3111,
+      "loc": {
+        "start": {
+          "line": 101,
+          "column": 0
+        },
+        "end": {
+          "line": 101,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             }",
+      "start": 3112,
+      "end": 3128,
+      "loc": {
+        "start": {
+          "line": 102,
+          "column": 0
+        },
+        "end": {
+          "line": 102,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           }",
+      "start": 3129,
+      "end": 3143,
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 0
+        },
+        "end": {
+          "line": 103,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         `}</style>",
+      "start": 3144,
+      "end": 3165,
+      "loc": {
+        "start": {
+          "line": 104,
+          "column": 0
+        },
+        "end": {
+          "line": 104,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       </form>,",
+      "start": 3166,
+      "end": 3183,
+      "loc": {
+        "start": {
+          "line": 105,
+          "column": 0
+        },
+        "end": {
+          "line": 105,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     ];",
+      "start": 3184,
+      "end": 3193,
+      "loc": {
+        "start": {
+          "line": 106,
+          "column": 0
+        },
+        "end": {
+          "line": 106,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 3194,
+      "end": 3200,
+      "loc": {
+        "start": {
+          "line": 107,
+          "column": 0
+        },
+        "end": {
+          "line": 107,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }",
+      "start": 3201,
+      "end": 3205,
+      "loc": {
+        "start": {
+          "line": 108,
+          "column": 0
+        },
+        "end": {
+          "line": 108,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 3206,
+      "end": 3208,
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 0
+        },
+        "end": {
+          "line": 109,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " export default connect(state => ({",
+      "start": 3209,
+      "end": 3246,
+      "loc": {
+        "start": {
+          "line": 110,
+          "column": 0
+        },
+        "end": {
+          "line": 110,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   lang: state.userData.settings.lang,",
+      "start": 3247,
+      "end": 3287,
+      "loc": {
+        "start": {
+          "line": 111,
+          "column": 0
+        },
+        "end": {
+          "line": 111,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }), {",
+      "start": 3288,
+      "end": 3296,
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 0
+        },
+        "end": {
+          "line": 112,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   hideModal,",
+      "start": 3297,
+      "end": 3312,
+      "loc": {
+        "start": {
+          "line": 113,
+          "column": 0
+        },
+        "end": {
+          "line": 113,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " })(LoginModal);",
+      "start": 3313,
+      "end": 3331,
+      "loc": {
+        "start": {
+          "line": 114,
+          "column": 0
+        },
+        "end": {
+          "line": 114,
+          "column": 18
+        }
+      }
+    }
+  ],
+  "tokens": [
+    {
+      "type": "CommentLine",
+      "value": " import React, { Component } from 'react';",
+      "start": 0,
+      "end": 44,
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import { connect } from 'react-redux';",
+      "start": 45,
+      "end": 86,
+      "loc": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 41
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 87,
+      "end": 89,
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import Button from '../controls/Button';",
+      "start": 90,
+      "end": 133,
+      "loc": {
+        "start": {
+          "line": 4,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import languages from '../../fixtures/languages';",
+      "start": 134,
+      "end": 186,
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 52
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " import { hideModal } from '../../stores/ui/actions';",
+      "start": 187,
+      "end": 242,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 55
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 243,
+      "end": 245,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " /**",
+      "start": 246,
+      "end": 252,
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  * An error page component.",
+      "start": 253,
+      "end": 283,
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  * @param {Object} props - Component props",
+      "start": 284,
+      "end": 329,
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  * @return {Array<React.Component>} returns an array of React elements",
+      "start": 330,
+      "end": 403,
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 73
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "  */",
+      "start": 404,
+      "end": 410,
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " export class LoginModal extends Component {",
+      "start": 411,
+      "end": 457,
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 46
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   constructor() {",
+      "start": 458,
+      "end": 478,
+      "loc": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     super();",
+      "start": 479,
+      "end": 494,
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 495,
+      "end": 497,
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.state = {",
+      "start": 498,
+      "end": 519,
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       username: '',",
+      "start": 520,
+      "end": 542,
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       password: '',",
+      "start": 543,
+      "end": 565,
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     };",
+      "start": 566,
+      "end": 575,
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 576,
+      "end": 578,
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.handleCancel = this.handleCancel.bind(this);",
+      "start": 579,
+      "end": 635,
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.handleLogin = this.handleLogin.bind(this);",
+      "start": 636,
+      "end": 690,
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 54
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 691,
+      "end": 697,
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 698,
+      "end": 700,
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   handleCancel(e) {",
+      "start": 701,
+      "end": 723,
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 22
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     e.preventDefault();",
+      "start": 724,
+      "end": 750,
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     this.props.hideModal();",
+      "start": 751,
+      "end": 781,
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 782,
+      "end": 788,
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 789,
+      "end": 791,
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   handleLogin(e) {",
+      "start": 792,
+      "end": 813,
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 31,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     e.preventDefault();",
+      "start": 814,
+      "end": 840,
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     // this.props.loginUser({ username: this.state.username, password: this.state.password });",
+      "start": 841,
+      "end": 938,
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 97
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 939,
+      "end": 945,
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 946,
+      "end": 948,
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   render() {",
+      "start": 949,
+      "end": 964,
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     return [",
+      "start": 965,
+      "end": 980,
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       <form key=\"form\" onSubmit={ this.handleLogin }>",
+      "start": 981,
+      "end": 1037,
+      "loc": {
+        "start": {
+          "line": 38,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 56
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <div>",
+      "start": 1038,
+      "end": 1054,
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <input",
+      "start": 1055,
+      "end": 1074,
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 40,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             value={ this.state.username }",
+      "start": 1075,
+      "end": 1119,
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 0
+        },
+        "end": {
+          "line": 41,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             placeholder={ languages[this.props.lang].username }",
+      "start": 1120,
+      "end": 1186,
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             onChange={ (e) => { this.setState({ username: e.target.value }); } }",
+      "start": 1187,
+      "end": 1270,
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 0
+        },
+        "end": {
+          "line": 43,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           />",
+      "start": 1271,
+      "end": 1286,
+      "loc": {
+        "start": {
+          "line": 44,
+          "column": 0
+        },
+        "end": {
+          "line": 44,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <input",
+      "start": 1287,
+      "end": 1306,
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 0
+        },
+        "end": {
+          "line": 45,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             type=\"password\"",
+      "start": 1307,
+      "end": 1337,
+      "loc": {
+        "start": {
+          "line": 46,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 30
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             value={ this.state.password }",
+      "start": 1338,
+      "end": 1382,
+      "loc": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 44
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             placeholder={ languages[this.props.lang].password }",
+      "start": 1383,
+      "end": 1449,
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 66
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             onChange={ (e) => { this.setState({ password: e.target.value }); } }",
+      "start": 1450,
+      "end": 1533,
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 49,
+          "column": 83
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           />",
+      "start": 1534,
+      "end": 1549,
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 0
+        },
+        "end": {
+          "line": 50,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         </div>",
+      "start": 1550,
+      "end": 1567,
+      "loc": {
+        "start": {
+          "line": 51,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 1568,
+      "end": 1570,
+      "loc": {
+        "start": {
+          "line": 52,
+          "column": 0
+        },
+        "end": {
+          "line": 52,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <div className=\"buttons\">",
+      "start": 1571,
+      "end": 1607,
+      "loc": {
+        "start": {
+          "line": 53,
+          "column": 0
+        },
+        "end": {
+          "line": 53,
+          "column": 36
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <Button kind=\"flat\" onClick={ this.handleCancel }>{ languages[this.props.lang].cancel }</Button>",
+      "start": 1608,
+      "end": 1717,
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 0
+        },
+        "end": {
+          "line": 54,
+          "column": 109
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           <Button type=\"submit\">{ languages[this.props.lang].login }</Button>",
+      "start": 1718,
+      "end": 1798,
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 0
+        },
+        "end": {
+          "line": 55,
+          "column": 80
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         </div>",
+      "start": 1799,
+      "end": 1816,
+      "loc": {
+        "start": {
+          "line": 56,
+          "column": 0
+        },
+        "end": {
+          "line": 56,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 1817,
+      "end": 1819,
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 0
+        },
+        "end": {
+          "line": 57,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         <style jsx>{`",
+      "start": 1820,
+      "end": 1844,
+      "loc": {
+        "start": {
+          "line": 58,
+          "column": 0
+        },
+        "end": {
+          "line": 58,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           form {",
+      "start": 1845,
+      "end": 1864,
+      "loc": {
+        "start": {
+          "line": 59,
+          "column": 0
+        },
+        "end": {
+          "line": 59,
+          "column": 19
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             display: flex;",
+      "start": 1865,
+      "end": 1894,
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 0
+        },
+        "end": {
+          "line": 60,
+          "column": 29
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             flex-direction: column;",
+      "start": 1895,
+      "end": 1933,
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 61,
+          "column": 38
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 1934,
+      "end": 1936,
+      "loc": {
+        "start": {
+          "line": 62,
+          "column": 0
+        },
+        "end": {
+          "line": 62,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             div {",
+      "start": 1937,
+      "end": 1957,
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 0
+        },
+        "end": {
+          "line": 63,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               display: flex;",
+      "start": 1958,
+      "end": 1989,
+      "loc": {
+        "start": {
+          "line": 64,
+          "column": 0
+        },
+        "end": {
+          "line": 64,
+          "column": 31
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               margin-top: 16px;",
+      "start": 1990,
+      "end": 2024,
+      "loc": {
+        "start": {
+          "line": 65,
+          "column": 0
+        },
+        "end": {
+          "line": 65,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2025,
+      "end": 2027,
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 0
+        },
+        "end": {
+          "line": 66,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               input {",
+      "start": 2028,
+      "end": 2052,
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 0
+        },
+        "end": {
+          "line": 67,
+          "column": 24
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 box-sizing: border-box;",
+      "start": 2053,
+      "end": 2095,
+      "loc": {
+        "start": {
+          "line": 68,
+          "column": 0
+        },
+        "end": {
+          "line": 68,
+          "column": 42
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 height: 32px;",
+      "start": 2096,
+      "end": 2128,
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 0
+        },
+        "end": {
+          "line": 69,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 margin: 0 8px;",
+      "start": 2129,
+      "end": 2162,
+      "loc": {
+        "start": {
+          "line": 70,
+          "column": 0
+        },
+        "end": {
+          "line": 70,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2163,
+      "end": 2165,
+      "loc": {
+        "start": {
+          "line": 71,
+          "column": 0
+        },
+        "end": {
+          "line": 71,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:first-child {",
+      "start": 2166,
+      "end": 2200,
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 0
+        },
+        "end": {
+          "line": 72,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;",
+      "start": 2201,
+      "end": 2287,
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 73,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2288,
+      "end": 2308,
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 0
+        },
+        "end": {
+          "line": 74,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2309,
+      "end": 2311,
+      "loc": {
+        "start": {
+          "line": 75,
+          "column": 0
+        },
+        "end": {
+          "line": 75,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:last-child {",
+      "start": 2312,
+      "end": 2345,
+      "loc": {
+        "start": {
+          "line": 76,
+          "column": 0
+        },
+        "end": {
+          "line": 76,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;",
+      "start": 2346,
+      "end": 2432,
+      "loc": {
+        "start": {
+          "line": 77,
+          "column": 0
+        },
+        "end": {
+          "line": 77,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2433,
+      "end": 2453,
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 0
+        },
+        "end": {
+          "line": 78,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 2454,
+      "end": 2472,
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 0
+        },
+        "end": {
+          "line": 79,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2473,
+      "end": 2475,
+      "loc": {
+        "start": {
+          "line": 80,
+          "column": 0
+        },
+        "end": {
+          "line": 80,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               :global(button) {",
+      "start": 2476,
+      "end": 2510,
+      "loc": {
+        "start": {
+          "line": 81,
+          "column": 0
+        },
+        "end": {
+          "line": 81,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 height: 32px;",
+      "start": 2511,
+      "end": 2543,
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 0
+        },
+        "end": {
+          "line": 82,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 margin: 0 8px;",
+      "start": 2544,
+      "end": 2577,
+      "loc": {
+        "start": {
+          "line": 83,
+          "column": 0
+        },
+        "end": {
+          "line": 83,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2578,
+      "end": 2580,
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:first-child {",
+      "start": 2581,
+      "end": 2615,
+      "loc": {
+        "start": {
+          "line": 85,
+          "column": 0
+        },
+        "end": {
+          "line": 85,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'right' : 'left'}: 0;",
+      "start": 2616,
+      "end": 2702,
+      "loc": {
+        "start": {
+          "line": 86,
+          "column": 0
+        },
+        "end": {
+          "line": 86,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2703,
+      "end": 2723,
+      "loc": {
+        "start": {
+          "line": 87,
+          "column": 0
+        },
+        "end": {
+          "line": 87,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2724,
+      "end": 2726,
+      "loc": {
+        "start": {
+          "line": 88,
+          "column": 0
+        },
+        "end": {
+          "line": 88,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 &:last-child {",
+      "start": 2727,
+      "end": 2760,
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 0
+        },
+        "end": {
+          "line": 89,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                   margin-${(languages[this.props.lang].rtl) ? 'left' : 'right'}: 0;",
+      "start": 2761,
+      "end": 2847,
+      "loc": {
+        "start": {
+          "line": 90,
+          "column": 0
+        },
+        "end": {
+          "line": 90,
+          "column": 86
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 }",
+      "start": 2848,
+      "end": 2868,
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 0
+        },
+        "end": {
+          "line": 91,
+          "column": 20
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 2869,
+      "end": 2887,
+      "loc": {
+        "start": {
+          "line": 92,
+          "column": 0
+        },
+        "end": {
+          "line": 92,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 2888,
+      "end": 2890,
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 0
+        },
+        "end": {
+          "line": 93,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               &.buttons {",
+      "start": 2891,
+      "end": 2919,
+      "loc": {
+        "start": {
+          "line": 94,
+          "column": 0
+        },
+        "end": {
+          "line": 94,
+          "column": 28
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 justify-content: flex-end;",
+      "start": 2920,
+      "end": 2965,
+      "loc": {
+        "start": {
+          "line": 95,
+          "column": 0
+        },
+        "end": {
+          "line": 95,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 text-align: right;",
+      "start": 2966,
+      "end": 3003,
+      "loc": {
+        "start": {
+          "line": 96,
+          "column": 0
+        },
+        "end": {
+          "line": 96,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 3004,
+      "end": 3022,
+      "loc": {
+        "start": {
+          "line": 97,
+          "column": 0
+        },
+        "end": {
+          "line": 97,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 3023,
+      "end": 3025,
+      "loc": {
+        "start": {
+          "line": 98,
+          "column": 0
+        },
+        "end": {
+          "line": 98,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               &:first-child {",
+      "start": 3026,
+      "end": 3058,
+      "loc": {
+        "start": {
+          "line": 99,
+          "column": 0
+        },
+        "end": {
+          "line": 99,
+          "column": 32
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "                 margin-top: 0;",
+      "start": 3059,
+      "end": 3092,
+      "loc": {
+        "start": {
+          "line": 100,
+          "column": 0
+        },
+        "end": {
+          "line": 100,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "               }",
+      "start": 3093,
+      "end": 3111,
+      "loc": {
+        "start": {
+          "line": 101,
+          "column": 0
+        },
+        "end": {
+          "line": 101,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "             }",
+      "start": 3112,
+      "end": 3128,
+      "loc": {
+        "start": {
+          "line": 102,
+          "column": 0
+        },
+        "end": {
+          "line": 102,
+          "column": 16
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "           }",
+      "start": 3129,
+      "end": 3143,
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 0
+        },
+        "end": {
+          "line": 103,
+          "column": 14
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "         `}</style>",
+      "start": 3144,
+      "end": 3165,
+      "loc": {
+        "start": {
+          "line": 104,
+          "column": 0
+        },
+        "end": {
+          "line": 104,
+          "column": 21
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "       </form>,",
+      "start": 3166,
+      "end": 3183,
+      "loc": {
+        "start": {
+          "line": 105,
+          "column": 0
+        },
+        "end": {
+          "line": 105,
+          "column": 17
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "     ];",
+      "start": 3184,
+      "end": 3193,
+      "loc": {
+        "start": {
+          "line": 106,
+          "column": 0
+        },
+        "end": {
+          "line": 106,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   }",
+      "start": 3194,
+      "end": 3200,
+      "loc": {
+        "start": {
+          "line": 107,
+          "column": 0
+        },
+        "end": {
+          "line": 107,
+          "column": 6
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }",
+      "start": 3201,
+      "end": 3205,
+      "loc": {
+        "start": {
+          "line": 108,
+          "column": 0
+        },
+        "end": {
+          "line": 108,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "",
+      "start": 3206,
+      "end": 3208,
+      "loc": {
+        "start": {
+          "line": 109,
+          "column": 0
+        },
+        "end": {
+          "line": 109,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " export default connect(state => ({",
+      "start": 3209,
+      "end": 3246,
+      "loc": {
+        "start": {
+          "line": 110,
+          "column": 0
+        },
+        "end": {
+          "line": 110,
+          "column": 37
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   lang: state.userData.settings.lang,",
+      "start": 3247,
+      "end": 3287,
+      "loc": {
+        "start": {
+          "line": 111,
+          "column": 0
+        },
+        "end": {
+          "line": 111,
+          "column": 40
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " }), {",
+      "start": 3288,
+      "end": 3296,
+      "loc": {
+        "start": {
+          "line": 112,
+          "column": 0
+        },
+        "end": {
+          "line": 112,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": "   hideModal,",
+      "start": 3297,
+      "end": 3312,
+      "loc": {
+        "start": {
+          "line": 113,
+          "column": 0
+        },
+        "end": {
+          "line": 113,
+          "column": 15
+        }
+      }
+    },
+    {
+      "type": "CommentLine",
+      "value": " })(LoginModal);",
+      "start": 3313,
+      "end": 3331,
+      "loc": {
+        "start": {
+          "line": 114,
+          "column": 0
+        },
+        "end": {
+          "line": 114,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "eof",
+        "beforeExpr": false,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 3332,
+      "end": 3332,
+      "loc": {
+        "start": {
+          "line": 115,
+          "column": 0
+        },
+        "end": {
+          "line": 115,
+          "column": 0
+        }
+      }
+    }
+  ]
+}

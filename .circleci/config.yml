@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10.11
+    working_directory: ~/pokedex-net-client
+    steps:
+      - checkout
+      - run:
+          name: Install Dependancies
+          command: npm install
+      - run:
+          name: Run Tests & Update Coveralls
+          command: npm run cover

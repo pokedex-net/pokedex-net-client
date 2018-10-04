@@ -1,0 +1,12 @@
+{
+  "languageName": "English",
+  "hello": "Hello",
+  "langCode": "Language Code:",
+  "login": "Login",
+  "logout": "Logout",
+  "settings": "Settings",
+  "notFound": "Not Found",
+  "username": "Username",
+  "password": "Password",
+  "cancel": "Cancel"
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../../">
+  <title data-ice="title">src/components/controls/Button.js | pokedex-net-client</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Pokedex.net client application."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="pokedex-net-client"><meta property="twitter:description" content="Pokedex.net client application."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/pokedex-net/pokedex-net-client"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#actions">actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeSettings">storeSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettings">updateSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModal">hideModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModal">showModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeUi">storeUi</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetric">updateMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUi">updateUi</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-controls">components/controls</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/controls/Button.js~Button.html">Button</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-styles">styles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getStyles">getStyles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-routes">components/layout/Routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-styles">components/layout/Styles</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Styles">Styles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-svg">components/layout/svg</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/svg/Logo.js~Logo.html">Logo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homeview">components/views/HomeView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeView">HomeView</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-getStyles">getStyles</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-view">components/views/View</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/View/index.js~View.html">View</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lib-api">lib/api</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-request">request</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#lib-helpers">lib/helpers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mockStore">mockStore</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#reducers">reducers</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-settings">settings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ui">ui</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-settingsInitialState">settingsInitialState</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-uiInitialState">uiInitialState</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#sagas">sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettingsSaga">updateSettingsSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchSettings">watchSettings</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModalSaga">hideModalSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModalSaga">showModalSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUiSaga">updateUiSaga</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchHideModal">watchHideModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchShowModal">watchShowModal</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateMetric">watchUpdateMetric</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateUi">watchUpdateUi</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/components/controls/Button.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _ from &apos;lodash&apos;;
+import Color from &apos;color&apos;;
+import PropTypes from &apos;prop-types&apos;;
+import React, { Component, Fragment } from &apos;react&apos;;
+import { FontAwesomeIcon } from &apos;@fortawesome/react-fontawesome&apos;;
+import { Link, NavLink } from &apos;react-router-dom&apos;;
+import { connect } from &apos;react-redux&apos;;
+import { resolve } from &apos;styled-jsx/css&apos;;
+
+import languages from &apos;../../fixtures/languages&apos;;
+import config from &apos;../../../config&apos;;
+
+const colors = {
+  primary: new Color(config.theme.colors.primary),
+  success: new Color(config.theme.colors.success),
+  info: new Color(config.theme.colors.info),
+  warning: new Color(config.theme.colors.warning),
+  danger: new Color(config.theme.colors.danger),
+};
+
+export class Button extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      hover: false,
+    };
+
+    this.onMouseOut = this.onMouseOut.bind(this);
+    this.onMouseOver = this.onMouseOver.bind(this);
+  }
+
+  onMouseOut(e) {
+    if (this.props.onMouseOut) this.props.onMouseOut(e);
+    this.setState({ hover: false });
+  }
+
+  onMouseOver(e) {
+    if (this.props.onMouseOver) this.props.onMouseOver(e);
+    this.setState({ hover: true });
+  }
+
+  render() {
+    const size = (this.props.max &amp;&amp; !this.props.size) ? &apos;100%&apos; : `${Math.round(this.props.size)}px`;
+    const { className, styles } = resolve`
+      a,
+      button {
+        position: relative;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        box-sizing: border-box;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        min-width: ${Math.round(this.props.size)}px;
+        height: ${size};
+        width: auto;
+        border-radius: ${(this.props.max) ? 0 : 4}px;
+        padding: ${Math.round(this.props.size * 0.125)}px;
+        padding-left: ${Math.round(this.props.size * ((this.props.square) ? 0.125 : 0.25))}px;
+        padding-right: ${Math.round(this.props.size * ((this.props.square) ? 0.125 : 0.25))}px;
+        background-color: transparent;
+        font: inherit;
+        font-weight: 400;
+        font-size: ${Math.round(this.props.size * 0.5)}px;
+        line-height: ${Math.round(this.props.size * 0.5)}px;
+        text-decoration: none;
+        text-align: center;
+        color: ${(this.props.theme === &apos;light&apos; &amp;&amp; this.props.kind === &apos;flat&apos;) ? &apos;inherit&apos; : config.theme.dark.textPrimary};
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.2s ease, box-shadow 0.2s ease;
+
+        &amp;::before {
+          width: ${(this.props.safeAreaInset === &apos;left&apos;) ? &apos;var(--safe-area-inset-left)&apos; : 0};
+          content: &apos;&apos;;
+        }
+
+        &amp;::after {
+          width: ${(this.props.safeAreaInset === &apos;right&apos;) ? &apos;var(--safe-area-inset-right)&apos; : 0};
+          content: &apos;&apos;;
+        }
+
+        &amp;:hover,
+        &amp;:focus {
+          box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        }
+
+        &amp;.primary {
+          background-color: ${colors.primary};
+
+          &amp;:active {
+            background-color: ${colors.primary.darken(0.1)};
+          }
+        }
+
+        &amp;.success {
+          background-color: ${colors.success};
+
+          &amp;:active {
+            background-color: ${colors.success.darken(0.1)};
+          }
+        }
+
+        &amp;.info {
+          background-color: ${colors.info};
+
+          &amp;:active {
+            background-color: ${colors.info.darken(0.1)};
+          }
+        }
+
+        &amp;.warning {
+          background-color: ${colors.warning};
+
+          &amp;:active {
+            background-color: ${colors.warning.darken(0.1)};
+          }
+        }
+
+        &amp;.danger {
+          background-color: ${colors.danger};
+
+          &amp;:active {
+            background-color: ${colors.danger.darken(0.1)};
+          }
+        }
+
+        &amp;.flat {
+          box-shadow: none;
+          font-weight: 600;
+
+          &amp;:hover,
+          &amp;:focus {
+            box-shadow: none;
+            background-color: rgba(0, 0, 0, 0.1);
+          }
+
+          &amp;:active {
+            background-color: rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    `;
+
+    const iconStyles = resolve`
+      img {
+        width: ${Math.round(this.props.size * 0.75)}px;
+        height: ${Math.round(this.props.size * 0.75)}px;
+        margin-${(languages[this.props.lang].rtl) ? &apos;left&apos; : &apos;right&apos;}: ${Math.round(this.props.size * 0.25)}px;
+        border-radius: 4px;
+      }
+
+      svg {
+        margin-${(languages[this.props.lang].rtl) ? &apos;left&apos; : &apos;right&apos;}: ${Math.round(this.props.size * 0.25)}px;
+
+        &amp;:last-child {
+          margin: 0;
+        }
+      }
+    `;
+
+    let fill = (this.props.theme === &apos;light&apos; &amp;&amp; this.props.kind === &apos;flat&apos;) ? config.theme.light.textPrimary : config.theme.dark.textPrimary;
+    let customClass = `${className} ${this.props.kind}`;
+    let content = this.props.children;
+    let icon = null;
+
+    if (typeof this.props.children === &apos;string&apos;) content = &lt;span&gt;{ this.props.children }&lt;/span&gt;;
+    if (this.props.className) customClass += ` ${this.props.className}`;
+    if (this.props.iconColor) fill = this.props.iconColor;
+
+    const buttonProps = {
+      className: customClass,
+      disabled: this.props.disabled,
+      id: this.props.id,
+      name: this.props.name,
+      onClick: this.props.onClick,
+      onMouseOut: this.onMouseOut,
+      onMouseOver: this.onMouseOver,
+      ref: this.props.ref,
+      style: this.props.style,
+      title: this.props.title,
+      type: this.props.type,
+      value: this.props.value,
+    };
+
+    if (typeof this.props.icon === &apos;object&apos;) icon = &lt;FontAwesomeIcon className={ iconStyles.className } icon={ this.props.icon } /&gt;;
+    else if (this.props.icon) icon = &lt;this.props.icon className={ iconStyles.className } fill={ fill } morph={ this.state.hover } /&gt;;
+
+    const children = &lt;Fragment&gt;{ icon } { content }&lt;/Fragment&gt;;
+    let button = &lt;button { ...buttonProps }&gt;{ children }&lt;/button&gt;;
+
+    if (this.props.link) {
+      const linkProps = _.omit(buttonProps, [&apos;disabled&apos;, &apos;type&apos;, &apos;value&apos;]);
+
+      if (this.props.link === &apos;nav&apos;) button = &lt;NavLink to={ this.props.to } { ...linkProps }&gt;{ children }&lt;/NavLink&gt;;
+      else if (this.props.link === &apos;external&apos;) button = &lt;a href={ this.props.to } target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; { ...linkProps }&gt;{ children }&lt;/a&gt;;
+      else button = &lt;Link to={ this.props.to } { ...linkProps }&gt;{ children }&lt;/Link&gt;;
+    }
+
+    return &lt;Fragment&gt;{ button }{ styles }{ iconStyles.styles }&lt;/Fragment&gt;;
+  }
+}
+
+export default connect(state =&gt; ({
+  lang: state.settings.lang,
+  theme: state.settings.theme,
+}), null)(Button);
+
+Button.propTypes = {
+  children: PropTypes.any,
+  className: PropTypes.string,
+  disabled: PropTypes.bool,
+  icon: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
+  iconColor: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]),
+  id: PropTypes.string,
+  kind: PropTypes.oneOf([&apos;primary&apos;, &apos;success&apos;, &apos;info&apos;, &apos;warning&apos;, &apos;danger&apos;, &apos;flat&apos;]),
+  link: PropTypes.string,
+  max: PropTypes.bool,
+  name: PropTypes.string,
+  onClick: PropTypes.func,
+  onMouseOut: PropTypes.func,
+  onMouseOver: PropTypes.func,
+  ref: PropTypes.func,
+  safeAreaInset: PropTypes.string,
+  size: PropTypes.number,
+  style: PropTypes.object,
+  title: PropTypes.string,
+  to: PropTypes.string,
+  type: PropTypes.string,
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  vertical: PropTypes.bool,
+};
+
+Button.defaultProps = {
+  kind: &apos;primary&apos;,
+  size: 32,
+  type: &apos;button&apos;,
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
