@@ -3,16 +3,16 @@
 [![Version](https://badge.fury.io/gh/pokedex-net%2Fpokedex-net-client.svg)](https://github.com/pokedex-net/pokedex-net-client)
 [![Coverage](https://coveralls.io/repos/github/pokedex-net/pokedex-net-client/badge.svg?branch=master)](https://coveralls.io/github/pokedex-net/pokedex-net-client?branch=master)
 [![Documentation](https://pokedex-net.github.io/pokedex-net-client/badge.svg)](https://pokedex-net.github.io/pokedex-net-client/index.html)
-[![Build Status](https://circleci.com/gh/pokedex-net/pokedex-net-client.svg?style=svg)](https://circleci.com/gh/pokedex-net/pokedex-net-client)
-[![MIT License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://circleci.com/gh/pokedex-net/pokedex-net-client/tree/master.svg?style=svg)](https://circleci.com/gh/pokedex-net/pokedex-net-client/tree/master)
+[![CC BY-NC-SA 4.0 License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 ### Todo
 
 * Immediate
-  1. Miscellaneous
+  * Miscellaneous
     * Finish writing tests and docs
-  2. Layout
+  * Layout
     * Light/Dark Theme Switch (Toggle Element, Bottom of Sidebar)
     * Language Select (Simple Dropdown, Bottom of Sidebar)
     * Search Bar (Input & Complex Dropdown, Right Header)
@@ -23,7 +23,7 @@
     * Responsive Header & Sidebar
     * Meta Tag Clean Up
     * Mobile Testing
-  3. Functionality
+  * Functionality
     * Proper i18n Language support
       * Needs to support Redux, Redux Persist, and RTL
 * Later
