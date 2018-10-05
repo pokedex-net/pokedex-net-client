@@ -7,35 +7,6 @@
 [![CC BY-NC-SA 4.0 License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-### Todo
-
-* Immediate
-  * Miscellaneous
-    * Finish writing tests and docs
-  * Layout
-    * Light/Dark Theme Switch (Toggle Element, Bottom of Sidebar)
-    * Language Select (Simple Dropdown, Bottom of Sidebar)
-    * Search Bar (Input & Complex Dropdown, Right Header)
-    * Sub Nav
-      * Fix so that those that don't fit are hidden behind a plus button and then shown in an expanded view
-      * Remove entirely in favor of another subnav concept
-      * Remove entirely
-    * Responsive Header & Sidebar
-    * Meta Tag Clean Up
-    * Mobile Testing
-  * Functionality
-    * Proper i18n Language support
-      * Needs to support Redux, Redux Persist, and RTL
-* Later
-  * Planning
-    * Pokémon indexes/pages
-    * Attacks indexes/pages
-    * Items indexes/pages
-    * Abilities indexes/pages
-    * Berries indexes/pages
-    * Flesh out tools/info/other areas
-
-
 ## Installation
 Note: You should be using Node v10 or higher. Check your Node version with `node -v`.
 
