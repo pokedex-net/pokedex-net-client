@@ -1,6 +1,6 @@
 import Color from 'color';
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 
@@ -8,52 +8,54 @@ import Button from '../../../controls/Button';
 import Icon from '../../../controls/Icon';
 import getStyles from './styles';
 
-export class NavigationItem extends Component {
-  render() {
-    const { className, styles } = getStyles(this.props);
+import { updateUi } from '../../../../stores/ui/actions';
 
-    return (
-      <div className={ `${className} item` }>
-        <Icon className={ className } icon={ this.props.icon } fill={ this.props.color } />
+export function NavigationItem(props) {
+  const { className, styles } = getStyles(props);
 
-        <div className={ className }>
-          <span className={ className }>{ this.props.name }</span>
+  return (
+    <div className={ `${className} item` }>
+      <Icon className={ className } icon={ props.icon } fill={ props.color } />
 
-          <span className={ className }>
-            <NavLink className={ className } to={ this.props.to } />
-            <div className={ `${className} background` } />
+      <div className={ className }>
+        <span className={ className }>{ props.name }</span>
 
-            <nav className={ className }>
-              {
-                this.props.subnav.map((nav, i) => (
-                  <Button
-                    key={ i }
-                    className={ `${className} subnav` }
-                    link
-                    to={ nav.to }
-                    kind="custom"
-                    customColor={ nav.color }
-                    size={ (this.props.headerHeight / 4) }
-                    icon={ nav.icon }
-                  >
-                    { nav.name }
-                  </Button>
-                ))
-              }
-            </nav>
-          </span>
-        </div>
+        <span className={ className }>
+          <NavLink className={ className } to={ props.to } onClick={ () => { props.updateUi({ sidebarOpen: false }); } } />
+          <div className={ `${className} background` } />
 
-        { styles }
+          <nav className={ className }>
+            {
+              props.subnav.map((nav, i) => (
+                <Button
+                  key={ i }
+                  className={ `${className} subnav` }
+                  link
+                  to={ nav.to }
+                  kind="custom"
+                  customColor={ nav.color }
+                  size={ (props.headerHeight / 4) }
+                  icon={ nav.icon }
+                >
+                  { nav.name }
+                </Button>
+              ))
+            }
+          </nav>
+        </span>
       </div>
-    );
-  }
+
+      { styles }
+    </div>
+  );
 }
 
 export default connect(state => ({
   headerHeight: state.ui.metrics.headerHeight,
   lang: state.settings.lang,
-}), null)(NavigationItem);
+}), {
+  updateUi,
+})(NavigationItem);
 
 NavigationItem.propTypes = {
   color: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]).isRequired,

@@ -1,10 +1,10 @@
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import { resolve } from 'styled-jsx/css';
 
 import config from '../../../../config';
 
-export default function getStyles(props) {
-  const { className, styles } = resolve`
+export default (props) => {
+  return resolve`
     header {
       position: fixed;
       z-index: 2;
@@ -41,6 +41,4 @@ export default function getStyles(props) {
       }
     }
   `;
-
-  return { className, styles };
-}
+};

@@ -108,7 +108,7 @@
     "react": "^16.5.0",
     "react-dom": "^16.3.2",
     "react-helmet": "^5.2.0",
-    "react-redux": "^5.0.6",
+    "react-redux": "^6.0.0-alpha.2a2f108",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.0",
     "redux-persist": "^5.10.0",

@@ -8,9 +8,6 @@ import languages from '../../../../fixtures/languages';
 /**
  * A header shape component that displays the header curve svg.
  * @param {Object} props - React Component props.
- * @param {string} props.headerHeight - The header height metric mapped from Redux store.
- * @param {string} props.lang - Language identifier mapped from Redux store.
- * @param {string} props.windowWidth - The window width metric mapped from Redux store.
  * @return {React.Component}
  */
 export function HeaderShape({ headerHeight, lang, windowWidth }) {
@@ -41,4 +38,4 @@ export default connect(state => ({
   headerHeight: state.ui.metrics.headerHeight,
   lang: state.settings.lang,
   windowWidth: state.ui.metrics.windowWidth,
-}), null)(HeaderShape);
+}))(HeaderShape);

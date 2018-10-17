@@ -11,7 +11,6 @@ import languages from '../../../fixtures/languages';
 /**
  * A component to handle all routes in the application.
  * @param {Object} props - React Component props.
- * @param {string} props.location - Location object from React Router.
  * @return {React.Component}
  */
 export function Routes({ location }) {

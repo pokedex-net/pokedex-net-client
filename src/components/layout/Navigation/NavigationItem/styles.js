@@ -1,10 +1,10 @@
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import { resolve } from 'styled-jsx/css';
 
 import languages from '../../../../fixtures/languages';
 
-export default function getStyles(props) {
-  const { className, styles } = resolve`
+export default (props) => {
+  return resolve`
     .item {
       flex: 0 0 auto;
       position: relative;
@@ -12,8 +12,6 @@ export default function getStyles(props) {
       align-items: center;
       align-content: center;
       box-sizing: border-box;
-      /* overflow: hidden;
-      overflow-y: visible; */
       width: 100%;
       height: ${props.headerHeight}px;
       padding: ${Math.round(props.headerHeight * 0.125)}px;
@@ -105,6 +103,4 @@ export default function getStyles(props) {
       }
     }
   `;
-
-  return { className, styles };
-}
+};

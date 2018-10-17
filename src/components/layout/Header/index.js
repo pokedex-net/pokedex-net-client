@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { connect } from 'react-redux';
 
 import Button from '../../controls/Button';
@@ -15,9 +15,6 @@ import menu from '../../../fixtures/icons/menu';
 /**
  * A header layout component that displays the logo/sidebar toggle.
  * @param {Object} props - React Component props.
- * @param {string} props.headerHeight - The header height metric mapped from Redux store.
- * @param {string} props.sidebarOpen - ???
- * @param {string} props.updateUi - ???
  * @return {React.Component}
  */
 export function Header(props) {
@@ -29,13 +26,14 @@ export function Header(props) {
 
       <div className={ className }>
         <Button
-          kind="flat"
           sharp
+          kind="flat"
           icon={ logo }
           iconMorph={ menu }
-          hoverLock={ props.sidebarOpen }
           safeAreaInset="left"
+          ref={ props.forwardedRef }
           size={ props.headerHeight }
+          hoverLock={ props.sidebarOpen }
           iconColor={ config.theme.dark.textPrimary }
           onClick={ () => { props.updateUi({ sidebarOpen: !props.sidebarOpen }); } }
           style={ { padding: `${Math.round(props.headerHeight * (1 / 6))}px`, fontSize: `${Math.round(props.headerHeight * (2 / 3))}px` } }
@@ -56,4 +54,6 @@ export default connect(state => ({
   sidebarOpen: state.ui.sidebarOpen,
 }), {
   updateUi,
-})(Header);
+}, null, {
+  forwardRef: true,
+})(forwardRef((props, ref) => <Header { ...props } forwardedRef={ ref } />));

@@ -1,16 +1,16 @@
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import { resolve } from 'styled-jsx/css';
 
 import config from '../../../../config';
 import languages from '../../../fixtures/languages';
 
-export default function getStyles(props) {
+export default (props) => {
   let width = ((props.windowWidth / 3) - props.headerHeight);
 
   if (width < props.headerHeight) width = props.headerHeight;
   if (width > (props.headerHeight * 4)) width = (props.headerHeight * 4);
 
-  const { className, styles } = resolve`
+  return resolve`
     div {
       position: absolute;
       display: flex;
@@ -54,6 +54,4 @@ export default function getStyles(props) {
       }
     }
   `;
-
-  return { className, styles };
-}
+};

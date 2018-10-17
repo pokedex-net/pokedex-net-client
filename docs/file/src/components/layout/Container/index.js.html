@@ -34,11 +34,9 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header-headershape">components/layout/Header/HeaderShape</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-modal">components/layout/Modal</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Modal/index.js~Modal.html">Modal</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Navigation/NavigationItem/index.js~NavigationItem.html">NavigationItem</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-NavigationItem">NavigationItem</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-routes">components/layout/Routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-styles">components/layout/Styles</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Styles">Styles</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homeview">components/views/HomeView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeView">HomeView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-view">components/views/View</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/View/index.js~View.html">View</a></span></span></li>
@@ -80,11 +78,10 @@ import { Helmet } from &apos;react-helmet&apos;;
 import Header from &apos;../Header&apos;;
 import Navigation from &apos;../Navigation&apos;;
 import Routes from &apos;../Routes&apos;;
-// import Modal from &apos;../Modal&apos;;
-import Styles from &apos;../Styles&apos;;
+import getGlobalStyles from &apos;../../../styles&apos;;
 import getStyles from &apos;./styles&apos;;
 
-import { updateMetric } from &apos;../../../stores/ui/actions&apos;;
+import { updateMetric, updateUi } from &apos;../../../stores/ui/actions&apos;;
 
 import config from &apos;../../../../config&apos;;
 import languages from &apos;../../../fixtures/languages&apos;;
@@ -98,7 +95,10 @@ export class Container extends Component {
   constructor() {
     super();
 
+    this.refNav = React.createRef();
+    this.refNavButton = React.createRef();
     this.updateWidth = this.updateWidth.bind(this);
+    this.handleClickOutsideNav = this.handleClickOutsideNav.bind(this);
   }
 
   /**
@@ -109,11 +109,21 @@ export class Container extends Component {
     this.props.updateMetric({ windowWidth: window.innerWidth });
   }
 
+  handleClickOutsideNav(e) {
+    const sidebar = this.refNav.current;
+    const button = this.refNavButton.current;
+
+    if (sidebar &amp;&amp; button &amp;&amp; !sidebar.contains(e.target) &amp;&amp; !button.contains(e.target)) {
+      this.props.updateUi({ sidebarOpen: false });
+    }
+  }
+
   /**
    * Renders a React Fragment containing all other layout components.
    * @returns {React.Fragment}
    */
   render() {
+    const globalStyles = getGlobalStyles(this.props);
     const { className, styles } = getStyles(this.props);
 
     return (
@@ -123,17 +133,15 @@ export class Container extends Component {
           &lt;meta name=&quot;apple-mobile-web-app-status-bar-style&quot; content={ (this.props.theme === &apos;dark&apos;) ? &apos;black&apos; : &apos;white&apos; } /&gt;
         &lt;/Helmet&gt;
 
-        &lt;Header /&gt;
-        &lt;Navigation /&gt;
+        &lt;Header ref={ this.refNavButton } /&gt;
+        &lt;Navigation ref={ this.refNav } /&gt;
 
         &lt;div className={ (this.props.sidebarOpen) ? `${className} sidebar-open` : className }&gt;
           &lt;main className={ className }&gt;&lt;Routes /&gt;&lt;/main&gt;
           &lt;footer className={ className }&gt;{ languages[this.props.lang].langCode } { this.props.lang }&lt;/footer&gt;
         &lt;/div&gt;
 
-        {/* &lt;Modal /&gt; */}
-        &lt;Styles /&gt;
-
+        { globalStyles }
         { styles }
       &lt;/Fragment&gt;
     );
@@ -145,6 +153,7 @@ export class Container extends Component {
    */
   componentDidMount() {
     window.addEventListener(&apos;resize&apos;, this.updateWidth);
+    document.addEventListener(&apos;mousedown&apos;, this.handleClickOutsideNav);
     this.updateWidth();
   }
 
@@ -154,6 +163,7 @@ export class Container extends Component {
    */
   componentWillUnmount() {
     window.removeEventListener(&apos;resize&apos;, this.updateWidth);
+    document.removeEventListener(&apos;mousedown&apos;, this.handleClickOutsideNav);
   }
 }
 
@@ -165,6 +175,7 @@ export default withRouter(connect(state =&gt; ({
   windowWidth: state.ui.metrics.windowWidth,
 }), {
   updateMetric,
+  updateUi,
 })(Container));
 </code></pre>
 

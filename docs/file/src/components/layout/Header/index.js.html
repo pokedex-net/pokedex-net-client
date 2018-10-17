@@ -34,11 +34,9 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header-headershape">components/layout/Header/HeaderShape</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-modal">components/layout/Modal</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Modal/index.js~Modal.html">Modal</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Navigation/NavigationItem/index.js~NavigationItem.html">NavigationItem</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-NavigationItem">NavigationItem</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-routes">components/layout/Routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-styles">components/layout/Styles</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Styles">Styles</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homeview">components/views/HomeView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeView">HomeView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-view">components/views/View</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/View/index.js~View.html">View</a></span></span></li>
@@ -72,7 +70,7 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/components/layout/Header/index.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &apos;react&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React, { forwardRef } from &apos;react&apos;;
 import { connect } from &apos;react-redux&apos;;
 
 import Button from &apos;../../controls/Button&apos;;
@@ -89,9 +87,6 @@ import menu from &apos;../../../fixtures/icons/menu&apos;;
 /**
  * A header layout component that displays the logo/sidebar toggle.
  * @param {Object} props - React Component props.
- * @param {string} props.headerHeight - The header height metric mapped from Redux store.
- * @param {string} props.sidebarOpen - ???
- * @param {string} props.updateUi - ???
  * @return {React.Component}
  */
 export function Header(props) {
@@ -103,13 +98,14 @@ export function Header(props) {
 
       &lt;div className={ className }&gt;
         &lt;Button
-          kind=&quot;flat&quot;
           sharp
+          kind=&quot;flat&quot;
           icon={ logo }
           iconMorph={ menu }
-          hoverLock={ props.sidebarOpen }
           safeAreaInset=&quot;left&quot;
+          ref={ props.forwardedRef }
           size={ props.headerHeight }
+          hoverLock={ props.sidebarOpen }
           iconColor={ config.theme.dark.textPrimary }
           onClick={ () =&gt; { props.updateUi({ sidebarOpen: !props.sidebarOpen }); } }
           style={ { padding: `${Math.round(props.headerHeight * (1 / 6))}px`, fontSize: `${Math.round(props.headerHeight * (2 / 3))}px` } }
@@ -130,7 +126,9 @@ export default connect(state =&gt; ({
   sidebarOpen: state.ui.sidebarOpen,
 }), {
   updateUi,
-})(Header);
+}, null, {
+  forwardRef: true,
+})(forwardRef((props, ref) =&gt; &lt;Header { ...props } forwardedRef={ ref } /&gt;));
 </code></pre>
 
 </div>

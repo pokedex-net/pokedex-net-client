@@ -1,5 +1,5 @@
 import Color from 'color';
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import { resolve } from 'styled-jsx/css';
 
 import config from '../../../../config';
@@ -13,8 +13,8 @@ const colors = {
   danger: new Color(config.theme.colors.danger),
 };
 
-export default function getStyles(props) {
-  const { className, styles } = resolve`
+export default (props) => {
+  return resolve`
     a,
     button {
       position: relative;
@@ -127,6 +127,4 @@ export default function getStyles(props) {
       }
     }
   `;
-
-  return { className, styles };
-}
+};

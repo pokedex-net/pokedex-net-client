@@ -34,11 +34,9 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header-headershape">components/layout/Header/HeaderShape</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-modal">components/layout/Modal</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Modal/index.js~Modal.html">Modal</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Navigation/NavigationItem/index.js~NavigationItem.html">NavigationItem</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-NavigationItem">NavigationItem</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-routes">components/layout/Routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-styles">components/layout/Styles</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Styles">Styles</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homeview">components/views/HomeView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeView">HomeView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-view">components/views/View</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/View/index.js~View.html">View</a></span></span></li>
@@ -75,7 +73,7 @@
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _ from &apos;lodash&apos;;
 import Color from &apos;color&apos;;
 import PropTypes from &apos;prop-types&apos;;
-import React, { Component, Fragment } from &apos;react&apos;;
+import React, { Component, Fragment, forwardRef } from &apos;react&apos;;
 import { FontAwesomeIcon } from &apos;@fortawesome/react-fontawesome&apos;;
 import { Link } from &apos;react-router-dom&apos;;
 import { connect } from &apos;react-redux&apos;;
@@ -145,7 +143,6 @@ export class Button extends Component {
       onClick: this.props.onClick,
       onMouseOut: this.onMouseOut,
       onMouseOver: this.onMouseOver,
-      ref: this.props.ref,
       style: this.props.style,
       title: this.props.title,
       type: this.props.type,
@@ -163,13 +160,13 @@ export class Button extends Component {
     else if (this.props.icon) icon = &lt;FontAwesomeIcon { ...iconProps } /&gt;;
 
     const children = &lt;Fragment&gt;{ icon } { content }&lt;/Fragment&gt;;
-    let button = &lt;button { ...buttonProps }&gt;{ children }&lt;/button&gt;;
+    let button = &lt;button ref={ this.props.forwardedRef } { ...buttonProps }&gt;{ children }&lt;/button&gt;;
 
     if (this.props.link) {
       const linkProps = _.omit(buttonProps, [&apos;disabled&apos;, &apos;type&apos;, &apos;value&apos;]);
 
-      if (this.props.link === &apos;external&apos;) button = &lt;a href={ this.props.to } target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; { ...linkProps }&gt;{ children }&lt;/a&gt;;
-      else button = &lt;Link to={ this.props.to } { ...linkProps }&gt;{ children }&lt;/Link&gt;;
+      if (this.props.link === &apos;external&apos;) button = &lt;a ref={ this.props.forwardedRef } href={ this.props.to } target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; { ...linkProps }&gt;{ children }&lt;/a&gt;;
+      else button = &lt;Link ref={ this.props.forwardedRef } to={ this.props.to } { ...linkProps }&gt;{ children }&lt;/Link&gt;;
     }
 
     return &lt;Fragment&gt;{ button }{ styles }&lt;/Fragment&gt;;
@@ -179,7 +176,9 @@ export class Button extends Component {
 export default connect(state =&gt; ({
   lang: state.settings.lang,
   theme: state.settings.theme,
-}), null)(Button);
+}), null, null, {
+  forwardRef: true,
+})(forwardRef((props, ref) =&gt; &lt;Button { ...props } forwardedRef={ ref } /&gt;));
 
 Button.propTypes = {
   children: PropTypes.any,
@@ -197,7 +196,6 @@ Button.propTypes = {
   onClick: PropTypes.func,
   onMouseOut: PropTypes.func,
   onMouseOver: PropTypes.func,
-  ref: PropTypes.func,
   sharp: PropTypes.bool,
   size: PropTypes.number,
   style: PropTypes.object,

@@ -1,11 +1,9 @@
 import Color from 'color';
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { connect } from 'react-redux';
 
 import NavigationItem from './NavigationItem';
 import getStyles from './styles';
-
-import { updateMetric } from '../../../stores/ui/actions';
 
 import config from '../../../../config';
 import logo from '../../../fixtures/icons/logo';
@@ -13,13 +11,7 @@ import menu from '../../../fixtures/icons/menu';
 
 /**
  * A navigation layout component that links to the main areas of the application.
- * @param {Object} props - React Component props.
- * @param {string} props.headerHeight - Header height mapped from Redux store.
- * @param {string} props.lang - ???
- * @param {string} props.sidebarOpen - ???
- * @param {string} props.sidebarWidth - ???
- * @param {string} props.windowWidth - ???
- * @return {React.Component}
+ * @extends {React.Component}
  */
 export function Navigation(props) {
   const { className, styles } = getStyles(props);
@@ -46,12 +38,15 @@ export function Navigation(props) {
   ];
 
   return (
-    <div className={ (props.sidebarOpen) ? `${containerClass} open` : containerClass }>
+    <div ref={ props.forwardedRef } className={ (props.sidebarOpen) ? `${containerClass} open` : containerClass }>
       <nav className={ className }>
         { links.map((link, i) => <NavigationItem key={ i } { ...link } />) }
       </nav>
 
-      <div className={ className } />
+      <div className={ className }>
+        {/* toggles go here */}
+      </div>
+
       { styles }
     </div>
   );
@@ -63,6 +58,6 @@ export default connect(state => ({
   sidebarOpen: state.ui.sidebarOpen,
   sidebarWidth: state.ui.metrics.sidebarWidth,
   windowWidth: state.ui.metrics.windowWidth,
-}), {
-  updateMetric,
-})(Navigation);
+}), null, null, {
+  forwardRef: true,
+})(forwardRef((props, ref) => <Navigation { ...props } forwardedRef={ ref } />));

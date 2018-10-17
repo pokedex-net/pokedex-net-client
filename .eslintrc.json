@@ -1,14 +1,14 @@
 {
-  "env": {
-    "browser": true
-  },
+  "env": { "browser": true },
   "extends": "airbnb/base",
   "overrides": [
     {
-      "env": {
-        "mocha": true,
-        "node": true
-      },
+      "env": { "browser": true },
+      "files": [ "styles.js" ],
+      "rules": { "no-unused-vars": 0 }
+    },
+    {
+      "env": { "mocha": true, "node": true },
       "files": [ "test.js", "config/tests.js" ],
       "rules": {
         "func-names": 0,
@@ -27,17 +27,10 @@
       "devDependencies": [ "**/*.test.js", "**/test.js", "config/mocha.js", "config/tests.js", "config/webpack.js" ]
     }],
     "import/no-named-as-default": [0],
-    "indent": [ "error", 2, {
-      "MemberExpression": 1,
-      "SwitchCase": 1
-    }],
+    "indent": [ "error", 2, { "MemberExpression": 1, "SwitchCase": 1 }],
     "max-len": "off",
     "no-underscore-dangle": 0,
-    "object-curly-newline": [ "error", {
-      "multiline": true,
-      "minProperties": 10,
-      "consistent": true
-    }],
+    "object-curly-newline": [ "error", { "multiline": true, "minProperties": 10, "consistent": true }],
     "prefer-arrow-callback": 0,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,

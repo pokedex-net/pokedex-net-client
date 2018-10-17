@@ -14,7 +14,6 @@ import logo from '../../../fixtures/icons/logo';
 /**
  * A home page component showcasing WIP components.
  * @param {Object} props - React Component props.
- * @param {string} props.lang - Language identifier mapped from Redux store.
  * @return {React.Fragment}
  */
 export function HomeView(props) {

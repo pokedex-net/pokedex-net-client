@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import Color from 'color';
 import PropTypes from 'prop-types';
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment, forwardRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -71,7 +71,6 @@ export class Button extends Component {
       onClick: this.props.onClick,
       onMouseOut: this.onMouseOut,
       onMouseOver: this.onMouseOver,
-      ref: this.props.ref,
       style: this.props.style,
       title: this.props.title,
       type: this.props.type,
@@ -89,13 +88,13 @@ export class Button extends Component {
     else if (this.props.icon) icon = <FontAwesomeIcon { ...iconProps } />;
 
     const children = <Fragment>{ icon } { content }</Fragment>;
-    let button = <button { ...buttonProps }>{ children }</button>;
+    let button = <button ref={ this.props.forwardedRef } { ...buttonProps }>{ children }</button>;
 
     if (this.props.link) {
       const linkProps = _.omit(buttonProps, ['disabled', 'type', 'value']);
 
-      if (this.props.link === 'external') button = <a href={ this.props.to } target="_blank" rel="noopener noreferrer" { ...linkProps }>{ children }</a>;
-      else button = <Link to={ this.props.to } { ...linkProps }>{ children }</Link>;
+      if (this.props.link === 'external') button = <a ref={ this.props.forwardedRef } href={ this.props.to } target="_blank" rel="noopener noreferrer" { ...linkProps }>{ children }</a>;
+      else button = <Link ref={ this.props.forwardedRef } to={ this.props.to } { ...linkProps }>{ children }</Link>;
     }
 
     return <Fragment>{ button }{ styles }</Fragment>;
@@ -105,7 +104,9 @@ export class Button extends Component {
 export default connect(state => ({
   lang: state.settings.lang,
   theme: state.settings.theme,
-}), null)(Button);
+}), null, null, {
+  forwardRef: true,
+})(forwardRef((props, ref) => <Button { ...props } forwardedRef={ ref } />));
 
 Button.propTypes = {
   children: PropTypes.any,
@@ -123,7 +124,6 @@ Button.propTypes = {
   onClick: PropTypes.func,
   onMouseOut: PropTypes.func,
   onMouseOver: PropTypes.func,
-  ref: PropTypes.func,
   sharp: PropTypes.bool,
   size: PropTypes.number,
   style: PropTypes.object,

@@ -34,11 +34,9 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header-headershape">components/layout/Header/HeaderShape</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-modal">components/layout/Modal</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Modal/index.js~Modal.html">Modal</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Navigation/NavigationItem/index.js~NavigationItem.html">NavigationItem</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-NavigationItem">NavigationItem</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-routes">components/layout/Routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-styles">components/layout/Styles</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Styles">Styles</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-homeview">components/views/HomeView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HomeView">HomeView</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-view">components/views/View</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/views/View/index.js~View.html">View</a></span></span></li>
@@ -74,7 +72,7 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/components/layout/Navigation/NavigationItem/index.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Color from &apos;color&apos;;
 import PropTypes from &apos;prop-types&apos;;
-import React, { Component } from &apos;react&apos;;
+import React from &apos;react&apos;;
 import { NavLink } from &apos;react-router-dom&apos;;
 import { connect } from &apos;react-redux&apos;;
 
@@ -82,52 +80,54 @@ import Button from &apos;../../../controls/Button&apos;;
 import Icon from &apos;../../../controls/Icon&apos;;
 import getStyles from &apos;./styles&apos;;
 
-export class NavigationItem extends Component {
-  render() {
-    const { className, styles } = getStyles(this.props);
+import { updateUi } from &apos;../../../../stores/ui/actions&apos;;
 
-    return (
-      &lt;div className={ `${className} item` }&gt;
-        &lt;Icon className={ className } icon={ this.props.icon } fill={ this.props.color } /&gt;
+export function NavigationItem(props) {
+  const { className, styles } = getStyles(props);
 
-        &lt;div className={ className }&gt;
-          &lt;span className={ className }&gt;{ this.props.name }&lt;/span&gt;
+  return (
+    &lt;div className={ `${className} item` }&gt;
+      &lt;Icon className={ className } icon={ props.icon } fill={ props.color } /&gt;
 
-          &lt;span className={ className }&gt;
-            &lt;NavLink className={ className } to={ this.props.to } /&gt;
-            &lt;div className={ `${className} background` } /&gt;
+      &lt;div className={ className }&gt;
+        &lt;span className={ className }&gt;{ props.name }&lt;/span&gt;
 
-            &lt;nav className={ className }&gt;
-              {
-                this.props.subnav.map((nav, i) =&gt; (
-                  &lt;Button
-                    key={ i }
-                    className={ `${className} subnav` }
-                    link
-                    to={ nav.to }
-                    kind=&quot;custom&quot;
-                    customColor={ nav.color }
-                    size={ (this.props.headerHeight / 4) }
-                    icon={ nav.icon }
-                  &gt;
-                    { nav.name }
-                  &lt;/Button&gt;
-                ))
-              }
-            &lt;/nav&gt;
-          &lt;/span&gt;
-        &lt;/div&gt;
+        &lt;span className={ className }&gt;
+          &lt;NavLink className={ className } to={ props.to } onClick={ () =&gt; { props.updateUi({ sidebarOpen: false }); } } /&gt;
+          &lt;div className={ `${className} background` } /&gt;
 
-        { styles }
+          &lt;nav className={ className }&gt;
+            {
+              props.subnav.map((nav, i) =&gt; (
+                &lt;Button
+                  key={ i }
+                  className={ `${className} subnav` }
+                  link
+                  to={ nav.to }
+                  kind=&quot;custom&quot;
+                  customColor={ nav.color }
+                  size={ (props.headerHeight / 4) }
+                  icon={ nav.icon }
+                &gt;
+                  { nav.name }
+                &lt;/Button&gt;
+              ))
+            }
+          &lt;/nav&gt;
+        &lt;/span&gt;
       &lt;/div&gt;
-    );
-  }
+
+      { styles }
+    &lt;/div&gt;
+  );
 }
 
 export default connect(state =&gt; ({
   headerHeight: state.ui.metrics.headerHeight,
   lang: state.settings.lang,
-}), null)(NavigationItem);
+}), {
+  updateUi,
+})(NavigationItem);
 
 NavigationItem.propTypes = {
   color: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]).isRequired,

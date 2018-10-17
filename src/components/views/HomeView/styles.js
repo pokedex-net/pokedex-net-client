@@ -1,10 +1,10 @@
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import { resolve } from 'styled-jsx/css';
 
 import languages from '../../../fixtures/languages';
 
-export default function getStyles(props) {
-  const { className, styles } = resolve`
+export default (props) => {
+  return resolve`
     h2 {
       margin: 20px 0 10px;
     }
@@ -20,6 +20,4 @@ export default function getStyles(props) {
       display: flex;
     }
   `;
-
-  return { className, styles };
-}
+};

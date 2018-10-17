@@ -42,12 +42,6 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "pokedex-net-client/src/components/layout/modal/index.js~modal",
-    "class/src/components/layout/Modal/index.js~Modal.html",
-    "<span>Modal</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Modal/index.js</span>",
-    "class"
-  ],
-  [
     "pokedex-net-client/src/components/layout/navigation/index.js~navigation",
     "function/index.html#static-function-Navigation",
     "<span>Navigation</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Navigation/index.js</span>",
@@ -55,20 +49,14 @@ window.esdocSearchIndex = [
   ],
   [
     "pokedex-net-client/src/components/layout/navigation/navigationitem/index.js~navigationitem",
-    "class/src/components/layout/Navigation/NavigationItem/index.js~NavigationItem.html",
+    "function/index.html#static-function-NavigationItem",
     "<span>NavigationItem</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Navigation/NavigationItem/index.js</span>",
-    "class"
+    "function"
   ],
   [
     "pokedex-net-client/src/components/layout/routes/index.js~routes",
     "function/index.html#static-function-Routes",
     "<span>Routes</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Routes/index.js</span>",
-    "function"
-  ],
-  [
-    "pokedex-net-client/src/components/layout/styles/index.js~styles",
-    "function/index.html#static-function-Styles",
-    "<span>Styles</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Styles/index.js</span>",
     "function"
   ],
   [
@@ -582,12 +570,6 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/components/controls/usermenu.js",
-    "file/src/components/controls/UserMenu.js.html",
-    "src/components/controls/UserMenu.js",
-    "file"
-  ],
-  [
     "src/components/layout/container/index.js",
     "file/src/components/layout/Container/index.js.html",
     "src/components/layout/Container/index.js",
@@ -610,6 +592,24 @@ window.esdocSearchIndex = [
     "class/src/components/layout/Container/index.js~Container.html#instance-constructor-constructor",
     "src/components/layout/Container/index.js~Container#constructor",
     "method"
+  ],
+  [
+    "src/components/layout/container/index.js~container#handleclickoutsidenav",
+    "class/src/components/layout/Container/index.js~Container.html#instance-method-handleClickOutsideNav",
+    "src/components/layout/Container/index.js~Container#handleClickOutsideNav",
+    "method"
+  ],
+  [
+    "src/components/layout/container/index.js~container#refnav",
+    "class/src/components/layout/Container/index.js~Container.html#instance-member-refNav",
+    "src/components/layout/Container/index.js~Container#refNav",
+    "member"
+  ],
+  [
+    "src/components/layout/container/index.js~container#refnavbutton",
+    "class/src/components/layout/Container/index.js~Container.html#instance-member-refNavButton",
+    "src/components/layout/Container/index.js~Container#refNavButton",
+    "member"
   ],
   [
     "src/components/layout/container/index.js~container#render",
@@ -636,58 +636,10 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/components/layout/modal/index.js",
-    "file/src/components/layout/Modal/index.js.html",
-    "src/components/layout/Modal/index.js",
-    "file"
-  ],
-  [
-    "src/components/layout/modal/index.js~modal#componentdidmount",
-    "class/src/components/layout/Modal/index.js~Modal.html#instance-method-componentDidMount",
-    "src/components/layout/Modal/index.js~Modal#componentDidMount",
-    "method"
-  ],
-  [
-    "src/components/layout/modal/index.js~modal#componentwillmount",
-    "class/src/components/layout/Modal/index.js~Modal.html#instance-method-componentWillMount",
-    "src/components/layout/Modal/index.js~Modal#componentWillMount",
-    "method"
-  ],
-  [
-    "src/components/layout/modal/index.js~modal#constructor",
-    "class/src/components/layout/Modal/index.js~Modal.html#instance-constructor-constructor",
-    "src/components/layout/Modal/index.js~Modal#constructor",
-    "method"
-  ],
-  [
-    "src/components/layout/modal/index.js~modal#handleclickoutside",
-    "class/src/components/layout/Modal/index.js~Modal.html#instance-method-handleClickOutside",
-    "src/components/layout/Modal/index.js~Modal#handleClickOutside",
-    "method"
-  ],
-  [
-    "src/components/layout/modal/index.js~modal#modalref",
-    "class/src/components/layout/Modal/index.js~Modal.html#instance-member-modalRef",
-    "src/components/layout/Modal/index.js~Modal#modalRef",
-    "member"
-  ],
-  [
-    "src/components/layout/modal/index.js~modal#render",
-    "class/src/components/layout/Modal/index.js~Modal.html#instance-method-render",
-    "src/components/layout/Modal/index.js~Modal#render",
-    "method"
-  ],
-  [
     "src/components/layout/navigation/navigationitem/index.js",
     "file/src/components/layout/Navigation/NavigationItem/index.js.html",
     "src/components/layout/Navigation/NavigationItem/index.js",
     "file"
-  ],
-  [
-    "src/components/layout/navigation/navigationitem/index.js~navigationitem#render",
-    "class/src/components/layout/Navigation/NavigationItem/index.js~NavigationItem.html#instance-method-render",
-    "src/components/layout/Navigation/NavigationItem/index.js~NavigationItem#render",
-    "method"
   ],
   [
     "src/components/layout/navigation/index.js",
@@ -699,18 +651,6 @@ window.esdocSearchIndex = [
     "src/components/layout/routes/index.js",
     "file/src/components/layout/Routes/index.js.html",
     "src/components/layout/Routes/index.js",
-    "file"
-  ],
-  [
-    "src/components/layout/styles/index.js",
-    "file/src/components/layout/Styles/index.js.html",
-    "src/components/layout/Styles/index.js",
-    "file"
-  ],
-  [
-    "src/components/modals/loginmodal.js",
-    "file/src/components/modals/LoginModal.js.html",
-    "src/components/modals/LoginModal.js",
     "file"
   ],
   [

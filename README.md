@@ -20,7 +20,7 @@ Note: You should be using Node v10 or higher. Check your Node version with `node
 ### Development
 `npm start`
 
-Development of this application assumes working knowledge of [ES6](http://es6-features.org), [CSS3](https://www.w3schools.com/css/default.asp), [React](https://reactjs.org/), [React Router](https://reacttraining.com/react-router/), [Redux](https://redux.js.org/), [Redux Saga](https://github.com/redux-saga/redux-saga), [styled-jsx](https://github.com/zeit/styled-jsx), [Mocha](https://mochajs.org/), & [Sinon](https://sinonjs.org/).
+Development of this application assumes working knowledge of [CSS3](https://www.w3schools.com/css/default.asp), [ES6](http://es6-features.org), [Mocha](https://mochajs.org/), [React](https://reactjs.org/), [React Router](https://reacttraining.com/react-router/), [Redux](https://redux.js.org/), [Redux Saga](https://github.com/redux-saga/redux-saga), [Sinon](https://sinonjs.org/), & [styled-jsx](https://github.com/zeit/styled-jsx).
 
 ENV Var | Default | Description
 ------- | ------- | -----------

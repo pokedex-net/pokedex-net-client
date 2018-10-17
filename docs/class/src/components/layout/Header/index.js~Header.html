@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | pokedex-net-client</title>
+  <base data-ice="baseUrl" href="../../../../../">
+  <title data-ice="title">Header | pokedex-net-client</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -32,9 +32,9 @@
   <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-controls-button">components/controls/Button</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/controls/Button/index.js~Button.html">Button</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-controls-icon">components/controls/Icon</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/controls/Icon/index.js~Icon.html">Icon</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-container">components/layout/Container</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Container/index.js~Container.html">Container</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Header">Header</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header">components/layout/Header</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Header/index.js~Header.html">Header</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-header-headershape">components/layout/Header/HeaderShape</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-HeaderShape">HeaderShape</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Navigation">Navigation</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation">components/layout/Navigation</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/components/layout/Navigation/index.js~Navigation.html">Navigation</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-navigation-navigationitem">components/layout/Navigation/NavigationItem</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-NavigationItem">NavigationItem</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-layout-routes">components/layout/Routes</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-Routes">Routes</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#components-views-errorview">components/views/ErrorView</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ErrorView">ErrorView</a></span></span></li>
@@ -69,49 +69,149 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="pokedex-net-client">Pokedex.net Client</h1><p><a href="https://github.com/pokedex-net/pokedex-net-client"><img src="https://badge.fury.io/gh/pokedex-net%2Fpokedex-net-client.svg" alt="Version"></a>
-<a href="https://coveralls.io/github/pokedex-net/pokedex-net-client?branch=master"><img src="https://coveralls.io/repos/github/pokedex-net/pokedex-net-client/badge.svg?branch=master" alt="Coverage"></a>
-<a href="https://pokedex-net.github.io/pokedex-net-client/"><img src="https://pokedex-net.github.io/pokedex-net-client/badge.svg" alt="Documentation"></a>
-<a href="https://circleci.com/gh/pokedex-net/pokedex-net-client/tree/master"><img src="https://circleci.com/gh/pokedex-net/pokedex-net-client/tree/master.svg?style=svg" alt="Build Status"></a>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-brightgreen.svg" alt="CC BY-NC-SA 4.0 License"></a></p>
-<h2 id="installation">Installation</h2><p>Note: You should be using Node v10 or higher. Check your Node version with <code>node -v</code>.</p>
-<ol>
-<li><code>git clone git@github.com:pokedex-net/pokedex-net-client.git</code></li>
-<li><code>cd pokedex-net-client</code></li>
-<li><code>npm install</code></li>
-</ol>
-<h2 id="usage">Usage</h2><h3 id="development">Development</h3><p><code>npm start</code></p>
-<p>Development of this application assumes working knowledge of <a href="https://www.w3schools.com/css/default.asp">CSS3</a>, <a href="http://es6-features.org">ES6</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://reactjs.org/">React</a>, <a href="https://reacttraining.com/react-router/">React Router</a>, <a href="https://redux.js.org/">Redux</a>, <a href="https://github.com/redux-saga/redux-saga">Redux Saga</a>, <a href="https://sinonjs.org/">Sinon</a>, &amp; <a href="https://github.com/zeit/styled-jsx">styled-jsx</a>.</p>
-<table>
-<thead>
-<tr>
-<th>ENV Var</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>PORT</code></td>
-<td><code>8080</code></td>
-<td>The port where the application is served.</td>
-</tr>
-<tr>
-<td><code>API_HOST</code></td>
-<td><code>//api.pokedex.net/</code></td>
-<td>The API host address.</td>
-</tr>
+<div class="content" data-ice="content"><div class="header-notice">
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import {Header} from &apos;<span><a href="file/src/components/layout/Header/index.js.html#lineNumber20">pokedex-net-client/src/components/layout/Header/index.js</a></span>&apos;</code></pre></div>
+  <span data-ice="access">public</span>
+  <span data-ice="kind">class</span>
+  
+  
+  
+  <span data-ice="source">| <span><a href="file/src/components/layout/Header/index.js.html#lineNumber20">source</a></span></span>
+</div>
+
+<div class="self-detail detail">
+  <h1 data-ice="name">Header</h1>
+
+  
+
+  
+  
+  <div class="flat-list" data-ice="extendsChain"><h4>Extends:</h4><div><span>react~Component</span> &#x2192; Header</div></div>
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <div class="description" data-ice="description"><p>A header layout component that displays the logo/sidebar toggle.</p>
+</div>
+  
+
+  
+
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+<div data-ice="methodSummary"><h2>Method Summary</h2><table class="summary" data-ice="summary">
+  <thead><tr><td data-ice="title" colspan="3">Public Methods</td></tr></thead>
+  <tbody>
+  
+  <tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="class/src/components/layout/Header/index.js~Header.html#instance-method-render">render</a></span></span><span class="code" data-ice="signature">(): <span>*</span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
 </tbody>
 </table>
-<h3 id="testing">Testing</h3><p><code>npm run test</code></p>
-<p>To run tests continually: <code>npm run test:watch</code></p>
-<p>Running tests will automatically run <code>npm run lint</code>, which will check the codebase for linting errors using <a href="https://eslint.org/">ESLint</a> based loosely off of <a href="https://github.com/airbnb/javascript">Airbnb&apos;s Style Guide</a>.</p>
-<h3 id="documentation">Documentation</h3><p><code>npm run docs:watch</code></p>
-<p>Documentation should generally be run in watch mode so that it updates the documentation as you modify code. If you would prefer to run the documentation manually, you can run <code>npm run docs</code>.</p>
-<p>Documentation makes use of <a href="https://esdoc.org/">ESDoc</a>.</p>
-<h3 id="production-build">Production Build</h3><p><code>npm run build</code></p>
-<h2 id="license">License</h2><p>This software is licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-Public License</a>.</p>
+</div>
+
+
+
+
+
+
+
+<div data-ice="methodDetails"><h2 data-ice="title">Public Methods</h2>
+
+<div class="detail" data-ice="detail">
+  <h3 data-ice="anchor" id="instance-method-render">
+    <span class="access" data-ice="access">public</span>
+    
+    
+    
+    
+    
+    <span class="code" data-ice="name">render</span><span class="code" data-ice="signature">(): <span>*</span></span>
+    <span class="right-info">
+      
+      
+      <span data-ice="source"><span><a href="file/src/components/layout/Header/index.js.html#lineNumber21">source</a></span></span>
+    </span>
+  </h3>
+
+  
+  
+  
+  
+
+  
+
+  <div data-ice="properties">
+</div>
+
+  <div class="return-params" data-ice="returnParams">
+    <h4>Return:</h4>
+    <table>
+      <tbody>
+        <tr>
+          <td class="return-type code" data-ice="returnType"><span>*</span></td>
+          
+        </tr>
+      </tbody>
+    </table>
+    <div data-ice="returnProperties">
+</div>
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+</div>
 </div>
 </div>
 

@@ -1,13 +1,11 @@
-import React from 'react'; // eslint-disable-line no-unused-vars
+import React from 'react';
 import { resolve } from 'styled-jsx/css';
 
-export default function getStyles(props) {
-  const { className, styles } = resolve`
+export default (props) => {
+  return resolve`
     svg {
       width: 1em;
       fill: ${props.fill};
     }
   `;
-
-  return { className, styles };
-}
+};

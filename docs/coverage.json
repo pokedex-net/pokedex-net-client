@@ -1,7 +1,7 @@
 {
-  "coverage": "88.4%",
-  "expectCount": 69,
-  "actualCount": 61,
+  "coverage": "93.65%",
+  "expectCount": 63,
+  "actualCount": 59,
   "files": {
     "src/components/controls/Button/index.js": {
       "expectCount": 6,
@@ -14,9 +14,13 @@
       "undocumentLines": []
     },
     "src/components/layout/Container/index.js": {
-      "expectCount": 6,
+      "expectCount": 9,
       "actualCount": 6,
-      "undocumentLines": []
+      "undocumentLines": [
+        26,
+        27,
+        40
+      ]
     },
     "src/components/layout/Header/HeaderShape/index.js": {
       "expectCount": 1,
@@ -28,24 +32,11 @@
       "actualCount": 1,
       "undocumentLines": []
     },
-    "src/components/layout/Modal/index.js": {
-      "expectCount": 7,
-      "actualCount": 1,
-      "undocumentLines": [
-        16,
-        22,
-        28,
-        43,
-        57,
-        61
-      ]
-    },
     "src/components/layout/Navigation/NavigationItem/index.js": {
-      "expectCount": 2,
+      "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        11,
-        12
+        13
       ]
     },
     "src/components/layout/Navigation/index.js": {
@@ -54,11 +45,6 @@
       "undocumentLines": []
     },
     "src/components/layout/Routes/index.js": {
-      "expectCount": 1,
-      "actualCount": 1,
-      "undocumentLines": []
-    },
-    "src/components/layout/Styles/index.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
