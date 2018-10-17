@@ -22,7 +22,7 @@
         40
       ]
     },
-    "src/components/layout/Header/HeaderShape/index.js": {
+    "src/components/layout/Header/Shape/index.js": {
       "expectCount": 1,
       "actualCount": 1,
       "undocumentLines": []
@@ -32,7 +32,7 @@
       "actualCount": 1,
       "undocumentLines": []
     },
-    "src/components/layout/Navigation/NavigationItem/index.js": {
+    "src/components/layout/Navigation/Item/index.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [

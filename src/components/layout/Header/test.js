@@ -5,7 +5,7 @@ import { shallow } from 'enzyme';
 
 import Connect, { Header } from './';
 import Button from '../../controls/Button';
-import HeaderShape from './HeaderShape';
+import Shape from './Shape';
 
 import { mockStore } from '../../../lib/helpers';
 
@@ -28,7 +28,7 @@ describe('Component: Header', function () {
   describe('render', function () {
     const elements = [
       'header',
-      HeaderShape,
+      Shape,
       Button,
     ];
 

@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react';
 import { connect } from 'react-redux';
 
 import Button from '../../controls/Button';
-import HeaderShape from './HeaderShape';
+import Shape from './Shape';
 // import Search from '../../controls/Search';
 import getStyles from './styles';
 
@@ -22,7 +22,7 @@ export function Header(props) {
 
   return (
     <header className={ className }>
-      <HeaderShape />
+      <Shape />
 
       <div className={ className }>
         <Button

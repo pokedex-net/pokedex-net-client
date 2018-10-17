@@ -10,7 +10,7 @@ import languages from '../../../../fixtures/languages';
  * @param {Object} props - React Component props.
  * @return {React.Component}
  */
-export function HeaderShape({ headerHeight, lang, windowWidth }) {
+export function Shape({ headerHeight, lang, windowWidth }) {
   const { className, styles } = getStyles({ headerHeight });
   let startCurve = ((windowWidth / 3) - headerHeight);
 
@@ -38,4 +38,4 @@ export default connect(state => ({
   headerHeight: state.ui.metrics.headerHeight,
   lang: state.settings.lang,
   windowWidth: state.ui.metrics.windowWidth,
-}))(HeaderShape);
+}))(Shape);

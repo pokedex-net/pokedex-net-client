@@ -2,7 +2,7 @@ import Color from 'color';
 import React, { forwardRef } from 'react';
 import { connect } from 'react-redux';
 
-import NavigationItem from './NavigationItem';
+import Item from './Item';
 import getStyles from './styles';
 
 import config from '../../../../config';
@@ -40,7 +40,7 @@ export function Navigation(props) {
   return (
     <div ref={ props.forwardedRef } className={ (props.sidebarOpen) ? `${containerClass} open` : containerClass }>
       <nav className={ className }>
-        { links.map((link, i) => <NavigationItem key={ i } { ...link } />) }
+        { links.map((link, i) => <Item key={ i } { ...link } />) }
       </nav>
 
       <div className={ className }>

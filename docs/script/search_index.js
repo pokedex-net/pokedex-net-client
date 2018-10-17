@@ -24,12 +24,6 @@ window.esdocSearchIndex = [
     "function"
   ],
   [
-    "pokedex-net-client/src/components/layout/header/headershape/index.js~headershape",
-    "function/index.html#static-function-HeaderShape",
-    "<span>HeaderShape</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Header/HeaderShape/index.js</span>",
-    "function"
-  ],
-  [
     "pokedex-net-client/src/components/views/homeview/index.js~homeview",
     "function/index.html#static-function-HomeView",
     "<span>HomeView</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/views/HomeView/index.js</span>",
@@ -42,21 +36,27 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
+    "pokedex-net-client/src/components/layout/navigation/item/index.js~item",
+    "function/index.html#static-function-Item",
+    "<span>Item</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Navigation/Item/index.js</span>",
+    "function"
+  ],
+  [
     "pokedex-net-client/src/components/layout/navigation/index.js~navigation",
     "function/index.html#static-function-Navigation",
     "<span>Navigation</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Navigation/index.js</span>",
     "function"
   ],
   [
-    "pokedex-net-client/src/components/layout/navigation/navigationitem/index.js~navigationitem",
-    "function/index.html#static-function-NavigationItem",
-    "<span>NavigationItem</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Navigation/NavigationItem/index.js</span>",
-    "function"
-  ],
-  [
     "pokedex-net-client/src/components/layout/routes/index.js~routes",
     "function/index.html#static-function-Routes",
     "<span>Routes</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Routes/index.js</span>",
+    "function"
+  ],
+  [
+    "pokedex-net-client/src/components/layout/header/shape/index.js~shape",
+    "function/index.html#static-function-Shape",
+    "<span>Shape</span> <span class=\"search-result-import-path\">pokedex-net-client/src/components/layout/Header/Shape/index.js</span>",
     "function"
   ],
   [
@@ -624,9 +624,9 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/components/layout/header/headershape/index.js",
-    "file/src/components/layout/Header/HeaderShape/index.js.html",
-    "src/components/layout/Header/HeaderShape/index.js",
+    "src/components/layout/header/shape/index.js",
+    "file/src/components/layout/Header/Shape/index.js.html",
+    "src/components/layout/Header/Shape/index.js",
     "file"
   ],
   [
@@ -636,9 +636,9 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/components/layout/navigation/navigationitem/index.js",
-    "file/src/components/layout/Navigation/NavigationItem/index.js.html",
-    "src/components/layout/Navigation/NavigationItem/index.js",
+    "src/components/layout/navigation/item/index.js",
+    "file/src/components/layout/Navigation/Item/index.js.html",
+    "src/components/layout/Navigation/Item/index.js",
     "file"
   ],
   [

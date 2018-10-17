@@ -3,11 +3,11 @@ import sinon from 'sinon';
 import { expect } from 'chai';
 import { shallow } from 'enzyme';
 
-import Connect, { HeaderShape } from './';
+import Connected, { Shape } from './';
 
 import { mockStore } from '../../../../lib/helpers';
 
-describe('Component: HeaderShape', function () {
+describe('Component: Header: Shape', function () {
   const sandbox = sinon.createSandbox();
   const mockProps = {
     headerHeight: 72,
@@ -17,7 +17,7 @@ describe('Component: HeaderShape', function () {
   let wrapper;
 
   beforeEach(function () {
-    wrapper = shallow(<HeaderShape { ...mockProps } />);
+    wrapper = shallow(<Shape { ...mockProps } />);
   });
 
   afterEach(function () {
@@ -39,7 +39,7 @@ describe('Component: HeaderShape', function () {
       wrapper.unmount();
 
       const props = { ...mockProps, lang: 'ar' };
-      wrapper = shallow(<HeaderShape { ...props } />);
+      wrapper = shallow(<Shape { ...props } />);
 
       elements.forEach(element => expect(wrapper.find(element)).to.have.length(1));
     });
@@ -48,7 +48,7 @@ describe('Component: HeaderShape', function () {
       wrapper.unmount();
 
       const props = { ...mockProps, windowWidth: 69 };
-      wrapper = shallow(<HeaderShape { ...props } />);
+      wrapper = shallow(<Shape { ...props } />);
 
       elements.forEach(element => expect(wrapper.find(element)).to.have.length(1));
     });
@@ -69,7 +69,7 @@ describe('Component: HeaderShape', function () {
 
     it('maps state to props correctly', function () {
       wrapper.unmount();
-      wrapper = shallow(<Connect store={ mockStore(mockState) } { ...mockProps } />);
+      wrapper = shallow(<Connected store={ mockStore(mockState) } { ...mockProps } />);
 
       expect(wrapper.props().headerHeight).to.equal(mockState.ui.metrics.headerHeight);
       expect(wrapper.props().lang).to.equal(mockState.settings.lang);

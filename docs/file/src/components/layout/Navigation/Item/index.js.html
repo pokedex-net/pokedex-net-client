@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl" href="../../../../../">
-  <title data-ice="title">src/components/layout/Routes/index.js | pokedex-net-client</title>
+  <base data-ice="baseUrl" href="../../../../../../">
+  <title data-ice="title">src/components/layout/Navigation/Item/index.js | pokedex-net-client</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -69,42 +69,80 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><h1 data-ice="title">src/components/layout/Routes/index.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _ from &apos;lodash&apos;;
+<div class="content" data-ice="content"><h1 data-ice="title">src/components/layout/Navigation/Item/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import Color from &apos;color&apos;;
+import PropTypes from &apos;prop-types&apos;;
 import React from &apos;react&apos;;
-import { Route, Redirect, Switch, withRouter } from &apos;react-router-dom&apos;;
+import { NavLink } from &apos;react-router-dom&apos;;
+import { connect } from &apos;react-redux&apos;;
 
-import ErrorView from &apos;../../views/ErrorView&apos;;
-import HomeView from &apos;../../views/HomeView&apos;;
-import View from &apos;../../views/View&apos;;
+import Button from &apos;../../../controls/Button&apos;;
+import Icon from &apos;../../../controls/Icon&apos;;
+import getStyles from &apos;./styles&apos;;
 
-import languages from &apos;../../../fixtures/languages&apos;;
+import { updateUi } from &apos;../../../../stores/ui/actions&apos;;
 
-/**
- * A component to handle all routes in the application.
- * @param {Object} props - React Component props.
- * @return {React.Component}
- */
-export function Routes({ location }) {
-  const prevLang = location.pathname.split(&apos;/&apos;)[1] || &apos;&apos;;
-  let langPath = &apos;&apos;;
-
-  _.forEach(languages, (v, k) =&gt; { langPath += `|${k}`; });
+export function Item(props) {
+  const { className, styles } = getStyles(props);
 
   return (
-    &lt;Switch&gt;
-      {/* &lt;Redirect exact from={ `/:lang(${langPath.slice(1)})/attacks` } to={ { pathname: &apos;/attacks&apos;, state: { prevLang } } } /&gt; */}
-      &lt;Redirect exact from={ `/:lang(${langPath.slice(1)})` } to={ { pathname: &apos;/&apos;, state: { prevLang } } } /&gt;
+    &lt;div className={ `${className} item` }&gt;
+      &lt;Icon className={ className } icon={ props.icon } fill={ props.color } /&gt;
 
-      {/* &lt;Route exact path=&quot;/attacks&quot; render={ props =&gt; &lt;View page={ AttacksView } { ...props } /&gt; } /&gt; */}
-      &lt;Route exact path=&quot;/&quot; render={ props =&gt; &lt;View page={ HomeView } { ...props } /&gt; } /&gt;
+      &lt;div className={ className }&gt;
+        &lt;span className={ className }&gt;{ props.name }&lt;/span&gt;
 
-      &lt;Route render={ props =&gt; &lt;View page={ ErrorView } { ...props } error=&quot;notFound&quot; /&gt; } /&gt;
-    &lt;/Switch&gt;
+        &lt;span className={ className }&gt;
+          &lt;NavLink className={ className } to={ props.to } onClick={ () =&gt; { props.updateUi({ sidebarOpen: false }); } } /&gt;
+
+          { props.subnav.length ?
+            &lt;nav className={ className }&gt;
+              {
+                props.subnav.map((nav, i) =&gt; (
+                  &lt;Button
+                    key={ i }
+                    className={ `${className} subnav` }
+                    link
+                    to={ nav.to }
+                    kind=&quot;custom&quot;
+                    customColor={ nav.color }
+                    size={ (props.headerHeight / 4) }
+                    icon={ nav.icon }
+                  &gt;
+                    { nav.name }
+                  &lt;/Button&gt;
+                ))
+              }
+            &lt;/nav&gt; : null
+          }
+
+          &lt;div className={ `${className} background` } /&gt;
+        &lt;/span&gt;
+      &lt;/div&gt;
+
+      { styles }
+    &lt;/div&gt;
   );
 }
 
-export default withRouter(Routes);
+export default connect(state =&gt; ({
+  headerHeight: state.ui.metrics.headerHeight,
+  lang: state.settings.lang,
+}), {
+  updateUi,
+})(Item);
+
+Item.propTypes = {
+  color: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]).isRequired,
+  icon: PropTypes.oneOfType([PropTypes.array, PropTypes.object]).isRequired,
+  name: PropTypes.string.isRequired,
+  subnav: PropTypes.array,
+  to: PropTypes.string.isRequired,
+};
+
+Item.defaultProps = {
+  subnav: [],
+};
 </code></pre>
 
 </div>

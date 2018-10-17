@@ -10,7 +10,7 @@ import getStyles from './styles';
 
 import { updateUi } from '../../../../stores/ui/actions';
 
-export function NavigationItem(props) {
+export function Item(props) {
   const { className, styles } = getStyles(props);
 
   return (
@@ -22,26 +22,29 @@ export function NavigationItem(props) {
 
         <span className={ className }>
           <NavLink className={ className } to={ props.to } onClick={ () => { props.updateUi({ sidebarOpen: false }); } } />
-          <div className={ `${className} background` } />
 
-          <nav className={ className }>
-            {
-              props.subnav.map((nav, i) => (
-                <Button
-                  key={ i }
-                  className={ `${className} subnav` }
-                  link
-                  to={ nav.to }
-                  kind="custom"
-                  customColor={ nav.color }
-                  size={ (props.headerHeight / 4) }
-                  icon={ nav.icon }
-                >
-                  { nav.name }
-                </Button>
-              ))
-            }
-          </nav>
+          { props.subnav.length ?
+            <nav className={ className }>
+              {
+                props.subnav.map((nav, i) => (
+                  <Button
+                    key={ i }
+                    className={ `${className} subnav` }
+                    link
+                    to={ nav.to }
+                    kind="custom"
+                    customColor={ nav.color }
+                    size={ (props.headerHeight / 4) }
+                    icon={ nav.icon }
+                  >
+                    { nav.name }
+                  </Button>
+                ))
+              }
+            </nav> : null
+          }
+
+          <div className={ `${className} background` } />
         </span>
       </div>
 
@@ -55,9 +58,9 @@ export default connect(state => ({
   lang: state.settings.lang,
 }), {
   updateUi,
-})(NavigationItem);
+})(Item);
 
-NavigationItem.propTypes = {
+Item.propTypes = {
   color: PropTypes.oneOfType([PropTypes.string, PropTypes.instanceOf(Color)]).isRequired,
   icon: PropTypes.oneOfType([PropTypes.array, PropTypes.object]).isRequired,
   name: PropTypes.string.isRequired,
@@ -65,6 +68,6 @@ NavigationItem.propTypes = {
   to: PropTypes.string.isRequired,
 };
 
-NavigationItem.defaultProps = {
+Item.defaultProps = {
   subnav: [],
 };
