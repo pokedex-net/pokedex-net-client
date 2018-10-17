@@ -50,19 +50,13 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-settings-sagas">stores/settings/sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettingsSaga">updateSettingsSaga</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateSettings">watchUpdateSettings</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui">stores/ui</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-uiDefaultState">uiDefaultState</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-actions">stores/ui/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModal">hideModal</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModal">showModal</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-actions">stores/ui/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeUi">storeUi</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetric">updateMetric</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUi">updateUi</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-reducer">stores/ui/reducer</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uiReducer">uiReducer</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-sagas">stores/ui/sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModalSaga">hideModalSaga</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModalSaga">showModalSaga</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-sagas">stores/ui/sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUiSaga">updateUiSaga</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchHideModal">watchHideModal</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchShowModal">watchShowModal</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateMetric">watchUpdateMetric</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateUi">watchUpdateUi</a></span></span></li>
 </ul>
@@ -71,30 +65,9 @@
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/stores/ui/sagas/index.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _ from &apos;lodash&apos;;
-import { delay } from &apos;redux-saga&apos;;
-import { call, fork, put, takeEvery, takeLatest } from &apos;redux-saga/effects&apos;;
+import { fork, put, takeEvery, takeLatest } from &apos;redux-saga/effects&apos;;
 
 import { storeMetric, storeUi } from &apos;../actions&apos;;
-
-/**
- * This generator function hides the modal.
- * @emits {storeUi}
- */
-export function* hideModalSaga() {
-  yield put(storeUi({ modalVisible: false }));
-  yield call(delay, 200);
-  yield put(storeUi({ modalContent: null }));
-}
-
-/**
- * This generator function shows the modal with action data yielded from {@link watchShowModal}.
- * @param {Object} action Redux action
- * @emits {storeUi}
- */
-export function* showModalSaga(action) {
-  yield put(storeUi({ modalContent: _.get(action, &apos;data&apos;) }));
-  yield put(storeUi({ modalVisible: true }));
-}
 
 /**
  * This generator function stores the action data yielded from {@link watchUpdateMetric}.
@@ -115,22 +88,6 @@ export function* updateUiSaga(action) {
 }
 
 /**
- * This generator function watchs for the latest {@link hideModal} call.
- * @emits {hideModalSaga}
- */
-export function* watchHideModal() {
-  yield takeLatest(&apos;HIDE_MODAL&apos;, hideModalSaga);
-}
-
-/**
- * This generator function watchs for the latest {@link showModal} call.
- * @emits {showModalSaga}
- */
-export function* watchShowModal() {
-  yield takeLatest(&apos;SHOW_MODAL&apos;, showModalSaga);
-}
-
-/**
  * This generator function watchs for the latest {@link updateMetric} call.
  * @emits {updateMetricSaga}
  */
@@ -147,8 +104,6 @@ export function* watchUpdateUi() {
 }
 
 export default [
-  fork(watchHideModal),
-  fork(watchShowModal),
   fork(watchUpdateMetric),
   fork(watchUpdateUi),
 ];

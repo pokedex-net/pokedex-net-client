@@ -66,18 +66,6 @@ window.esdocSearchIndex = [
     "class"
   ],
   [
-    "pokedex-net-client/src/stores/ui/actions/index.js~hidemodal",
-    "function/index.html#static-function-hideModal",
-    "<span>hideModal</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/actions/index.js</span>",
-    "function"
-  ],
-  [
-    "pokedex-net-client/src/stores/ui/sagas/index.js~hidemodalsaga",
-    "function/index.html#static-function-hideModalSaga",
-    "<span>hideModalSaga</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/sagas/index.js</span>",
-    "function"
-  ],
-  [
     "pokedex-net-client/src/lib/helpers/index.js~mockstore",
     "function/index.html#static-function-mockStore",
     "<span>mockStore</span> <span class=\"search-result-import-path\">pokedex-net-client/src/lib/helpers/index.js</span>",
@@ -99,18 +87,6 @@ window.esdocSearchIndex = [
     "pokedex-net-client/src/stores/settings/reducer/index.js~settingsreducer",
     "function/index.html#static-function-settingsReducer",
     "<span>settingsReducer</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/settings/reducer/index.js</span>",
-    "function"
-  ],
-  [
-    "pokedex-net-client/src/stores/ui/actions/index.js~showmodal",
-    "function/index.html#static-function-showModal",
-    "<span>showModal</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/actions/index.js</span>",
-    "function"
-  ],
-  [
-    "pokedex-net-client/src/stores/ui/sagas/index.js~showmodalsaga",
-    "function/index.html#static-function-showModalSaga",
-    "<span>showModalSaga</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/sagas/index.js</span>",
     "function"
   ],
   [
@@ -183,18 +159,6 @@ window.esdocSearchIndex = [
     "pokedex-net-client/src/stores/ui/sagas/index.js~updateuisaga",
     "function/index.html#static-function-updateUiSaga",
     "<span>updateUiSaga</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/sagas/index.js</span>",
-    "function"
-  ],
-  [
-    "pokedex-net-client/src/stores/ui/sagas/index.js~watchhidemodal",
-    "function/index.html#static-function-watchHideModal",
-    "<span>watchHideModal</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/sagas/index.js</span>",
-    "function"
-  ],
-  [
-    "pokedex-net-client/src/stores/ui/sagas/index.js~watchshowmodal",
-    "function/index.html#static-function-watchShowModal",
-    "<span>watchShowModal</span> <span class=\"search-result-import-path\">pokedex-net-client/src/stores/ui/sagas/index.js</span>",
     "function"
   ],
   [

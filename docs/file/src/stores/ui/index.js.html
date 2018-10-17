@@ -50,19 +50,13 @@
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-settings-sagas">stores/settings/sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateSettingsSaga">updateSettingsSaga</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateSettings">watchUpdateSettings</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui">stores/ui</a><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-uiDefaultState">uiDefaultState</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-actions">stores/ui/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModal">hideModal</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModal">showModal</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-actions">stores/ui/actions</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeMetric">storeMetric</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-storeUi">storeUi</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetric">updateMetric</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUi">updateUi</a></span></span></li>
 <li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-reducer">stores/ui/reducer</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-uiReducer">uiReducer</a></span></span></li>
-<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-sagas">stores/ui/sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-hideModalSaga">hideModalSaga</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-showModalSaga">showModalSaga</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#stores-ui-sagas">stores/ui/sagas</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateMetricSaga">updateMetricSaga</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-updateUiSaga">updateUiSaga</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchHideModal">watchHideModal</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchShowModal">watchShowModal</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateMetric">watchUpdateMetric</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-watchUpdateUi">watchUpdateUi</a></span></span></li>
 </ul>
@@ -77,16 +71,12 @@ import sagas from &apos;./sagas&apos;;
 /**
  * The initial state of the UI Redux store.
  * @type {Object}
- * @property {null|React.Component} modalContent=null The React Component loaded into the modal.
- * @property {boolean} modalVisible=false Whether or not the modal is visible.
  * @property {boolean} sidebarOpen=false Whether or not the sidebar is open.
  * @property {Object} metrics Object of layout metric variables.
  * @property {number} metrics.headerHeight=72 Height of header.
  * @property {number} metrics.windowWidth=0 Width of widnow.
  */
 export const uiDefaultState = {
-  modalContent: null,
-  modalVisible: false,
   sidebarOpen: false,
   metrics: {
     headerHeight: 72,

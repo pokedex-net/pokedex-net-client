@@ -2115,7 +2115,7 @@
     "__docId__": 125,
     "kind": "file",
     "name": "src/stores/ui/actions/index.js",
-    "content": "/**\n * This function sends an action to be intercepted by {@link watchHideModal}.\n * @return {Object} Redux action\n */\nexport const hideModal = () => ({ type: 'HIDE_MODAL' });\n\n/**\n * This function sends an action to be intercepted by {@link watchShowModal}.\n * @param {string} data - A string with the value to update in the store.\n * @return {Object} Redux action\n */\nexport const showModal = data => ({ type: 'SHOW_MODAL', data });\n\n/**\n * This function sends an action to store the new data to {@link uiReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeMetric = data => ({ type: 'STORE_METRIC', data });\n\n/**\n * This function sends an action to store the new data to {@link uiReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeUi = data => ({ type: 'STORE_UI', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateMetric}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateMetric = data => ({ type: 'UPDATE_METRIC', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateUi}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateUi = data => ({ type: 'UPDATE_UI', data });\n",
+    "content": "/**\n * This function sends an action to store the new data to {@link uiReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeMetric = data => ({ type: 'STORE_METRIC', data });\n\n/**\n * This function sends an action to store the new data to {@link uiReducer}.\n * @param {Object} data - An object with the key/value pair to store in the store.\n * @return {Object} Redux action\n */\nexport const storeUi = data => ({ type: 'STORE_UI', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateMetric}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateMetric = data => ({ type: 'UPDATE_METRIC', data });\n\n/**\n * This function sends an action to be intercepted by {@link watchUpdateUi}.\n * @param {Object} data - An object with the key/value pair to update in the store.\n * @return {Object} Redux action\n */\nexport const updateUi = data => ({ type: 'UPDATE_UI', data });\n",
     "static": true,
     "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/actions/index.js",
     "access": "public",
@@ -2125,18 +2125,30 @@
   {
     "__docId__": 126,
     "kind": "function",
-    "name": "hideModal",
+    "name": "storeMetric",
     "memberof": "src/stores/ui/actions/index.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/stores/ui/actions/index.js~hideModal",
+    "longname": "src/stores/ui/actions/index.js~storeMetric",
     "access": "public",
     "export": true,
     "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
-    "importStyle": "{hideModal}",
-    "description": "This function sends an action to be intercepted by {@link watchHideModal}.",
-    "lineNumber": 5,
+    "importStyle": "{storeMetric}",
+    "description": "This function sends an action to store the new data to {@link uiReducer}.",
+    "lineNumber": 6,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "An object with the key/value pair to store in the store."
+      }
+    ],
     "return": {
       "nullable": null,
       "types": [
@@ -2144,34 +2156,33 @@
       ],
       "spread": false,
       "description": "Redux action"
-    },
-    "params": []
+    }
   },
   {
     "__docId__": 127,
     "kind": "function",
-    "name": "showModal",
+    "name": "storeUi",
     "memberof": "src/stores/ui/actions/index.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/stores/ui/actions/index.js~showModal",
+    "longname": "src/stores/ui/actions/index.js~storeUi",
     "access": "public",
     "export": true,
     "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
-    "importStyle": "{showModal}",
-    "description": "This function sends an action to be intercepted by {@link watchShowModal}.",
-    "lineNumber": 12,
+    "importStyle": "{storeUi}",
+    "description": "This function sends an action to store the new data to {@link uiReducer}.",
+    "lineNumber": 13,
     "params": [
       {
         "nullable": null,
         "types": [
-          "string"
+          "Object"
         ],
         "spread": false,
         "optional": false,
         "name": "data",
-        "description": "A string with the value to update in the store."
+        "description": "An object with the key/value pair to store in the store."
       }
     ],
     "return": {
@@ -2186,18 +2197,18 @@
   {
     "__docId__": 128,
     "kind": "function",
-    "name": "storeMetric",
+    "name": "updateMetric",
     "memberof": "src/stores/ui/actions/index.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/stores/ui/actions/index.js~storeMetric",
+    "longname": "src/stores/ui/actions/index.js~updateMetric",
     "access": "public",
     "export": true,
     "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
-    "importStyle": "{storeMetric}",
-    "description": "This function sends an action to store the new data to {@link uiReducer}.",
-    "lineNumber": 19,
+    "importStyle": "{updateMetric}",
+    "description": "This function sends an action to be intercepted by {@link watchUpdateMetric}.",
+    "lineNumber": 20,
     "params": [
       {
         "nullable": null,
@@ -2207,7 +2218,7 @@
         "spread": false,
         "optional": false,
         "name": "data",
-        "description": "An object with the key/value pair to store in the store."
+        "description": "An object with the key/value pair to update in the store."
       }
     ],
     "return": {
@@ -2222,18 +2233,18 @@
   {
     "__docId__": 129,
     "kind": "function",
-    "name": "storeUi",
+    "name": "updateUi",
     "memberof": "src/stores/ui/actions/index.js",
     "generator": false,
     "async": false,
     "static": true,
-    "longname": "src/stores/ui/actions/index.js~storeUi",
+    "longname": "src/stores/ui/actions/index.js~updateUi",
     "access": "public",
     "export": true,
     "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
-    "importStyle": "{storeUi}",
-    "description": "This function sends an action to store the new data to {@link uiReducer}.",
-    "lineNumber": 26,
+    "importStyle": "{updateUi}",
+    "description": "This function sends an action to be intercepted by {@link watchUpdateUi}.",
+    "lineNumber": 27,
     "params": [
       {
         "nullable": null,
@@ -2243,7 +2254,7 @@
         "spread": false,
         "optional": false,
         "name": "data",
-        "description": "An object with the key/value pair to store in the store."
+        "description": "An object with the key/value pair to update in the store."
       }
     ],
     "return": {
@@ -2257,81 +2268,9 @@
   },
   {
     "__docId__": 130,
-    "kind": "function",
-    "name": "updateMetric",
-    "memberof": "src/stores/ui/actions/index.js",
-    "generator": false,
-    "async": false,
-    "static": true,
-    "longname": "src/stores/ui/actions/index.js~updateMetric",
-    "access": "public",
-    "export": true,
-    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
-    "importStyle": "{updateMetric}",
-    "description": "This function sends an action to be intercepted by {@link watchUpdateMetric}.",
-    "lineNumber": 33,
-    "params": [
-      {
-        "nullable": null,
-        "types": [
-          "Object"
-        ],
-        "spread": false,
-        "optional": false,
-        "name": "data",
-        "description": "An object with the key/value pair to update in the store."
-      }
-    ],
-    "return": {
-      "nullable": null,
-      "types": [
-        "Object"
-      ],
-      "spread": false,
-      "description": "Redux action"
-    }
-  },
-  {
-    "__docId__": 131,
-    "kind": "function",
-    "name": "updateUi",
-    "memberof": "src/stores/ui/actions/index.js",
-    "generator": false,
-    "async": false,
-    "static": true,
-    "longname": "src/stores/ui/actions/index.js~updateUi",
-    "access": "public",
-    "export": true,
-    "importPath": "pokedex-net-client/src/stores/ui/actions/index.js",
-    "importStyle": "{updateUi}",
-    "description": "This function sends an action to be intercepted by {@link watchUpdateUi}.",
-    "lineNumber": 40,
-    "params": [
-      {
-        "nullable": null,
-        "types": [
-          "Object"
-        ],
-        "spread": false,
-        "optional": false,
-        "name": "data",
-        "description": "An object with the key/value pair to update in the store."
-      }
-    ],
-    "return": {
-      "nullable": null,
-      "types": [
-        "Object"
-      ],
-      "spread": false,
-      "description": "Redux action"
-    }
-  },
-  {
-    "__docId__": 132,
     "kind": "file",
     "name": "src/stores/ui/index.js",
-    "content": "import * as actions from './actions';\nimport reducer from './reducer';\nimport sagas from './sagas';\n\n/**\n * The initial state of the UI Redux store.\n * @type {Object}\n * @property {null|React.Component} modalContent=null The React Component loaded into the modal.\n * @property {boolean} modalVisible=false Whether or not the modal is visible.\n * @property {boolean} sidebarOpen=false Whether or not the sidebar is open.\n * @property {Object} metrics Object of layout metric variables.\n * @property {number} metrics.headerHeight=72 Height of header.\n * @property {number} metrics.windowWidth=0 Width of widnow.\n */\nexport const uiDefaultState = {\n  modalContent: null,\n  modalVisible: false,\n  sidebarOpen: false,\n  metrics: {\n    headerHeight: 72,\n    windowWidth: 0,\n  },\n};\n\n\nexport default {\n  actions,\n  reducer,\n  sagas,\n  uiDefaultState,\n};\n",
+    "content": "import * as actions from './actions';\nimport reducer from './reducer';\nimport sagas from './sagas';\n\n/**\n * The initial state of the UI Redux store.\n * @type {Object}\n * @property {boolean} sidebarOpen=false Whether or not the sidebar is open.\n * @property {Object} metrics Object of layout metric variables.\n * @property {number} metrics.headerHeight=72 Height of header.\n * @property {number} metrics.windowWidth=0 Width of widnow.\n */\nexport const uiDefaultState = {\n  sidebarOpen: false,\n  metrics: {\n    headerHeight: 72,\n    windowWidth: 0,\n  },\n};\n\n\nexport default {\n  actions,\n  reducer,\n  sagas,\n  uiDefaultState,\n};\n",
     "static": true,
     "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/index.js",
     "access": "public",
@@ -2339,7 +2278,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 133,
+    "__docId__": 131,
     "kind": "variable",
     "name": "uiDefaultState",
     "memberof": "src/stores/ui/index.js",
@@ -2350,33 +2289,8 @@
     "importPath": "pokedex-net-client/src/stores/ui/index.js",
     "importStyle": "{uiDefaultState}",
     "description": "The initial state of the UI Redux store.",
-    "lineNumber": 15,
+    "lineNumber": 13,
     "properties": [
-      {
-        "nullable": null,
-        "types": [
-          "null",
-          "React.Component"
-        ],
-        "spread": false,
-        "optional": false,
-        "defaultValue": "null",
-        "defaultRaw": null,
-        "name": "modalContent",
-        "description": "The React Component loaded into the modal."
-      },
-      {
-        "nullable": null,
-        "types": [
-          "boolean"
-        ],
-        "spread": false,
-        "optional": false,
-        "defaultValue": "false",
-        "defaultRaw": false,
-        "name": "modalVisible",
-        "description": "Whether or not the modal is visible."
-      },
       {
         "nullable": null,
         "types": [
@@ -2434,7 +2348,7 @@
     }
   },
   {
-    "__docId__": 134,
+    "__docId__": 132,
     "kind": "file",
     "name": "src/stores/ui/reducer/index.js",
     "content": "import _ from 'lodash';\nimport { uiDefaultState } from '../';\n\n/**\n * The UI reducer.\n * @param {Object} [state=uiDefaultState] - Redux state\n * @param {Object} action - Redux action\n * @return {Object} Updated Redux state\n */\nexport default function uiReducer(state = uiDefaultState, action) {\n  switch (_.get(action, 'type')) {\n    case 'STORE_METRIC':\n      return {\n        ...state,\n        metrics: {\n          ...state.metrics,\n          ...action.data,\n        },\n      };\n    case 'STORE_UI':\n      return {\n        ...state,\n        ...action.data,\n      };\n    default:\n      return state;\n  }\n}\n",
@@ -2445,7 +2359,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 135,
+    "__docId__": 133,
     "kind": "function",
     "name": "uiReducer",
     "memberof": "src/stores/ui/reducer/index.js",
@@ -2493,10 +2407,10 @@
     }
   },
   {
-    "__docId__": 136,
+    "__docId__": 134,
     "kind": "file",
     "name": "src/stores/ui/sagas/index.js",
-    "content": "import _ from 'lodash';\nimport { delay } from 'redux-saga';\nimport { call, fork, put, takeEvery, takeLatest } from 'redux-saga/effects';\n\nimport { storeMetric, storeUi } from '../actions';\n\n/**\n * This generator function hides the modal.\n * @emits {storeUi}\n */\nexport function* hideModalSaga() {\n  yield put(storeUi({ modalVisible: false }));\n  yield call(delay, 200);\n  yield put(storeUi({ modalContent: null }));\n}\n\n/**\n * This generator function shows the modal with action data yielded from {@link watchShowModal}.\n * @param {Object} action Redux action\n * @emits {storeUi}\n */\nexport function* showModalSaga(action) {\n  yield put(storeUi({ modalContent: _.get(action, 'data') }));\n  yield put(storeUi({ modalVisible: true }));\n}\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateMetric}.\n * @param {Object} action Redux action\n * @emits {storeMetric}\n */\nexport function* updateMetricSaga(action) {\n  yield put(storeMetric(_.get(action, 'data')));\n}\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateUi}.\n * @param {Object} action Redux action\n * @emits {storeUi}\n */\nexport function* updateUiSaga(action) {\n  yield put(storeUi(_.get(action, 'data')));\n}\n\n/**\n * This generator function watchs for the latest {@link hideModal} call.\n * @emits {hideModalSaga}\n */\nexport function* watchHideModal() {\n  yield takeLatest('HIDE_MODAL', hideModalSaga);\n}\n\n/**\n * This generator function watchs for the latest {@link showModal} call.\n * @emits {showModalSaga}\n */\nexport function* watchShowModal() {\n  yield takeLatest('SHOW_MODAL', showModalSaga);\n}\n\n/**\n * This generator function watchs for the latest {@link updateMetric} call.\n * @emits {updateMetricSaga}\n */\nexport function* watchUpdateMetric() {\n  yield takeLatest('UPDATE_METRIC', updateMetricSaga);\n}\n\n/**\n * This generator function watchs for every {@link updateUi} call.\n * @emits {updateUiSaga}\n */\nexport function* watchUpdateUi() {\n  yield takeEvery('UPDATE_UI', updateUiSaga);\n}\n\nexport default [\n  fork(watchHideModal),\n  fork(watchShowModal),\n  fork(watchUpdateMetric),\n  fork(watchUpdateUi),\n];\n",
+    "content": "import _ from 'lodash';\nimport { fork, put, takeEvery, takeLatest } from 'redux-saga/effects';\n\nimport { storeMetric, storeUi } from '../actions';\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateMetric}.\n * @param {Object} action Redux action\n * @emits {storeMetric}\n */\nexport function* updateMetricSaga(action) {\n  yield put(storeMetric(_.get(action, 'data')));\n}\n\n/**\n * This generator function stores the action data yielded from {@link watchUpdateUi}.\n * @param {Object} action Redux action\n * @emits {storeUi}\n */\nexport function* updateUiSaga(action) {\n  yield put(storeUi(_.get(action, 'data')));\n}\n\n/**\n * This generator function watchs for the latest {@link updateMetric} call.\n * @emits {updateMetricSaga}\n */\nexport function* watchUpdateMetric() {\n  yield takeLatest('UPDATE_METRIC', updateMetricSaga);\n}\n\n/**\n * This generator function watchs for every {@link updateUi} call.\n * @emits {updateUiSaga}\n */\nexport function* watchUpdateUi() {\n  yield takeEvery('UPDATE_UI', updateUiSaga);\n}\n\nexport default [\n  fork(watchUpdateMetric),\n  fork(watchUpdateUi),\n];\n",
     "static": true,
     "longname": "/Users/ethompson/pokedex-net-client/src/stores/ui/sagas/index.js",
     "access": "public",
@@ -2504,70 +2418,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 137,
-    "kind": "function",
-    "name": "hideModalSaga",
-    "memberof": "src/stores/ui/sagas/index.js",
-    "generator": true,
-    "async": false,
-    "static": true,
-    "longname": "src/stores/ui/sagas/index.js~hideModalSaga",
-    "access": "public",
-    "export": true,
-    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
-    "importStyle": "{hideModalSaga}",
-    "description": "This generator function hides the modal.",
-    "lineNumber": 11,
-    "emits": [
-      {
-        "types": [
-          "storeUi"
-        ],
-        "description": ""
-      }
-    ],
-    "params": [],
-    "return": null
-  },
-  {
-    "__docId__": 138,
-    "kind": "function",
-    "name": "showModalSaga",
-    "memberof": "src/stores/ui/sagas/index.js",
-    "generator": true,
-    "async": false,
-    "static": true,
-    "longname": "src/stores/ui/sagas/index.js~showModalSaga",
-    "access": "public",
-    "export": true,
-    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
-    "importStyle": "{showModalSaga}",
-    "description": "This generator function shows the modal with action data yielded from {@link watchShowModal}.",
-    "lineNumber": 22,
-    "params": [
-      {
-        "nullable": null,
-        "types": [
-          "Object"
-        ],
-        "spread": false,
-        "optional": false,
-        "name": "action",
-        "description": "Redux action"
-      }
-    ],
-    "emits": [
-      {
-        "types": [
-          "storeUi"
-        ],
-        "description": ""
-      }
-    ],
-    "return": null
-  },
-  {
-    "__docId__": 139,
+    "__docId__": 135,
     "kind": "function",
     "name": "updateMetricSaga",
     "memberof": "src/stores/ui/sagas/index.js",
@@ -2580,7 +2431,7 @@
     "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
     "importStyle": "{updateMetricSaga}",
     "description": "This generator function stores the action data yielded from {@link watchUpdateMetric}.",
-    "lineNumber": 32,
+    "lineNumber": 11,
     "params": [
       {
         "nullable": null,
@@ -2604,7 +2455,7 @@
     "return": null
   },
   {
-    "__docId__": 140,
+    "__docId__": 136,
     "kind": "function",
     "name": "updateUiSaga",
     "memberof": "src/stores/ui/sagas/index.js",
@@ -2617,7 +2468,7 @@
     "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
     "importStyle": "{updateUiSaga}",
     "description": "This generator function stores the action data yielded from {@link watchUpdateUi}.",
-    "lineNumber": 41,
+    "lineNumber": 20,
     "params": [
       {
         "nullable": null,
@@ -2641,59 +2492,7 @@
     "return": null
   },
   {
-    "__docId__": 141,
-    "kind": "function",
-    "name": "watchHideModal",
-    "memberof": "src/stores/ui/sagas/index.js",
-    "generator": true,
-    "async": false,
-    "static": true,
-    "longname": "src/stores/ui/sagas/index.js~watchHideModal",
-    "access": "public",
-    "export": true,
-    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
-    "importStyle": "{watchHideModal}",
-    "description": "This generator function watchs for the latest {@link hideModal} call.",
-    "lineNumber": 49,
-    "emits": [
-      {
-        "types": [
-          "hideModalSaga"
-        ],
-        "description": ""
-      }
-    ],
-    "params": [],
-    "return": null
-  },
-  {
-    "__docId__": 142,
-    "kind": "function",
-    "name": "watchShowModal",
-    "memberof": "src/stores/ui/sagas/index.js",
-    "generator": true,
-    "async": false,
-    "static": true,
-    "longname": "src/stores/ui/sagas/index.js~watchShowModal",
-    "access": "public",
-    "export": true,
-    "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
-    "importStyle": "{watchShowModal}",
-    "description": "This generator function watchs for the latest {@link showModal} call.",
-    "lineNumber": 57,
-    "emits": [
-      {
-        "types": [
-          "showModalSaga"
-        ],
-        "description": ""
-      }
-    ],
-    "params": [],
-    "return": null
-  },
-  {
-    "__docId__": 143,
+    "__docId__": 137,
     "kind": "function",
     "name": "watchUpdateMetric",
     "memberof": "src/stores/ui/sagas/index.js",
@@ -2706,7 +2505,7 @@
     "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
     "importStyle": "{watchUpdateMetric}",
     "description": "This generator function watchs for the latest {@link updateMetric} call.",
-    "lineNumber": 65,
+    "lineNumber": 28,
     "emits": [
       {
         "types": [
@@ -2719,7 +2518,7 @@
     "return": null
   },
   {
-    "__docId__": 144,
+    "__docId__": 138,
     "kind": "function",
     "name": "watchUpdateUi",
     "memberof": "src/stores/ui/sagas/index.js",
@@ -2732,7 +2531,7 @@
     "importPath": "pokedex-net-client/src/stores/ui/sagas/index.js",
     "importStyle": "{watchUpdateUi}",
     "description": "This generator function watchs for every {@link updateUi} call.",
-    "lineNumber": 73,
+    "lineNumber": 36,
     "emits": [
       {
         "types": [

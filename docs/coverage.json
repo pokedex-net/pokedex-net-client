@@ -1,7 +1,7 @@
 {
-  "coverage": "93.65%",
-  "expectCount": 63,
-  "actualCount": 59,
+  "coverage": "92.98%",
+  "expectCount": 57,
+  "actualCount": 53,
   "files": {
     "src/components/controls/Button/index.js": {
       "expectCount": 6,
@@ -100,8 +100,8 @@
       "undocumentLines": []
     },
     "src/stores/ui/actions/index.js": {
-      "expectCount": 6,
-      "actualCount": 6,
+      "expectCount": 4,
+      "actualCount": 4,
       "undocumentLines": []
     },
     "src/stores/ui/index.js": {
@@ -115,8 +115,8 @@
       "undocumentLines": []
     },
     "src/stores/ui/sagas/index.js": {
-      "expectCount": 8,
-      "actualCount": 8,
+      "expectCount": 4,
+      "actualCount": 4,
       "undocumentLines": []
     }
   }
