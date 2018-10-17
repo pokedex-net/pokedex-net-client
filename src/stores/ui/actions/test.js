@@ -8,18 +8,6 @@ describe('Store: UI Actions', function () {
     theme: 'dark',
   };
 
-  describe('HIDE_MODAL', function () {
-    it('hides the modal', function () {
-      expect(actions.hideModal(payload)).to.eql({ type: 'HIDE_MODAL' });
-    });
-  });
-
-  describe('SHOW_MODAL', function () {
-    it('shows the modal', function () {
-      expect(actions.showModal(payload)).to.eql({ type: 'SHOW_MODAL', data: payload });
-    });
-  });
-
   describe('STORE_METRIC', function () {
     it('stores the ui metric in redux state', function () {
       expect(actions.storeMetric(payload)).to.eql({ type: 'STORE_METRIC', data: payload });

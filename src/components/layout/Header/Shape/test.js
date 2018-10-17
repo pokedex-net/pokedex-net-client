@@ -67,7 +67,7 @@ describe('Component: Header: Shape', function () {
       },
     };
 
-    it('maps state to props correctly', function () {
+    it('connects component to store correctly', function () {
       wrapper.unmount();
       wrapper = shallow(<Connected store={ mockStore(mockState) } { ...mockProps } />);
 

@@ -696,12 +696,6 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
-    "src/lib/jwt.js",
-    "file/src/lib/jwt.js.html",
-    "src/lib/jwt.js",
-    "file"
-  ],
-  [
     "src/stores/index.js",
     "file/src/stores/index.js.html",
     "src/stores/index.js",
