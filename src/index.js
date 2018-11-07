@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { PersistGate } from 'redux-persist/integration/react';
 import { Provider } from 'react-redux';
 import { render } from 'react-dom';
+import '@babel/polyfill';
 
 import Container from './components/layout/Container';
 
