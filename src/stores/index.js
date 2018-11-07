@@ -1,7 +1,7 @@
 import createSagaMiddleware from 'redux-saga';
 import storage from 'redux-persist/lib/storage';
 import { all } from 'redux-saga/effects';
-import { combineReducers, createStore, applyMiddleware } from 'redux';
+import { combineReducers, compose, createStore, applyMiddleware } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
 
 import settings from './settings';
@@ -12,6 +12,7 @@ import ui from './ui';
  * @type {Object}
  */
 const sagaMiddleware = createSagaMiddleware();
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 /**
  * The Redux store.
@@ -27,8 +28,7 @@ const store = createStore(
     settings: settings.reducer,
     ui: ui.reducer,
   })),
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-  applyMiddleware(sagaMiddleware),
+  composeEnhancers(applyMiddleware(sagaMiddleware)),
 );
 
 sagaMiddleware.run(function* rootSaga() {
