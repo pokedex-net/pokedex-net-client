@@ -41,7 +41,7 @@
     "docs:watch": "nodemon --ext .js -w ./src/ --exec \"npm run docs --silent || true\"",
     "cover": "npm run test --silent && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "build": "NODE_ENV=production webpack --config ./config/webpack.js",
-    "serve": "http-server build"
+    "analyze": "NODE_ENV=production webpack --config ./config/webpack.js --profile --json > ./analysis.json"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
@@ -105,11 +105,11 @@
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-helmet": "^5.2.0",
-    "react-redux": "^6.0.0-beta.2",
+    "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
     "redux-persist": "^5.10.0",
     "redux-saga": "^0.16.2",
-    "styled-jsx": "^3.0.2"
+    "styled-jsx": "^3.1.1"
   }
 }

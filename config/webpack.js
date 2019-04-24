@@ -42,7 +42,9 @@ if (process.env.NODE_ENV === 'production') {
   plugins = [
     new CleanWebpackPlugin([
       'build',
-    ]),
+    ], {
+      root: `${__dirname}/../`,
+    }),
     new CopyWebpackPlugin([
       { from: `${__dirname}/../public`, to: `${__dirname}/../build/public` },
     ]),
@@ -55,7 +57,10 @@ module.exports = {
     index: './src/index.js',
   },
   output: {
+    filename: 'scripts/[name].[hash].js',
+    chunkFilename: 'scripts/[name].[hash].js',
     path: `${__dirname}/../build`,
+    publicPath: '/',
   },
   module: {
     rules: [
